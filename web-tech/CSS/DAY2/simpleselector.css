@@ -1,0 +1,23 @@
+#d1{
+    background-color: red;
+}
+
+.d2{
+    background-color: aqua;
+}
+
+h2{
+    color: red;
+}
+
+section, h3, div, h1{
+    border: 2px solid;
+}
+
+*{
+    background-color: chartreuse;
+}
+
+/* body{
+    background-color: blue;
+} */

@@ -1,0 +1,181 @@
+# =============================
+# Java / Maven
+# =============================
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.tmp
+hs_err_pid*
+
+# Maven wrapper (keep mvnw scripts, ignore jar)
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# =============================
+# Spring Boot
+# =============================
+spring-shell.log
+
+# =============================
+# Node.js / npm / pnpm / yarn
+# =============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+.pnp
+.pnp.js
+
+# =============================
+# Next.js
+# =============================
+.next/
+out/
+
+# =============================
+# React / Vite build output
+# =============================
+dist/
+dist-ssr/
+build/
+*.local
+
+# =============================
+# Vercel
+# =============================
+.vercel/
+.vercel
+
+# =============================
+# Netlify
+# =============================
+.netlify/
+
+# =============================
+# Compiled Java output
+# =============================
+bin/
+
+# =============================
+# IDEs & Editors
+# =============================
+
+# Eclipse / STS
+.classpath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+Servers/
+.metadata/
+.mylyn/
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# NetBeans
+nbactions.xml
+nb-configuration.xml
+
+# =============================
+# OS Generated Files
+# =============================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# =============================
+# Environment & Secrets
+# =============================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.jks
+secrets.yml
+application-local.properties
+application-local.yml
+
+# =============================
+# Logs
+# =============================
+logs/
+*.log
+*.log.*
+
+# =============================
+# Python / Django
+# =============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.venv/
+venv/
+env/
+*.sqlite3
+db.sqlite3
+
+# =============================
+# Prisma
+# =============================
+prisma/generated/
+
+# =============================
+# Tomcat (local server binary)
+# =============================
+apache-tomcat-*/
+
+# =============================
+# Large media files (optional)
+# =============================
+# Uncomment to exclude videos/audio from git
+# *.mp4
+# *.mp3
+# *.webm
+# *.wav
+
+# =============================
+# Zip / archive files
+# =============================
+*.zip
+*.rar
+*.gz
+*.tar
+
+# =============================
+# Misc
+# =============================
+*.bak
+*.swp
+*.swo
+*~
+.cache/
+.temp/
+tmp/
+PROJECT_TREE.txt
+.git

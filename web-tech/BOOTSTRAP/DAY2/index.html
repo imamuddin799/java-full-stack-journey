@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="https://cdn.pixabay.com/photo/2023/11/12/16/26/car-8383398_640.jpg">
+</head>
+<body>
+    <nav
+        class="navbar navbar-expand-lg navbar-light bg-light"
+        id="nav"
+    >
+        <div class="container">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button
+                class="navbar-toggler d-lg-none"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavId"
+                aria-controls="collapsibleNavId"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#" aria-current="page"
+                            >Home
+                            <span class="visually-hidden">(current)</span></a
+                        >
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a
+                            class="nav-link dropdown-toggle"
+                            href="#"
+                            id="dropdownId"
+                            data-bs-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                            >Dropdown</a
+                        >
+                        <div
+                            class="dropdown-menu"
+                            aria-labelledby="dropdownId"
+                        >
+                            <a class="dropdown-item" href="#"
+                                >Action 1</a
+                            >
+                            <a class="dropdown-item" href="#"
+                                >Action 2</a
+                            >
+                        </div>
+                    </li>
+                </ul>
+                <form class="d-flex my-2 my-lg-0">
+                    <input
+                        class="form-control me-sm-2"
+                        type="text"
+                        placeholder="Search"
+                    />
+                    <button
+                        class="btn btn-outline-success my-2 my-sm-0"
+                        type="submit"
+                    >
+                        Search
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+            <li
+                data-bs-target="#carouselId"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="First slide"
+            ></li>
+            <li
+                data-bs-target="#carouselId"
+                data-bs-slide-to="1"
+                aria-label="Second slide"
+            ></li>
+            <li
+                data-bs-target="#carouselId"
+                data-bs-slide-to="2"
+                aria-label="Third slide"
+            ></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+                <img
+                    src="https://cdn.pixabay.com/photo/2024/02/16/06/18/cat-8576777_640.jpg"
+                    class="w-100 d-block"
+                    alt="First slide"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Title</h3>
+                    <p>Description</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img
+                    src="https://cdn.pixabay.com/photo/2022/06/10/03/59/lynx-7253623_640.jpg"
+                    class="w-100 d-block"
+                    alt="Second slide"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Title</h3>
+                    <p>Description</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img
+                    src="https://cdn.pixabay.com/photo/2024/01/29/19/38/mountains-8540699_640.jpg"
+                    class="w-100 d-block"
+                    alt="Third slide"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Title</h3>
+                    <p>Description</p>
+                </div>
+            </div>
+        </div>
+        <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselId"
+            data-bs-slide="prev"
+        >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselId"
+            data-bs-slide="next"
+        >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    
+    <script src="./bootstrap-5.0.2-dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+div{
+    border: 2px solid;
+    width: 200px;
+    height: 200px;
+}
+
+@media (min-width:500px) and (max-width:1000px){
+    div{
+        background-color: aqua;
+        border-radius: 50%;
+    }
+}

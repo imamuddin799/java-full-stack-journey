@@ -1,0 +1,27 @@
+section{
+    border: 2px solid;
+    height: 412px;
+    width: 412px;
+}
+div{
+    border: 2px solid;
+    height: 100px;
+    width: 100px;
+}
+
+#d1,#d0{
+    display: inline-flex;
+}
+
+#d2{
+    display: none;
+    display: block;
+    /* visibility: hidden; */
+    background-color: aqua;
+}
+#d2:hover{
+    background-color: red;
+    background-color: blue;
+    /* opacity: 0; */
+    /* visibility: hidden; */
+}

@@ -1,0 +1,2545 @@
+{
+    "global": {
+        "attributes": {
+            "accesskey": [
+                "<character>"
+            ],
+            "class": [
+                "<class-names>"
+            ],
+            "contenteditable": [
+                "true",
+                "false",
+                "inherit"
+            ],
+            "data-*": [
+                "<custom-data>"
+            ],
+            "dir": [
+                "ltr",
+                "rtl",
+                "auto"
+            ],
+            "draggable": [
+                "true",
+                "false",
+                "auto"
+            ],
+            "hidden": [
+                ""
+            ],
+            "id": [
+                "<id>"
+            ],
+            "lang": [
+                "<language-code>"
+            ],
+            "spellcheck": [
+                "true",
+                "false"
+            ],
+            "style": [
+                "<CSS>"
+            ],
+            "tabindex": [
+                "<number>"
+            ],
+            "title": [
+                "<text>"
+            ],
+            "translate": [
+                "yes",
+                "no"
+            ]
+        }
+    },
+    "a": {
+        "attributes": {
+            "attributionsourceid": [
+                "<source-id>"
+            ],
+            "attributionsrc": [
+                "<source>"
+            ],
+            "charset": [
+                "<character-encoding>"
+            ],
+            "coords": [
+                "<coords>"
+            ],
+            "download": [
+                "",
+                "<filename>"
+            ],
+            "href": [
+                "<URL>"
+            ],
+            "hreflang": [
+                "<language-code>"
+            ],
+            "hreftranslate": [
+                "yes",
+                "no"
+            ],
+            "implicit_noopener": [
+                ""
+            ],
+            "name": [
+                "<name>"
+            ],
+            "ping": [
+                "<URL>"
+            ],
+            "refferrerpolicy": [
+                "no-referrer",
+                "no-referrer-when-downgrade",
+                "origin",
+                "origin-when-cross-origin",
+                "same-origin",
+                "strict-origin",
+                "strict-origin-when-cross-origin",
+                "unsafe-url"
+            ],
+            "rel": [
+                "alternate",
+                "author",
+                "bookmark",
+                "external",
+                "help",
+                "license",
+                "next",
+                "nofollow",
+                "noopener",
+                "noreferrer",
+                "prev",
+                "search",
+                "tag",
+                "sponsored",
+                "ugc"
+            ],
+            "rev": [
+                "alternate",
+                "author",
+                "bookmark",
+                "external",
+                "help",
+                "license",
+                "next",
+                "nofollow",
+                "noopener",
+                "noreferrer",
+                "prev",
+                "search",
+                "tag"
+            ],
+            "shape": [
+                "rect",
+                "circle",
+                "poly",
+                "default"
+            ],
+            "target": [
+                "_self",
+                "_blank",
+                "_parent",
+                "_top",
+                "framename"
+            ],
+            "text_fragments": [
+                "<text-fragment>"
+            ],
+            "type": [
+                "<MIME-type>"
+            ]
+        }
+    },
+    "abbr": {
+        "attributes": {
+            "noattr": [
+                "0"
+            ]
+        }
+    },
+    "acronym": {
+        "attributes": {
+            "noattr": [
+                "0"
+            ]
+        }
+    },
+    "area": {
+        "attributes": {
+            "alt": [
+                "<text>"
+            ],
+            "attributionsrc": [
+                "<source>"
+            ],
+            "coords": [
+                "<coords>"
+            ],
+            "download": [
+                "",
+                "<filename>"
+            ],
+            "href": [
+                "<URL>"
+            ],
+            "implicit_noopener": [
+                ""
+            ],
+            "nohref": [
+                ""
+            ],
+            "ping": [
+                "<URL>"
+            ],
+            "refferrerpolicy": [
+                "no-referrer",
+                "no-referrer-when-downgrade",
+                "origin",
+                "origin-when-cross-origin",
+                "same-origin",
+                "strict-origin",
+                "strict-origin-when-cross-origin",
+                "unsafe-url"
+            ],
+            "rel": [
+                "alternate",
+                "author",
+                "bookmark",
+                "external",
+                "help",
+                "license",
+                "next",
+                "nofollow",
+                "noopener",
+                "noreferrer",
+                "prev",
+                "search",
+                "tag"
+            ],
+            "shape": [
+                "rect",
+                "circle",
+                "poly",
+                "default"
+            ],
+            "target": [
+                "_self",
+                "_blank",
+                "_parent",
+                "_top",
+                "framename"
+            ]
+        }
+    },
+    "address": {
+        "attributes": {
+            "noattr": [
+                "0"
+            ]
+        }
+    },
+    "article": {
+        "attributes": {
+            "noattr": [
+                "0"
+            ]
+        }
+    },
+    "aside": {
+        "attributes": {
+            "noattr": [
+                "0"
+            ]
+        }
+    },
+    "audio": {
+        "attributes": {
+            "autoplay": [
+                "",
+                "autoplay"
+            ],
+            "controls": [
+                "",
+                "controls"
+            ],
+            "controlslist": [
+                "nodownload",
+                "nofullscreen",
+                "noremoteplayback"
+            ],
+            "crossorigin": [
+                "",
+                "anonymous",
+                "use-credentials"
+            ],
+            "disableremoteplayback": [
+                "",
+                "disableremoteplayback"
+            ],
+            "loop": [
+                "",
+                "loop"
+            ],
+            "muted": [
+                "",
+                "muted"
+            ],
+            "preload": [
+                "none",
+                "metadata",
+                "auto"
+            ],
+            "src": [
+                "<URL>"
+            ]
+        }
+    },
+    "b": {
+        "attributes": {
+            "noattr": [
+                "0"
+            ]
+        }
+    },
+    "base": {
+        "attributes": {
+            "href": [
+                "<URL>"
+            ],
+            "target": [
+                "_self",
+                "_blank",
+                "_parent",
+                "_top",
+                "framename"
+            ]
+        }
+    },
+    "bdi": {
+        "attributes": {
+            "noattr": [
+                "0"
+            ]
+        }
+    },
+    "bdo": {
+        "attributes": {
+            "noattr": [
+                "0"
+            ]
+        }
+    },
+    "big": {
+        "attributes": {
+            "noattr": [
+                "0"
+            ]
+        }
+    },
+    "blockquote": {
+        "attributes": {
+            "cite": [
+                "<URL>"
+            ]
+        }
+    },
+    "body": {
+        "attributes": {
+            "alink": [
+                "<color>"
+            ],
+            "background": [
+                "<URL>"
+            ],
+            "bgcolor": [
+                "<color>"
+            ],
+            "bottommargin": [
+                "<length>"
+            ],
+            "leftmargin": [
+                "<length>"
+            ],
+            "link": [
+                "<color>"
+            ],
+            "rightmargin": [
+                "<length>"
+            ],
+            "text": [
+                "<color>"
+            ],
+            "topmargin": [
+                "<length>"
+            ],
+            "vlink": [
+                "<color>"
+            ]
+        }
+    },
+    "br": {
+        "attributes": {
+            "clear": [
+                "all",
+                "left",
+                "right",
+                "none"
+            ]
+        }
+    },
+    "button": {
+        "attributes": {
+            "command": [
+                "<command>"
+            ],
+            "commandfor": [
+                "<command>"
+            ],
+            "disabled": [
+                "",
+                "disabled"
+            ],
+            "form": [
+                "<form-id>"
+            ],
+            "formaction": [
+                "<URL>"
+            ],
+            "formenctype": [
+                "application/x-www-form-urlencoded",
+                "multipart/form-data",
+                "text/plain"
+            ],
+            "formmethod": [
+                "get",
+                "post"
+            ],
+            "formnovalidate": [
+                "",
+                "novalidate"
+            ],
+            "formtarget": [
+                "_self",
+                "_blank",
+                "_parent",
+                "_top",
+                "framename"
+            ],
+            "name": [
+                "<name>"
+            ],
+            "popovertarget": [
+                "<target>"
+            ],
+            "popovertargetaction": [
+                "<action>"
+            ],
+            "type": [
+                "button",
+                "reset",
+                "submit",
+                "menu"
+            ],
+            "value": [
+                "<value>"
+            ]
+        }
+    },
+    "canvas": {
+        "attributes": {
+            "height": [
+                "<length>"
+            ],
+            "width": [
+                "<length>"
+            ],
+            "moz-opaque": [
+                "<opaque>"
+            ]
+        }
+    },
+    "caption": {
+        "attributes": {
+            "align": [
+                "left",
+                "right",
+                "top",
+                "bottom"
+            ]
+        }
+    },
+    "center": {
+        "attributes": {
+            "noattr": [
+                "0"
+            ]
+        }
+    },
+    "code": {
+        "attributes": {
+            "noattr": [
+                "0"
+            ]
+        }
+    },
+    "col": {
+        "attributes": {
+            "align": [
+                "left",
+                "right",
+                "center",
+                "justify",
+                "char"
+            ],
+            "char": [
+                "<string>"
+            ],
+            "charoff": [
+                "<length>"
+            ],
+            "span": [
+                "<number>"
+            ],
+            "valign": [
+                "top",
+                "middle",
+                "bottom",
+                "baseline"
+            ],
+            "width": [
+                "<length>"
+            ]
+        }
+    },
+    "colgroup": {
+        "attributes": {
+            "align": [
+                "left",
+                "right",
+                "center",
+                "justify",
+                "char"
+            ],
+            "char": [
+                "<string>"
+            ],
+            "charoff": [
+                "<length>"
+            ],
+            "span": [
+                "<number>"
+            ],
+            "valign": [
+                "top",
+                "middle",
+                "bottom",
+                "baseline"
+            ],
+            "width": [
+                "<length>"
+            ]
+        }
+    },
+    "data": {
+        "attributes": {
+            "value": [
+                "<value>"
+            ]
+        }
+    },
+    "cite": {
+        "attributes": {
+            "noattr": [
+                "0"
+            ]
+        }
+    },
+    "datalist": {
+        "attributes": {
+            "noattr": [
+                "0"
+            ]
+        }
+    },
+    "del": {
+        "attributes": {
+            "cite": [
+                "<URL>"
+            ],
+            "datetime": [
+                "<datetime>"
+            ]
+        }
+    },
+    "details": {
+        "attributes": {
+            "name": [
+                "<name>"
+            ],
+            "open": [
+                "",
+                "open"
+            ]
+        }
+    },
+    "dfn": {
+        "attributes": {
+            "noattr": [
+                "0"
+            ]
+        }
+    },
+    "dd": {
+        "attributes": {
+            "noattr": [
+                "0"
+            ]
+        }
+    },
+    "dialog": {
+        "attributes": {
+            "closedby": [
+                "<closedby>"
+            ],
+            "open": [
+                "",
+                "open"
+            ]
+        }
+    },
+    "dir": {
+        "attributes": {
+            "compact": [
+                "",
+                "compact"
+            ]
+        }
+    },
+    "div": {
+        "attributes": {
+            "align": [
+                "left",
+                "right",
+                "center",
+                "justify"
+            ]
+        }
+    },
+    "dl": {
+        "attributes": {
+            "noattr": [
+                "0"
+            ]
+        }
+    },
+    "em": {
+        "attributes": {
+            "noattr": [
+                "0"
+            ]
+        }
+    },
+    "dt": {
+        "attributes": {
+            "noattr": [
+                "0"
+            ]
+        }
+    },
+    "fieldset": {
+        "attributes": {
+            "disabled": [
+                "",
+                "disabled"
+            ],
+            "form": [
+                "<form-id>"
+            ],
+            "name": [
+                "<name>"
+            ]
+        }
+    },
+    "embed": {
+        "attributes": {
+            "align": [
+                "left",
+                "right",
+                "top",
+                "bottom"
+            ],
+            "height": [
+                "<length>"
+            ],
+            "name": [
+                "<name>"
+            ],
+            "noresize": [
+                "",
+                "noresize"
+            ],
+            "src": [
+                "<URL>"
+            ],
+            "type": [
+                "<MIME-type>"
+            ],
+            "width": [
+                "<length>"
+            ]
+        }
+    },
+    "fencedframe": {
+        "attributes": {
+            "allow": [
+                "fullscreen",
+                "paymentrequest"
+            ],
+            "height": [
+                "<length>"
+            ],
+            "width": [
+                "<length>"
+            ]
+        }
+    },
+    "figcaption": {
+        "attributes": {
+            "noattr": [
+                "0"
+            ]
+        }
+    },
+    "figure": {
+        "attributes": {
+            "noattr": [
+                "0"
+            ]
+        }
+    },
+    "font": {
+        "attributes": {
+            "color": [
+                "<color>"
+            ],
+            "face": [
+                "<font-family>"
+            ],
+            "size": [
+                "<size>"
+            ]
+        }
+    },
+    "footer": {
+        "attributes": {
+            "noattr": [
+                "0"
+            ]
+        }
+    },
+    "frame": {
+        "attributes": {
+            "frameborder": [
+                "0",
+                "1"
+            ],
+            "marginheight": [
+                "0",
+                "1"
+            ],
+            "marginwidth": [
+                "0",
+                "1"
+            ],
+            "name": [
+                "<name>"
+            ],
+            "noresize": [
+                "",
+                "noresize"
+            ],
+            "scrolling": [
+                "yes",
+                "no",
+                "auto"
+            ],
+            "src": [
+                "<URL>"
+            ]
+        }
+    },
+    "form": {
+        "attributes": {
+            "accept-charset": [
+                "UTF-8",
+                "ISO-8859-1",
+                "ISO-8859-15",
+                "windows-1252",
+                "windows-1250",
+                "windows-1251",
+                "windows-1253",
+                "windows-1254",
+                "windows-1255",
+                "windows-1256",
+                "windows-1257",
+                "windows-1258"
+            ],
+            "action": [
+                "<URL>"
+            ],
+            "autocomplete": [
+                "on",
+                "off"
+            ],
+            "enctype": [
+                "application/x-www-form-urlencoded",
+                "multipart/form-data",
+                "text/plain"
+            ],
+            "method": [
+                "get",
+                "post"
+            ],
+            "name": [
+                "<name>"
+            ],
+            "novalidate": [
+                "",
+                "novalidate"
+            ],
+            "rel": [
+                "external",
+                "noopener",
+                "noreferrer"
+            ],
+            "target": [
+                "_self",
+                "_blank",
+                "_parent",
+                "_top",
+                "framename"
+            ]
+        }
+    },
+    "frameset": {
+        "attributes": {
+            "cols": [
+                "<length>"
+            ],
+            "rows": [
+                "<length>"
+            ]
+        }
+    },
+    "h1": {
+        "attributes": {
+            "noattr": [
+                "0"
+            ]
+        }
+    },
+    "h3": {
+        "attributes": {
+            "noattr": [
+                "0"
+            ]
+        }
+    },
+    "h4": {
+        "attributes": {
+            "noattr": [
+                "0"
+            ]
+        }
+    },
+    "h2": {
+        "attributes": {
+            "noattr": [
+                "0"
+            ]
+        }
+    },
+    "h6": {
+        "attributes": {
+            "noattr": [
+                "0"
+            ]
+        }
+    },
+    "h5": {
+        "attributes": {
+            "noattr": [
+                "0"
+            ]
+        }
+    },
+    "head": {
+        "attributes": {
+            "noattr": [
+                "0"
+            ]
+        }
+    },
+    "hr": {
+        "attributes": {
+            "align": [
+                "left",
+                "right",
+                "center"
+            ],
+            "color": [
+                "<color>"
+            ],
+            "hr_in_select": [
+                "0",
+                "1"
+            ],
+            "noshade": [
+                "",
+                "noshade"
+            ],
+            "size": [
+                "<length>"
+            ],
+            "width": [
+                "<length>"
+            ]
+        }
+    },
+    "html": {
+        "attributes": {
+            "version": [
+                "1.0",
+                "2.0",
+                "3.0",
+                "4.0",
+                "5.0"
+            ],
+            "xmlns": [
+                "http://www.w3.org/1999/xhtml"
+            ]
+        }
+    },
+    "header": {
+        "attributes": {
+            "noattr": [
+                "0"
+            ]
+        }
+    },
+    "iframe": {
+        "attributes": {
+            "align": [
+                "left",
+                "right",
+                "top",
+                "bottom"
+            ],
+            "allow": [
+                "accelerometer",
+                "ambient-light-sensor",
+                "autoplay",
+                "camera",
+                "encrypted-media",
+                "fullscreen",
+                "geolocation",
+                "gyroscope",
+                "magnetometer",
+                "microphone",
+                "midi",
+                "payment",
+                "picture-in-picture",
+                "speaker-selection",
+                "sync-xhr"
+            ],
+            "allowfullscreen": [
+                "",
+                "allowfullscreen"
+            ],
+            "allowpaymentrequest": [
+                "",
+                "allowpaymentrequest"
+            ],
+            "browsingtopics": [
+                "<topic>"
+            ],
+            "credentialless": [
+                "",
+                "credentialless"
+            ],
+            "csp": [
+                "<policy>"
+            ],
+            "frameborder": [
+                "0",
+                "1"
+            ],
+            "height": [
+                "<length>"
+            ],
+            "loading": [
+                "eager",
+                "lazy"
+            ],
+            "longdesc": [
+                "<URL>"
+            ],
+            "marginheight": [
+                "0",
+                "1"
+            ],
+            "marginwidth": [
+                "0",
+                "1"
+            ],
+            "name": [
+                "<name>"
+            ],
+            "referrerpolicy": [
+                "no-referrer",
+                "no-referrer-when-downgrade",
+                "origin",
+                "origin-when-cross-origin",
+                "strict-origin",
+                "unsafe-url"
+            ],
+            "sandbox": [
+                "allow-forms",
+                "allow-modals",
+                "allow-orientation-lock",
+                "allow-popups",
+                "allow-pointer-lock",
+                "allow-presentation",
+                "allow-presentation-overrides",
+                "allow-presentation-screenshots",
+                "allow-push",
+                "allow-same-origin",
+                "allow-scripts",
+                "allow-downloads",
+                "allow-storage-access-by-user-activation",
+                "allow-top-navigation",
+                "allow-top-navigation-by-user-activation"
+            ],
+            "scrolling": [
+                "yes",
+                "no",
+                "auto"
+            ],
+            "src": [
+                "<URL>"
+            ],
+            "srcdoc": [
+                "<HTML>"
+            ],
+            "width": [
+                "<length>"
+            ]
+        }
+    },
+    "i": {
+        "attributes": {
+            "noattr": [
+                "0"
+            ]
+        }
+    },
+    "img": {
+        "attributes": {
+            "align": [
+                "left",
+                "right",
+                "top",
+                "bottom",
+                "middle",
+                "baseline",
+                "texttop",
+                "absmiddle",
+                "absbottom"
+            ],
+            "alt": [
+                "<text>"
+            ],
+            "aspect_ratio_computed_from_attributes": [
+                "<ratio>"
+            ],
+            "attributionsrc": [
+                "<source>"
+            ],
+            "border": [
+                "<length>"
+            ],
+            "crossorigin": [
+                "",
+                "anonymous",
+                "use-credentials"
+            ],
+            "decoding": [
+                "async",
+                "auto",
+                "sync"
+            ],
+            "fetchpriority": [
+                "high",
+                "low",
+                "auto"
+            ],
+            "height": [
+                "<length>"
+            ],
+            "hspace": [
+                "<length>"
+            ],
+            "ismap": [
+                "",
+                "ismap"
+            ],
+            "loading": [
+                "eager",
+                "lazy"
+            ],
+            "longdesc": [
+                "<URL>"
+            ],
+            "name": [
+                "<name>"
+            ],
+            "referrerpolicy": [
+                "no-referrer",
+                "no-referrer-when-downgrade",
+                "origin",
+                "origin-when-cross-origin",
+                "unsafe-url"
+            ],
+            "sizes": [
+                "<length>"
+            ],
+            "src": [
+                "<URL>"
+            ],
+            "srcset": [
+                "<URL>"
+            ],
+            "usemap": [
+                "<map-name>"
+            ],
+            "vspace": [
+                "<length>"
+            ],
+            "width": [
+                "<length>"
+            ]
+        }
+    },
+    "input": {
+        "attributes": {
+            "accept": [
+                "<MIME-type>"
+            ],
+            "align": [
+                "left",
+                "right",
+                "top",
+                "bottom",
+                "middle",
+                "baseline",
+                "texttop",
+                "absmiddle",
+                "absbottom"
+            ],
+            "alpha": [
+                "<number>"
+            ],
+            "alt": [
+                "<text>"
+            ],
+            "autocomplete": [
+                "on",
+                "off"
+            ],
+            "capture": [
+                "user",
+                "environment"
+            ],
+            "checked": [
+                "",
+                "checked"
+            ],
+            "colorspace": [
+                "sRGB",
+                "linearRGB",
+                "P3",
+                "AdobeRGB",
+                "ProPhotoRGB"
+            ],
+            "dirname": [
+                "<name>"
+            ],
+            "disabled": [
+                "",
+                "disabled"
+            ],
+            "form": [
+                "<form-id>"
+            ],
+            "formaction": [
+                "<URL>"
+            ],
+            "formenctype": [
+                "application/x-www-form-urlencoded",
+                "multipart/form-data",
+                "text/plain"
+            ],
+            "formmethod": [
+                "get",
+                "post"
+            ],
+            "formnovalidate": [
+                "",
+                "novalidate"
+            ],
+            "formtarget": [
+                "_self",
+                "_blank",
+                "_parent",
+                "_top",
+                "framename"
+            ],
+            "list": [
+                "<datalist-id>"
+            ],
+            "max": [
+                "<number>"
+            ],
+            "maxlength": [
+                "<number>"
+            ],
+            "min": [
+                "<number>"
+            ],
+            "minlength": [
+                "<number>"
+            ],
+            "mozactionhint": [
+                "accept",
+                "accept-capture",
+                "capture",
+                "search",
+                "send",
+                "send-and-accept"
+            ],
+            "multiple": [
+                "",
+                "multiple"
+            ],
+            "name": [
+                "<name>"
+            ],
+            "pattern": [
+                "<regex>"
+            ],
+            "placeholder": [
+                "<text>"
+            ],
+            "popovertarget": [
+                "<target>"
+            ],
+            "popovertargetaction": [
+                "<action>"
+            ],
+            "readonly": [
+                "",
+                "readonly"
+            ],
+            "required": [
+                "",
+                "required"
+            ],
+            "size": [
+                "<number>"
+            ],
+            "src": [
+                "<URL>"
+            ],
+            "step": [
+                "<number>"
+            ],
+            "type": [
+                "button",
+                "checkbox",
+                "color",
+                "date",
+                "datetime-local",
+                "email",
+                "file",
+                "hidden",
+                "image",
+                "month",
+                "number",
+                "password",
+                "radio",
+                "range",
+                "reset",
+                "search",
+                "submit",
+                "tel",
+                "text",
+                "time",
+                "url",
+                "week"
+            ],
+            "usemap": [
+                "<map-name>"
+            ],
+            "value": [
+                "<value>"
+            ]
+        }
+    },
+    "ins": {
+        "attributes": {
+            "cite": [
+                "<URL>"
+            ],
+            "datetime": [
+                "<datetime>"
+            ]
+        }
+    },
+    "label": {
+        "attributes": {
+            "for": [
+                "<input-id>"
+            ]
+        }
+    },
+    "kbd": {
+        "attributes": {
+            "noattr": [
+                "0"
+            ]
+        }
+    },
+    "legend": {
+        "attributes": {
+            "align": [
+                "left",
+                "right",
+                "top",
+                "bottom",
+                "center"
+            ]
+        }
+    },
+    "li": {
+        "attributes": {
+            "type": [
+                "disc",
+                "circle",
+                "square",
+                "decimal",
+                "lower-alpha",
+                "upper-alpha",
+                "lower-roman",
+                "upper-roman"
+            ],
+            "value": [
+                "<number>"
+            ]
+        }
+    },
+    "main": {
+        "attributes": {
+            "noattr": [
+                "0"
+            ]
+        }
+    },
+    "map": {
+        "attributes": {
+            "name": [
+                "<name>"
+            ]
+        }
+    },
+    "link": {
+        "attributes": {
+            "as": [
+                "audio",
+                "document",
+                "embed",
+                "fetch",
+                "font",
+                "image",
+                "manifest",
+                "object",
+                "script",
+                "style",
+                "track",
+                "video",
+                "worker"
+            ],
+            "blocking": [
+                "all",
+                "none"
+            ],
+            "charset": [
+                "<character-encoding>"
+            ],
+            "crossorigin": [
+                "",
+                "anonymous",
+                "use-credentials"
+            ],
+            "disabled": [
+                "",
+                "disabled"
+            ],
+            "fetchpriority": [
+                "high",
+                "low",
+                "auto"
+            ],
+            "href": [
+                "<URL>"
+            ],
+            "hreflang": [
+                "<language-code>"
+            ],
+            "imagesizes": [
+                "<length>"
+            ],
+            "imagesrcset": [
+                "<URL>"
+            ],
+            "integrity": [
+                "<hash>"
+            ],
+            "media": [
+                "<media-query>"
+            ],
+            "referrerpolicy": [
+                "no-referrer",
+                "no-referrer-when-downgrade",
+                "origin",
+                "origin-when-cross-origin",
+                "unsafe-url"
+            ],
+            "rel": [
+                "alternate",
+                "author",
+                "bookmark",
+                "cononical",
+                "external",
+                "help",
+                "icon",
+                "license",
+                "next",
+                "nofollow",
+                "noopener",
+                "noreferrer",
+                "prev",
+                "search",
+                "tag",
+                "stylesheet",
+                "preload",
+                "dns-prefetch",
+                "prefetch",
+                "preconnect",
+                "modulepreload",
+                "manifest"
+            ],
+            "rev": [
+                "alternate",
+                "author",
+                "bookmark",
+                "external",
+                "help",
+                "license",
+                "next",
+                "nofollow",
+                "noopener",
+                "noreferrer",
+                "prev",
+                "search",
+                "tag"
+            ],
+            "sizes": [
+                "<length>"
+            ],
+            "target": [
+                "_self",
+                "_blank",
+                "_parent",
+                "_top",
+                "framename"
+            ],
+            "type": [
+                "<MIME-type>"
+            ]
+        }
+    },
+    "mark": {
+        "attributes": {
+            "noattr": [
+                "0"
+            ]
+        }
+    },
+    "menu": {
+        "attributes": {
+            "noattr": [
+                "0"
+            ]
+        }
+    },
+    "meta": {
+        "attributes": {
+            "charset": [
+                "<character-encoding>"
+            ],
+            "content": [
+                "<text>"
+            ],
+            "http-equiv": [
+                "content-type",
+                "default-style",
+                "refresh",
+                "x-ua-compatible",
+                "content-security-policy"
+            ],
+            "name": [
+                "application-name",
+                "author",
+                "description",
+                "generator",
+                "keywords",
+                "viewport",
+                "theme-color",
+                "referrer"
+            ],
+            "scheme": [
+                "<scheme>"
+            ]
+        }
+    },
+    "meter": {
+        "attributes": {
+            "high": [
+                "<number>"
+            ],
+            "low": [
+                "<number>"
+            ],
+            "max": [
+                "<number>"
+            ],
+            "min": [
+                "<number>"
+            ],
+            "optimum": [
+                "<number>"
+            ],
+            "value": [
+                "<number>"
+            ]
+        }
+    },
+    "marquee": {
+        "attributes": {
+            "behavior": [
+                "scroll",
+                "slide",
+                "alternate"
+            ],
+            "bgcolor": [
+                "<color>"
+            ],
+            "direction": [
+                "left",
+                "right",
+                "up",
+                "down"
+            ],
+            "height": [
+                "<length>"
+            ],
+            "hspace": [
+                "<length>"
+            ],
+            "loop": [
+                "<number>"
+            ],
+            "scrollamount": [
+                "<length>"
+            ],
+            "scrolldelay": [
+                "<length>"
+            ],
+            "truespeed": [
+                "",
+                "truespeed"
+            ],
+            "vspace": [
+                "<length>"
+            ],
+            "width": [
+                "<length>"
+            ]
+        }
+    },
+    "nav": {
+        "attributes": {
+            "noattr": [
+                "0"
+            ]
+        }
+    },
+    "nobr": {
+        "attributes": {
+            "noattr": [
+                "0"
+            ]
+        }
+    },
+    "noembed": {
+        "attributes": {
+            "noattr": [
+                "0"
+            ]
+        }
+    },
+    "noscript": {
+        "attributes": {
+            "noattr": [
+                "0"
+            ]
+        }
+    },
+    "noframes": {
+        "attributes": {
+            "noattr": [
+                "0"
+            ]
+        }
+    },
+    "object": {
+        "attributes": {
+            "archive": [
+                "<URL>"
+            ],
+            "border": [
+                "<length>"
+            ],
+            "classid": [
+                "<class-id>"
+            ],
+            "codebase": [
+                "<URL>"
+            ],
+            "codetype": [
+                "<MIME-type>"
+            ],
+            "data": [
+                "<URL>"
+            ],
+            "declare": [
+                "",
+                "declare"
+            ],
+            "form": [
+                "<form-id>"
+            ],
+            "height": [
+                "<length>"
+            ],
+            "name": [
+                "<name>"
+            ],
+            "standby": [
+                "<text>"
+            ],
+            "type": [
+                "<MIME-type>"
+            ],
+            "usemap": [
+                "<map-name>"
+            ],
+            "width": [
+                "<length>"
+            ]
+        }
+    },
+    "optgroup": {
+        "attributes": {
+            "disabled": [
+                "",
+                "disabled"
+            ],
+            "label": [
+                "<label>"
+            ]
+        }
+    },
+    "option": {
+        "attributes": {
+            "disabled": [
+                "",
+                "disabled"
+            ],
+            "label": [
+                "<label>"
+            ],
+            "selected": [
+                "",
+                "selected"
+            ],
+            "value": [
+                "<value>"
+            ]
+        }
+    },
+    "ol": {
+        "attributes": {
+            "compact": [
+                "",
+                "compact"
+            ],
+            "reversed": [
+                "",
+                "reversed"
+            ],
+            "start": [
+                "<number>"
+            ],
+            "type": [
+                "1",
+                "a",
+                "A",
+                "i",
+                "I"
+            ]
+        }
+    },
+    "output": {
+        "attributes": {
+            "for": [
+                "<input-id>"
+            ],
+            "form": [
+                "<form-id>"
+            ],
+            "name": [
+                "<name>"
+            ]
+        }
+    },
+    "p": {
+        "attributes": {
+            "noattr": [
+                "0"
+            ]
+        }
+    },
+    "param": {
+        "attributes": {
+            "name": [
+                "<name>"
+            ],
+            "type": [
+                "<MIME-type>"
+            ],
+            "value": [
+                "<value>"
+            ],
+            "valuetype": [
+                "data",
+                "ref",
+                "dataref"
+            ]
+        }
+    },
+    "plaintext": {
+        "attributes": {
+            "noattr": [
+                "0"
+            ]
+        }
+    },
+    "pre": {
+        "attributes": {
+            "width": [
+                "<length>"
+            ]
+        }
+    },
+    "progress": {
+        "attributes": {
+            "max": [
+                "<number>"
+            ],
+            "min": [
+                "<number>"
+            ],
+            "optimum": [
+                "<number>"
+            ],
+            "value": [
+                "<number>"
+            ]
+        }
+    },
+    "picture": {
+        "attributes": {
+            "noattr": [
+                "0"
+            ]
+        }
+    },
+    "q": {
+        "attributes": {
+            "cite": [
+                "<URL>"
+            ]
+        }
+    },
+    "rb": {
+        "attributes": {
+            "noattr": [
+                "0"
+            ]
+        }
+    },
+    "rp": {
+        "attributes": {
+            "noattr": [
+                "0"
+            ]
+        }
+    },
+    "rt": {
+        "attributes": {
+            "noattr": [
+                "0"
+            ]
+        }
+    },
+    "rtc": {
+        "attributes": {
+            "noattr": [
+                "0"
+            ]
+        }
+    },
+    "s": {
+        "attributes": {
+            "noattr": [
+                "0"
+            ]
+        }
+    },
+    "samp": {
+        "attributes": {
+            "noattr": [
+                "0"
+            ]
+        }
+    },
+    "script": {
+        "attributes": {
+            "async": [
+                "",
+                "async"
+            ],
+            "attributionsrc": [
+                "<source>"
+            ],
+            "blocking": [
+                "all",
+                "none"
+            ],
+            "crossorigin": [
+                "",
+                "anonymous",
+                "use-credentials"
+            ],
+            "defer": [
+                "",
+                "defer"
+            ],
+            "fetchpriority": [
+                "high",
+                "low",
+                "auto"
+            ],
+            "integrity": [
+                "<hash>"
+            ],
+            "nomodule": [
+                "",
+                "nomodule"
+            ],
+            "referrerpolicy": [
+                "no-referrer",
+                "no-referrer-when-downgrade",
+                "origin",
+                "origin-when-cross-origin",
+                "unsafe-url"
+            ],
+            "src": [
+                "<URL>"
+            ],
+            "type": [
+                "<MIME-type>"
+            ]
+        }
+    },
+    "ruby": {
+        "attributes": {
+            "noattr": [
+                "0"
+            ]
+        }
+    },
+    "search": {
+        "attributes": {
+            "noattr": [
+                "0"
+            ]
+        }
+    },
+    "section": {
+        "attributes": {
+            "noattr": [
+                "0"
+            ]
+        }
+    },
+    "selectedcontent": {
+        "attributes": {
+            "noattr": [
+                "0"
+            ]
+        }
+    },
+    "slot": {
+        "attributes": {
+            "name": [
+                "<name>"
+            ]
+        }
+    },
+    "select": {
+        "attributes": {
+            "autocomplete": [
+                "on",
+                "off"
+            ],
+            "disabled": [
+                "",
+                "disabled"
+            ],
+            "form": [
+                "<form-id>"
+            ],
+            "hr_in_select": [
+                "0",
+                "1"
+            ],
+            "multiple": [
+                "",
+                "multiple"
+            ],
+            "name": [
+                "<name>"
+            ],
+            "required": [
+                "",
+                "required"
+            ],
+            "size": [
+                "<number>"
+            ]
+        }
+    },
+    "small": {
+        "attributes": {
+            "noattr": [
+                "0"
+            ]
+        }
+    },
+    "source": {
+        "attributes": {
+            "height": [
+                "<length>"
+            ],
+            "media": [
+                "<media-query>"
+            ],
+            "sizes": [
+                "<length>"
+            ],
+            "src": [
+                "<URL>"
+            ],
+            "srcset": [
+                "<URL>"
+            ],
+            "type": [
+                "<MIME-type>"
+            ],
+            "width": [
+                "<length>"
+            ]
+        }
+    },
+    "span": {
+        "attributes": {
+            "noattr": [
+                "0"
+            ]
+        }
+    },
+    "strike": {
+        "attributes": {
+            "noattr": [
+                "0"
+            ]
+        }
+    },
+    "strong": {
+        "attributes": {
+            "noattr": [
+                "0"
+            ]
+        }
+    },
+    "sub": {
+        "attributes": {
+            "noattr": [
+                "0"
+            ]
+        }
+    },
+    "style": {
+        "attributes": {
+            "blocking": [
+                "all",
+                "none"
+            ],
+            "media": [
+                "<media-query>"
+            ],
+            "type": [
+                "<MIME-type>"
+            ]
+        }
+    },
+    "summary": {
+        "attributes": {
+            "display_list_item": [
+                "0",
+                "1"
+            ]
+        }
+    },
+    "table": {
+        "attributes": {
+            "align": [
+                "left",
+                "right",
+                "center",
+                "justify"
+            ],
+            "bgcolor": [
+                "<color>"
+            ],
+            "border": [
+                "<length>"
+            ],
+            "cellpadding": [
+                "<length>"
+            ],
+            "cellspacing": [
+                "<length>"
+            ],
+            "frame": [
+                "void",
+                "above",
+                "below",
+                "hsides",
+                "lhs",
+                "rhs",
+                "vsides",
+                "box",
+                "border"
+            ],
+            "rules": [
+                "none",
+                "groups",
+                "rows",
+                "cols",
+                "all"
+            ],
+            "summary": [
+                "<text>"
+            ],
+            "width": [
+                "<length>"
+            ]
+        }
+    },
+    "tbody": {
+        "attributes": {
+            "align": [
+                "left",
+                "right",
+                "top",
+                "bottom",
+                "middle",
+                "baseline",
+                "texttop",
+                "absmiddle",
+                "absbottom"
+            ],
+            "bgcolor": [
+                "<color>"
+            ],
+            "char": [
+                "<char>"
+            ],
+            "charoff": [
+                "<char>"
+            ],
+            "valign": [
+                "top",
+                "bottom",
+                "middle",
+                "baseline"
+            ]
+        }
+    },
+    "td": {
+        "attributes": {
+            "abbr": [
+                "<text>"
+            ],
+            "align": [
+                "left",
+                "right",
+                "top",
+                "bottom",
+                "middle",
+                "baseline",
+                "texttop",
+                "absmiddle",
+                "absbottom"
+            ],
+            "axis": [
+                "<text>"
+            ],
+            "bgcolor": [
+                "<color>"
+            ],
+            "char": [
+                "<char>"
+            ],
+            "charoff": [
+                "<char>"
+            ],
+            "colspan": [
+                "<number>"
+            ],
+            "headers": [
+                "<text>"
+            ],
+            "rowspan": [
+                "<number>"
+            ],
+            "scope": [
+                "row",
+                "col",
+                "rowgroup",
+                "colgroup"
+            ],
+            "valign": [
+                "top",
+                "bottom",
+                "middle",
+                "baseline",
+                "left",
+                "right"
+            ],
+            "width": [
+                "<length>"
+            ]
+        }
+    },
+    "sup": {
+        "attributes": {
+            "noattr": [
+                "0"
+            ]
+        }
+    },
+    "textarea": {
+        "attributes": {
+            "autocomplete": [
+                "on",
+                "off"
+            ],
+            "cols": [
+                "<number>"
+            ],
+            "dirname": [
+                "<name>"
+            ],
+            "disabled": [
+                "",
+                "disabled"
+            ],
+            "form": [
+                "<form-id>"
+            ],
+            "maxlength": [
+                "<number>"
+            ],
+            "minlength": [
+                "<number>"
+            ],
+            "name": [
+                "<name>"
+            ],
+            "placeholder": [
+                "<text>"
+            ],
+            "readonly": [
+                "",
+                "readonly"
+            ],
+            "required": [
+                "",
+                "required"
+            ],
+            "rows": [
+                "<number>"
+            ],
+            "spellcheck": [
+                "true",
+                "false"
+            ],
+            "wrap": [
+                "hard",
+                "soft",
+                "off"
+            ]
+        }
+    },
+    "template": {
+        "attributes": {
+            "shadowrootclonable": [
+                "0",
+                "1"
+            ],
+            "shadowrootdelegatesfocus": [
+                "0",
+                "1"
+            ],
+            "shadowrootmode": [
+                "open",
+                "closed"
+            ],
+            "shadowrootserializable": [
+                "0",
+                "1"
+            ]
+        }
+    },
+    "tfoot": {
+        "attributes": {
+            "align": [
+                "left",
+                "right",
+                "center"
+            ],
+            "bgcolor": [
+                "<color>"
+            ],
+            "char": [
+                "<char>"
+            ],
+            "charoff": [
+                "<char>"
+            ],
+            "valign": [
+                "top",
+                "bottom",
+                "middle",
+                "baseline",
+                "left",
+                "right"
+            ]
+        }
+    },
+    "th": {
+        "attributes": {
+            "abbr": [
+                "<text>"
+            ],
+            "align": [
+                "left",
+                "right",
+                "center",
+                "justify",
+                "char"
+            ],
+            "axis": [
+                "<text>"
+            ],
+            "bgcolor": [
+                "<color>"
+            ],
+            "char": [
+                "<char>"
+            ],
+            "charoff": [
+                "<char>"
+            ],
+            "colspan": [
+                "<number>"
+            ],
+            "headers": [
+                "<text>"
+            ],
+            "rowspan": [
+                "<number>"
+            ],
+            "scope": [
+                "row",
+                "col",
+                "rowgroup",
+                "colgroup"
+            ],
+            "valign": [
+                "top",
+                "bottom",
+                "middle",
+                "baseline"
+            ],
+            "width": [
+                "<length>"
+            ]
+        }
+    },
+    "thead": {
+        "attributes": {
+            "align": [
+                "left",
+                "center",
+                "right"
+            ],
+            "bgcolor": [
+                "<color>"
+            ],
+            "char": [
+                "<char>"
+            ],
+            "charoff": [
+                "<char>"
+            ],
+            "valign": [
+                "top",
+                "bottom",
+                "middle",
+                "baseline"
+            ]
+        }
+    },
+    "time": {
+        "attributes": {
+            "datetime": [
+                "<datetime>"
+            ]
+        }
+    },
+    "title": {
+        "attributes": {
+            "noattr": [
+                "0"
+            ]
+        }
+    },
+    "tr": {
+        "attributes": {
+            "align": [
+                "left",
+                "center",
+                "right",
+                "justify",
+                "char"
+            ],
+            "bgcolor": [
+                "<color>"
+            ],
+            "char": [
+                "<char>"
+            ],
+            "charoff": [
+                "<char>"
+            ],
+            "valign": [
+                "top",
+                "middle",
+                "bottom",
+                "baseline"
+            ]
+        }
+    },
+    "track": {
+        "attributes": {
+            "default": [
+                "",
+                "default"
+            ],
+            "kind": [
+                "subtitles",
+                "captions",
+                "descriptions",
+                "chapters",
+                "metadata"
+            ],
+            "label": [
+                "<text>"
+            ],
+            "src": [
+                "<URL>"
+            ],
+            "srclang": [
+                "en",
+                "es",
+                "fr",
+                "de",
+                "it",
+                "ja",
+                "ko",
+                "zh-CN",
+                "zh-TW"
+            ]
+        }
+    },
+    "tt": {
+        "attributes": {
+            "noattr": [
+                "0"
+            ]
+        }
+    },
+    "u": {
+        "attributes": {
+            "noattr": [
+                "0"
+            ]
+        }
+    },
+    "var": {
+        "attributes": {
+            "noattr": [
+                "0"
+            ]
+        }
+    },
+    "ul": {
+        "attributes": {
+            "compact": [
+                "",
+                "compact"
+            ],
+            "type": [
+                "disc",
+                "circle",
+                "square"
+            ]
+        }
+    },
+    "video": {
+        "attributes": {
+            "aspect_ratio_computed_from_attributes": [
+                "<ratio>"
+            ],
+            "autoplay": [
+                "",
+                "autoplay"
+            ],
+            "controls": [
+                "",
+                "controls"
+            ],
+            "controlslist": [
+                "nodownload",
+                "nofullscreen",
+                "noremoteplayback",
+                "noplaybackrate",
+                "none"
+            ],
+            "crossorigin": [
+                "",
+                "anonymous",
+                "use-credentials"
+            ],
+            "disablepictureinpicture": [
+                "",
+                "disablepictureinpicture"
+            ],
+            "disableremoteplayback": [
+                "",
+                "disableremoteplayback"
+            ],
+            "height": [
+                "<length>"
+            ],
+            "loop": [
+                "",
+                "loop"
+            ],
+            "muted": [
+                "",
+                "muted"
+            ],
+            "playsinline": [
+                "",
+                "playsinline"
+            ],
+            "poster": [
+                "<URL>"
+            ],
+            "preload": [
+                "none",
+                "metadata",
+                "auto"
+            ],
+            "src": [
+                "<URL>"
+            ],
+            "width": [
+                "<length>"
+            ]
+        }
+    },
+    "wbr": {
+        "attributes": {
+            "noattr": [
+                "0"
+            ]
+        }
+    },
+    "xmp": {
+        "attributes": {
+            "noattr": [
+                "0"
+            ]
+        }
+    }
+}

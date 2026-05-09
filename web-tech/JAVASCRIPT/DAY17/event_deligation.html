@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        #gp{
+            border: 2px solid;
+            height: 200px;
+            width: 200px;
+            text-align: center;
+            margin: auto;
+        }
+        #p{
+            border: 2px solid;
+            height: 150px;
+            width: 150px;
+            text-align: center;
+            margin: auto;
+        }
+        #ch{
+            border: 2px solid;
+            height: 100px;
+            width: 100px;
+            text-align: center;
+            margin: auto;
+        }
+    </style>
+    <section id="gp">
+        grandParent
+        <aside id="p">
+            Parent
+            <div id="ch">
+                Child
+            </div>
+        </aside>
+    </section>
+    <script src="./eventdeligation.js"></script>
+</body>
+</html>

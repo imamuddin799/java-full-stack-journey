@@ -1,0 +1,217 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.app {
+    max-width: 1200px;
+    margin: auto;
+    padding: 1em;
+    padding-top: 0;
+}
+
+/* Navigation */
+.navbar {
+    background-color: #343a40;
+    padding: 1em;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h1 {
+    margin: 0;
+}
+
+.toggle-btn {
+    background-color: #ffc107;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em 0;
+}
+
+.btnAddStudent {
+    background-color: #28a745;
+    border: none;
+    padding: 0.5em 1em;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+/* Table */
+.students-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2em;
+}
+
+.students-table th,
+.students-table td {
+    border: 1px solid #dee2e6;
+    padding: 0.75em;
+    text-align: left;
+}
+
+.students-table th {
+    background-color: #e9ecef;
+}
+
+/* Buttons */
+.btnEdit,
+.btnDelete {
+    padding: 0.4em 0.8em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 0.3em;
+}
+
+.btnEdit {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.btnDelete {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+/* Card view */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.student-card {
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    padding: 1em;
+    border-radius: 4px;
+    width: calc(30% - 1em);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-actions {
+    margin-top: 1em;
+}
+
+/* Dialog and Form */
+.dialog {
+    border: none;
+    border-radius: 4px;
+    padding: 1em;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.form {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 1em;
+    width: 100%;
+}
+
+.form-group label {
+    margin-bottom: 0.5em;
+    display: block;
+}
+
+.form input {
+    padding: 0.5em;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    width: 95%;
+}
+
+.button-group {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1em;
+}
+
+.btnSubmit {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.btnCancel {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+.error {
+    color: red;
+    font-size: 0.8em;
+    margin-top: 0.2em;
+    display: block;
+}
+
+.summary-error {
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+/* Modal Dialog Styles */
+dialog {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00000088;
+    /* semi-transparent overlay */
+    overflow-y: scroll;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Centering the dialog form and delete popup content */
+dialog form,
+#deletePopup > div,
+.dialog-content {
+    background: #ffffff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.search-sort-bar {
+    margin: 1em 0;
+    display: flex;
+    gap: 0.5em;
+}
+
+.search-sort-bar input[type="text"] {
+    padding: 0.5em;
+    flex-grow: 1;
+}
+
+.search-sort-bar button,
+.search-sort-bar select {
+    padding: 0.5em 1em;
+}

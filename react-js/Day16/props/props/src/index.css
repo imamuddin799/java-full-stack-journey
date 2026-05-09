@@ -1,0 +1,41 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+.child{
+    display:flex;
+    padding:5px;
+    flex-wrap:wrap;
+    border:2px solid blue;
+    gap:20px;
+    width:85%;
+    justify-content:flex;
+    
+}
+
+.d1{
+    border:2px solid black;
+    display:flex;
+    justify-content:center;
+    align-content:center;
+    width:100% !important;
+}
+
+/* .d1{
+    border: 5px solid green;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: center;
+}
+.child{
+    width:1252px;
+    margin: auto;
+    border: 5px red;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+} */

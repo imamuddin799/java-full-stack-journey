@@ -1,0 +1,38 @@
+p::first-letter{
+    background-color: red;
+}
+
+p::first-line{
+    background-color: pink;
+}
+
+p::after{
+    content: "hi hello";
+    /* content: url(''); */
+}
+
+p::before{
+    content: "tata good bye!!";
+    content: '😂';
+    /* content: url(''); */
+}
+
+input::placeholder{
+    color: red;
+    background-color: indigo;
+}
+ol>li::marker{
+    content: '❤️';
+}
+
+ol>li+li::marker{
+    content: '😍';
+}
+ol>li+li+li::marker{
+    content: '😘';
+}
+
+section::selection{
+    background-color: red;
+    color: yellow;
+}

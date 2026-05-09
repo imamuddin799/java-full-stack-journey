@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon Theme Form</title>
+    <style>
+        /* General Styles */
+        body {
+            background: #1a1a1d;
+            color: #fff;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        form {
+            text-align: center;
+            width: 80%;
+            max-width: 700px;
+        }
+
+        label, input, button {
+            font-size: 1.2em;
+        }
+
+        /* Input Fields */
+        input[type="text"] {
+            background: #0f0f1f;
+            border: 2px solid #4a4aff;
+            border-radius: 5px;
+            padding: 8px;
+            color: #fff;
+            width: 200px;
+            margin: 10px 0;
+        }
+
+        input[type="text"]:focus {
+            outline: none;
+            box-shadow: 0 0 10px #4a4aff;
+        }
+
+        /* Buttons */
+        button {
+            background: #4a4aff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            box-shadow: 0 0 20px #4a4aff;
+            transform: scale(1.1);
+        }
+
+        /* Table */
+        table {
+            margin: 20px auto;
+            border-collapse: collapse;
+            width: 100%;
+            background: #0f0f1f;
+            border: 2px solid #4a4aff;
+            box-shadow: 0 0 15px #4a4aff;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: center;
+            border: 1px solid #4a4aff;
+            color: #fff;
+        }
+
+        th {
+            background: #4a4aff;
+            color: #000;
+        }
+
+        td {
+            font-size: 1em;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            input[type="text"], button {
+                width: 100%;
+            }
+
+            table {
+                width: 100%;
+                font-size: 0.9em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <label for="inp1">ID: </label>
+        <input type="text" id="inp1" value="1"><br>
+
+        <label for="inp2">Name: </label>
+        <input type="text" id="inp2" value="Rani"><br>
+
+        <label for="inp3">Role: </label>
+        <input type="text" id="inp3" value="Web"><br>
+
+        <label for="inp4">Salary: </label>
+        <input type="text" id="inp4" value="50000"><br>
+
+        <button>Add</button>
+
+        <table id="table">
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Role</th>
+                <th>Salary</th>
+                <th>Modify</th>
+                <th>Trash</th>
+            </tr>
+        </table>
+    </form>
+    <script src="./crud.js"></script>
+</body>
+</html>
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <label for="inp1">ID : </label>
+        <input type="text" name="" id="inp1" value="1"><br>
+
+        <label for="inp2">Name : </label>
+        <input type="text" name="" id="inp2" value="Rani"><br>
+
+        <label for="inp3">Role : </label>
+        <input type="text" name="" id="inp3" value="Web"><br>
+
+        <label for="inp4">Salary : </label>
+        <input type="text" name="" id="inp4" value="50000"><br>
+
+        <button>Add</button>
+        
+        <table border="2px solid" width="700px" id="table">
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Role</th>
+                <th>Salary</th>
+                <th>Modify</th>
+                <th>Trash</th>
+            </tr>
+        </table>
+    </form>
+
+    <script src="./crud.js"></script>
+</body>
+</html> -->

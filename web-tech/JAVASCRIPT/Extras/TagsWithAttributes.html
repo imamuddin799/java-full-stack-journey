@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML5 Tag Reference</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            line-height: 1.6;
+            background: #f9f9f9;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        section {
+            margin-bottom: 2rem;
+        }
+
+        h2 {
+            background: #e0e0e0;
+            padding: 10px;
+            border-left: 5px solid #4CAF50;
+        }
+
+        ul {
+            list-style: square;
+            margin-left: 20px;
+        }
+
+        code {
+            background: #efefef;
+            padding: 2px 5px;
+            border-radius: 4px;
+        }
+
+        #tag-output {
+            margin-top: 1rem;
+            padding: 1rem;
+            background: #fff;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+
+        button {
+            padding: 10px 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        .tag-entry {
+            margin: 5px 0;
+        }
+
+        .tag-entry code {
+            display: inline-block;
+            min-width: 90px;
+        }
+
+        .export-btns {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>HTML5 Tag Reference</h1>
+
+    <section>
+        <h2>📜 List Supported HTML Tags (Using JavaScript)</h2>
+        <button onclick="showSupportedTags()">Click to Display All Supported HTML Tags</button>
+        <div class="export-btns">
+            <button onclick="exportToText()">📄 Export to Text</button>
+            <button onclick="window.print()">🖨️ Print</button>
+        </div>
+        <div id="tag-output"></div>
+    </section>
+
+    <section>
+        <h2>Document Metadata</h2>
+        <ul>
+            <li><code>&lt;!DOCTYPE&gt;</code></li>
+            <li><code>&lt;html&gt;</code></li>
+            <li><code>&lt;head&gt;</code></li>
+            <li><code>&lt;title&gt;</code></li>
+            <li><code>&lt;base&gt;</code></li>
+            <li><code>&lt;link&gt;</code></li>
+            <li><code>&lt;meta&gt;</code></li>
+            <li><code>&lt;style&gt;</code></li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Deprecated/Obsolete Tags</h2>
+        <ul>
+            <li><code>&lt;acronym&gt;</code></li>
+            <li><code>&lt;applet&gt;</code></li>
+            <li><code>&lt;basefont&gt;</code></li>
+            <li><code>&lt;bgsound&gt;</code></li>
+            <li><code>&lt;big&gt;</code></li>
+            <li><code>&lt;blink&gt;</code></li>
+            <li><code>&lt;center&gt;</code></li>
+            <li><code>&lt;dir&gt;</code></li>
+            <li><code>&lt;font&gt;</code></li>
+            <li><code>&lt;frame&gt;</code>, <code>&lt;frameset&gt;</code>, <code>&lt;noframes&gt;</code></li>
+            <li><code>&lt;isindex&gt;</code></li>
+            <li><code>&lt;marquee&gt;</code></li>
+            <li><code>&lt;menuitem&gt;</code></li>
+            <li><code>&lt;noframes&gt;</code></li>
+            <li><code>&lt;s&gt;</code> (partially supported)</li>
+            <li><code>&lt;strike&gt;</code></li>
+            <li><code>&lt;tt&gt;</code></li>
+            <li><code>&lt;u&gt;</code> (use with care)</li>
+            <li><code>&lt;xmp&gt;</code></li>
+        </ul>
+    </section>
+
+    <script>
+        const tagAttributes = {
+            a: "href, target, title",
+            img: "src, alt, width, height",
+            input: "type, name, value, placeholder",
+            button: "type, onclick",
+            div: "id, class",
+            span: "id, class",
+            form: "action, method",
+            script: "src, type",
+            link: "href, rel, type",
+            meta: "name, content, charset",
+            iframe: "src, width, height",
+            video: "src, controls, autoplay",
+            audio: "src, controls",
+            table: "border, cellpadding",
+            td: "colspan, rowspan",
+            th: "scope",
+            textarea: "rows, cols",
+            select: "multiple, name",
+            option: "value, selected"
+        };
+
+        function showSupportedTags() {
+            const allTags = [
+                "a", "abbr", "address", "area", "article", "aside", "audio", "b", "base", "bdi", "bdo", "blockquote", "body",
+                "br", "button", "canvas", "caption", "cite", "code", "col", "colgroup", "data", "datalist", "dd", "del",
+                "details", "dfn", "dialog", "div", "dl", "dt", "em", "embed", "fieldset", "figcaption", "figure", "footer",
+                "form", "h1", "h2", "h3", "h4", "h5", "h6", "head", "header", "hr", "html", "i", "iframe", "img", "input",
+                "ins", "kbd", "label", "legend", "li", "link", "main", "map", "mark", "meta", "meter", "nav", "noscript",
+                "object", "ol", "optgroup", "option", "output", "p", "param", "picture", "pre", "progress", "q", "rp", "rt",
+                "ruby", "s", "samp", "script", "section", "select", "small", "source", "span", "strong", "style", "sub",
+                "summary", "sup", "table", "tbody", "td", "template", "textarea", "tfoot", "th", "thead", "time", "title",
+                "tr", "track", "u", "ul", "var", "video", "wbr",
+                "acronym", "applet", "basefont", "big", "blink", "center", "dir", "font", "frame", "frameset", "isindex",
+                "listing", "marquee", "menuitem", "nobr", "noframes", "plaintext", "strike", "tt", "xmp"
+            ];
+
+            const supported = allTags.filter(tag => document.createElement(tag) instanceof HTMLElement);
+            const container = document.getElementById("tag-output");
+            container.innerHTML = supported.map(t => {
+                const attr = tagAttributes[t] ? ` <small>(Attributes: ${tagAttributes[t]})</small>` : "";
+                return `<div class='tag-entry'><code>&lt;${t}&gt;</code>${attr}</div>`;
+            }).join("");
+        }
+
+        function exportToText() {
+            const text = document.getElementById("tag-output").innerText;
+            const blob = new Blob([text], { type: "text/plain" });
+            const a = document.createElement("a");
+            a.href = URL.createObjectURL(blob);
+            a.download = "html_tags_list.txt";
+            a.click();
+        }
+    </script>
+</body>
+
+</html>

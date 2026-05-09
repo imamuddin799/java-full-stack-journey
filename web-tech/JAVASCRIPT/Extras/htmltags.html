@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background: #F5EEDC;
+        }
+
+        .container {
+            width: 100%;
+            height: 100%;
+        }
+
+        .html-tag {
+            background-color: #3A59D1;
+            margin: 0px 20px 40px 20px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 6px 4px 20px rgba(0, 0, 0, 0.6);
+        }
+
+        .tag-name {
+            text-align: center;
+            color: #000;
+            background-color: #C68EFD;
+            padding: 2px;
+            border-radius: 8px;
+            border-left: 8px solid #5CB338;
+            font-size: 40px;
+            font-weight: 600;
+            box-shadow: 3px 3px 10px rgba(255, 255, 255, 0.3);
+        }
+
+        .attribute-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            color: #000;
+            border-radius: 8px;
+            margin: 10px 0px;
+        }
+
+
+        .attribute-name {
+            text-align: center;
+            color: #000;
+            background-color: #8F87F1;
+            padding: 10px;
+            border-radius: 8px;
+            border-left: 8px solid #FFF574;
+        }
+
+        .attribute-values-container {
+            background-color: #273F4F;
+            border-radius: 5px;
+            margin: 10px 0px;
+            padding: 10px;
+            font-size: 20px;
+            font-weight: 600;
+            letter-spacing: 1px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .attribute-values {
+            background: #e0e0e0;
+            padding: 0.3rem 0.7rem;
+            border-radius: 999px;
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="html-tag">
+            <h1 class="tag-name">&lt;a&gt;</h1>
+            <div class="attribute-container">
+                <div class="attribute-name-container">
+                    <h2 class="attribute-name">&lt;href&gt;</h2>
+                    <div class="attribute-values-container">
+                        <p class="attribute-values">/login</p>
+                        <p class="attribute-values">/save</p>
+                        <p class="attribute-values">/register</p>
+                        <p class="attribute-values">/telphone</p>
+                        <p class="attribute-values">/login</p>
+                        <p class="attribute-values">/save</p>
+                        <p class="attribute-values">/register</p>
+                        <p class="attribute-values">/telphone</p>
+                        <p class="attribute-values">/login</p>
+                        <p class="attribute-values">/save</p>
+                        <p class="attribute-values">/register</p>
+                        <p class="attribute-values">/telphone</p>
+                        <p class="attribute-values">/login</p>
+                        <p class="attribute-values">/save</p>
+                        <p class="attribute-values">/register</p>
+                        <p class="attribute-values">/telphone</p>
+                        <p class="attribute-values">/login</p>
+                        <p class="attribute-values">/save</p>
+                        <p class="attribute-values">/register</p>
+                        <p class="attribute-values">/telphone</p>
+                        <p class="attribute-values">/login</p>
+                        <p class="attribute-values">/save</p>
+                        <p class="attribute-values">/register</p>
+                        <p class="attribute-values">/telphone</p>
+                    </div>
+                </div>
+                <div class="attribute-name-container">
+                    <h2 class="attribute-name">&lt;href&gt;</h2>
+                    <div class="attribute-values-container">
+                        <p class="attribute-values">/login</p>
+                        <p class="attribute-values">/save</p>
+                        <p class="attribute-values">/login</p>
+                        <p class="attribute-values">/login</p>
+                        <p class="attribute-values">/login</p>
+                        <p class="attribute-values">/login</p>
+                        <p class="attribute-values">/save</p>
+                        <p class="attribute-values">/login</p>
+                        <p class="attribute-values">/login</p>
+                        <p class="attribute-values">/login</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="html-tag">
+            <h1 class="tag-name">&lt;a&gt;</h1>
+            <div class="attribute-container">
+                <div class="attribute-name-container">
+                    <h2 class="attribute-name">&lt;href&gt;</h2>
+                    <div class="attribute-values-container">
+                        <p class="attribute-values">/login</p>
+                    </div>
+                </div>
+                <div class="attribute-name-container">
+                    <h2 class="attribute-name">&lt;href&gt;</h2>
+                    <div class="attribute-values-container">
+                        <p class="attribute-values">/login</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // fetch("html_tag_attribute_value_filled.json")
+        //     .then(response => response.json())
+        //     .then(data => {
+        //         // console.log(data);
+        //         const container = document.querySelector('.container');
+        //         data.forEach(tag => {
+        //             console.log(tag);
+        //             const tagDiv = document.createElement('div');
+        //             tagDiv.classList.add('html-tag');
+        //             tagDiv.innerHTML = `<h1 class="tag-name">&lt;${tag.tag}&gt;</h1>`;
+        //             const attributeContainer = document.createElement('div');
+        //             attributeContainer.classList.add('attribute-container');
+        //             tag.attributes.forEach(attribute => {
+        //                 const attributeDiv = document.createElement('div');
+        //                 attributeDiv.classList.add('attribute-name-container');
+        //                 attributeDiv.innerHTML = `<h2 class="attribute-name">&lt;${attribute.name}&gt;</h2>`;
+        //                 const valuesContainer = document.createElement('div');
+        //                 valuesContainer.classList.add('attribute-values-container');
+        //                 attribute.values.forEach(value => {
+        //                     const valueDiv = document.createElement('p');
+        //                     valueDiv.classList.add('attribute-values');
+        //                     valueDiv.textContent = value;
+        //                     valuesContainer.appendChild(valueDiv);
+        //                 });
+        //                 attributeDiv.appendChild(valuesContainer);
+        //                 attributeContainer.appendChild(attributeDiv);
+        //             });
+        //             tagDiv.appendChild(attributeContainer);
+        //             container.appendChild(tagDiv);
+        //         });
+        //     })
+        //     .catch(error => console.error('Error fetching JSON:', error));
+
+        fetch("html_tag_attribute_value.json")
+            .then(response => response.json())
+            .then(data => {
+                let container = document.querySelector(".container");
+                console.log(container);
+                container.innerHTML = "";
+                let tags = Object.keys(data); // a
+                // console.log(tags);
+                tags.forEach(tag => {
+                    // console.log(tag);
+
+                    let tagDiv = document.createElement('div');
+                    tagDiv.classList.add('html-tag');
+                    tagDiv.innerHTML = `<h1 class="tag-name">&lt;${tag}&gt;</h1>`;
+                    let attributeContainer = document.createElement('div');
+                    attributeContainer.classList.add('attribute-container');
+
+                    let attributes = data[tag].attributes;
+                    // console.log(attributes);
+                    let attributesName = Object.keys(attributes);
+                    // console.log(attributesName);
+                    attributesName.forEach(name => {
+                        let attrName = attributes[name];
+                        // console.log(attrName);
+
+                        let attributeDiv = document.createElement('div');
+                        attributeDiv.classList.add('attribute-name-container');
+                        attributeDiv.innerHTML = `<h2 class="attribute-name">&lt;${name}&gt;</h2>`;
+                        let valuesContainer = document.createElement('div');
+                        valuesContainer.classList.add('attribute-values-container');
+
+                        attrName.forEach(attribute => {
+                            console.log(attribute);
+
+                            let valueDiv = document.createElement('p');
+                            valueDiv.classList.add('attribute-values');
+                            valueDiv.textContent = attribute;
+                            valuesContainer.appendChild(valueDiv);
+                        })
+                        attributeDiv.appendChild(valuesContainer);
+                        attributeContainer.appendChild(attributeDiv);
+                    })
+                    tagDiv.appendChild(attributeContainer);
+                    container.appendChild(tagDiv);
+                })
+
+                // let {a} = data;
+                // console.log(a);
+                // let {attributes : attr} = a;
+                // console.log(attr);
+
+                // let { refferrerpolicy } = attr;
+                // console.log(refferrerpolicy);
+
+                // refferrerpolicy.forEach(ref => {
+                //     console.log(ref);
+                // });
+
+                // let {a:{attributes:{refferrerpolicy}}} = data;
+                // console.log(refferrerpolicy);
+                // refferrerpolicy.forEach(ref => {
+                //     console.log(ref);
+                // });
+
+
+
+                // const container = document.querySelector('.container');
+                // data.forEach(tag => {
+                //     console.log(tag);
+                //     const tagDiv = document.createElement('div');
+                //     tagDiv.classList.add('html-tag');
+                //     tagDiv.innerHTML = `<h1 class="tag-name">&lt;${tag.tag}&gt;</h1>`;
+                //     const attributeContainer = document.createElement('div');
+                //     attributeContainer.classList.add('attribute-container');
+                //     tag.attributes.forEach(attribute => {
+                //         const attributeDiv = document.createElement('div');
+                //         attributeDiv.classList.add('attribute-name-container');
+                //         attributeDiv.innerHTML = `<h2 class="attribute-name">&lt;${attribute.name}&gt;</h2>`;
+                //         const valuesContainer = document.createElement('div');
+                //         valuesContainer.classList.add('attribute-values-container');
+                //         attribute.values.forEach(value => {
+                //             const valueDiv = document.createElement('p');
+                //             valueDiv.classList.add('attribute-values');
+                //             valueDiv.textContent = value;
+                //             valuesContainer.appendChild(valueDiv);
+                //         });
+                //         attributeDiv.appendChild(valuesContainer);
+                //         attributeContainer.appendChild(attributeDiv);
+                //     });
+                //     tagDiv.appendChild(attributeContainer);
+                //     container.appendChild(tagDiv);
+                // });
+            })
+            .catch(error => console.error('Error fetching JSON:', error));
+    </script>
+</body>
+
+</html>

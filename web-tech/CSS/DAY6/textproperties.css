@@ -1,0 +1,39 @@
+h1{
+    text-decoration: underline;
+    text-decoration: overline;
+    text-decoration: line-through;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: red;
+    text-decoration-style: dashed;
+    text-decoration-style: dotted;
+    text-decoration-style: double;
+    text-decoration-style: solid;
+    text-decoration: none;
+}
+h3{
+    word-spacing: 150px;
+}
+h2{
+    letter-spacing: 5px;
+    text-shadow: 5px 5px 5px green;
+    text-shadow: 5px 5px red;
+}
+p{
+    line-height: 30px;
+}
+
+div{
+    text-indent: 80px;
+    text-transform: lowercase;
+    text-transform: uppercase;
+    text-transform: capitalize;
+    text-transform: none;
+}
+h2{
+    text-align: center;
+    text-align: right;
+    text-align: end;
+    text-align: start;
+    text-align: left;
+}

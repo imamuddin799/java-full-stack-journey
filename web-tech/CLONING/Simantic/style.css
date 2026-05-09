@@ -1,0 +1,54 @@
+
+nav{
+    border: 4px solid white;
+    background-color: grey;
+}
+
+section{
+    border: 4px solid white;
+    background-color: gray;
+    height: 750px;
+}
+figure{
+    margin-top: 0px;
+    background-color: white;
+    width: 330px;
+}
+img{
+    border: 4px solid white;
+    height: 300px;
+    width: 300px;
+    margin-left: 10px;
+}
+figcaption{
+    background-color: white;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+aside{
+    /* border: 4px solid white; */
+    /* height: 50px; */
+    width: 1000px;
+    margin-left: 410px;
+    margin-top: -700px;
+}
+
+aside>h1{
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+article{
+    font-size: large;
+    margin-top: 10px;
+}
+aside>img{
+    border: 0px;
+    width: 800px;
+    margin-left: 0px;
+}
+aside>button{
+    background-color: rgb(6, 6, 162);
+    color: white;
+    padding: 5px;
+    border-radius: 10px 10px;
+}

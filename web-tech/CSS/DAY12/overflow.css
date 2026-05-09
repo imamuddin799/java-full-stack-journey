@@ -1,0 +1,21 @@
+div{
+    border: 2px solid;
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    overflow: scroll;
+
+}
+nav{
+    border: 2px solid;
+    height: 70px;
+}
+ol{
+    border: 2px solid;
+    width: 150px;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    float: right;
+    float: left;
+}

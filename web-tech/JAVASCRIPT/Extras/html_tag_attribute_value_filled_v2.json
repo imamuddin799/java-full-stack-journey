@@ -1,0 +1,3341 @@
+[
+    {
+        "a": {
+            "attributes": {
+                "attributionsourceid": [
+                    "custom-id",
+                    "attr-1234",
+                    "source-link"
+                ],
+                "attributionsrc": [
+                    "https://example.com/track",
+                    "/local/path/to/source"
+                ],
+                "charset": [
+                    "utf-8",
+                    "iso-8859-1",
+                    "windows-1252",
+                    "us-ascii"
+                ],
+                "coords": [
+                    "0,0,100,200",
+                    "34,44,270,350",
+                    "50,50,20",
+                    "25,25,30,30,40,40"
+                ],
+                "download": [
+                    "",
+                    "example.txt",
+                    "report.pdf",
+                    "image.png"
+                ],
+                "href": [
+                    "https://example.com",
+                    "mailto:someone@example.com",
+                    "tel:+123456789",
+                    "#section",
+                    "/local/page",
+                    "//cdn.example.com/resource"
+                ],
+                "hreflang": [
+                    "en",
+                    "en-US",
+                    "fr",
+                    "de",
+                    "es",
+                    "it",
+                    "zh",
+                    "ar",
+                    "ru",
+                    "pt",
+                    "hi",
+                    "ja",
+                    "ko"
+                ],
+                "hreftranslate": [
+                    "yes",
+                    "no"
+                ],
+                "implicit_noopener": [
+                    "true",
+                    "false"
+                ],
+                "name": [
+                    "section1",
+                    "anchor123",
+                    "top",
+                    "bottom"
+                ],
+                "ping": [
+                    "https://log.example.com",
+                    "https://analytics.com/track",
+                    "https://one.com https://two.com"
+                ],
+                "referrerpolicy": [
+                    "no-referrer",
+                    "no-referrer-when-downgrade",
+                    "origin",
+                    "origin-when-cross-origin",
+                    "same-origin",
+                    "strict-origin",
+                    "strict-origin-when-cross-origin",
+                    "unsafe-url"
+                ],
+                "rel": [
+                    "alternate",
+                    "author",
+                    "bookmark",
+                    "external",
+                    "help",
+                    "license",
+                    "nofollow",
+                    "noopener",
+                    "noreferrer",
+                    "prev",
+                    "next",
+                    "search",
+                    "tag",
+                    "sponsored",
+                    "ugc"
+                ],
+                "rev": [
+                    "alternate",
+                    "stylesheet",
+                    "start",
+                    "contents",
+                    "index"
+                ],
+                "shape": [
+                    "rect",
+                    "circle",
+                    "poly",
+                    "default"
+                ],
+                "target": [
+                    "_self",
+                    "_blank",
+                    "_parent",
+                    "_top",
+                    "custom-frame"
+                ],
+                "text_fragments": [
+                    "#:~:text=highlight",
+                    "#:~:text=First,Last",
+                    "#:~:text=word1,word2"
+                ],
+                "type": [
+                    "text/html",
+                    "application/pdf",
+                    "application/json",
+                    "image/jpeg",
+                    "image/png",
+                    "video/mp4",
+                    "audio/mpeg",
+                    "application/octet-stream"
+                ]
+            }
+        }
+    },
+    {
+        "abbr": {
+            "attributes": {
+                "noattr": [
+                    "0"
+                ]
+            }
+        }
+    },
+    {
+        "acronym": {
+            "attributes": {
+                "noattr": [
+                    "0"
+                ]
+            }
+        }
+    },
+    {
+        "area": {
+            "attributes": {
+                "alt": [
+                    "Map Area",
+                    "Clickable Region",
+                    "Zoom",
+                    "Navigation",
+                    "Thumbnail"
+                ],
+                "attributionsrc": [
+                    "https://example.com/image-meta",
+                    "/meta/image.json"
+                ],
+                "coords": [
+                    "0,0,50,50",
+                    "25,25,100,100",
+                    "50,50,20",
+                    "40,40,60,60,80,80"
+                ],
+                "download": [
+                    "image.jpg",
+                    "file.pdf",
+                    ""
+                ],
+                "href": [
+                    "https://example.com",
+                    "#part",
+                    "/docs/area",
+                    "mailto:info@example.com"
+                ],
+                "implicit_noopener": [
+                    "true",
+                    "false"
+                ],
+                "nohref": [
+                    "true",
+                    "false"
+                ],
+                "ping": [
+                    "https://track.example.com",
+                    "https://one.com https://two.com"
+                ],
+                "referrerpolicy": [
+                    "no-referrer",
+                    "no-referrer-when-downgrade",
+                    "origin",
+                    "origin-when-cross-origin",
+                    "same-origin",
+                    "strict-origin",
+                    "strict-origin-when-cross-origin",
+                    "unsafe-url"
+                ],
+                "rel": [
+                    "nofollow",
+                    "noopener",
+                    "noreferrer",
+                    "help",
+                    "search",
+                    "tag",
+                    "sponsored"
+                ],
+                "shape": [
+                    "rect",
+                    "circle",
+                    "poly",
+                    "default"
+                ],
+                "target": [
+                    "_self",
+                    "_blank",
+                    "_parent",
+                    "_top"
+                ]
+            }
+        }
+    },
+    {
+        "address": {
+            "attributes": {
+                "noattr": [
+                    "0"
+                ]
+            }
+        }
+    },
+    {
+        "article": {
+            "attributes": {
+                "noattr": [
+                    "0"
+                ]
+            }
+        }
+    },
+    {
+        "aside": {
+            "attributes": {
+                "noattr": [
+                    "0"
+                ]
+            }
+        }
+    },
+    {
+        "audio": {
+            "attributes": {
+                "autoplay": [
+                    "",
+                    "autoplay"
+                ],
+                "controls": [
+                    "",
+                    "controls"
+                ],
+                "controlslist": [
+                    "nodownload",
+                    "nofullscreen",
+                    "noplaybackrate"
+                ],
+                "crossorigin": [
+                    "anonymous",
+                    "use-credentials"
+                ],
+                "disableremoteplayback": [
+                    "",
+                    "disableremoteplayback"
+                ],
+                "loop": [
+                    "",
+                    "loop"
+                ],
+                "muted": [
+                    "",
+                    "muted"
+                ],
+                "preload": [
+                    "none",
+                    "metadata",
+                    "auto"
+                ],
+                "src": [
+                    "audio.mp3",
+                    "https://example.com/song.ogg",
+                    "/media/audio.wav"
+                ]
+            }
+        }
+    },
+    {
+        "b": {
+            "attributes": {
+                "noattr": [
+                    "0"
+                ]
+            }
+        }
+    },
+    {
+        "base": {
+            "attributes": {
+                "href": [
+                    "https://example.com/",
+                    "/subdir/",
+                    "https://cdn.example.com/assets/"
+                ],
+                "target": [
+                    "_self",
+                    "_blank",
+                    "_parent",
+                    "_top",
+                    "myframe"
+                ]
+            }
+        }
+    },
+    {
+        "bdi": {
+            "attributes": {
+                "noattr": [
+                    "0"
+                ]
+            }
+        }
+    },
+    {
+        "bdo": {
+            "attributes": {
+                "noattr": [
+                    "0"
+                ]
+            }
+        }
+    },
+    {
+        "big": {
+            "attributes": {
+                "noattr": [
+                    "0"
+                ]
+            }
+        }
+    },
+    {
+        "blockquote": {
+            "attributes": {
+                "cite": [
+                    "https://example.com/article",
+                    "https://research.org/doc",
+                    "/local/page",
+                    "http://source.com/quote"
+                ]
+            }
+        }
+    },
+    {
+        "body": {
+            "attributes": {
+                "alink": [
+                    "#ff0000",
+                    "red",
+                    "rgb(255,0,0)"
+                ],
+                "background": [
+                    "background.jpg",
+                    "https://example.com/bg.png"
+                ],
+                "bgcolor": [
+                    "#ffffff",
+                    "white",
+                    "lightblue"
+                ],
+                "bottommargin": [
+                    "0",
+                    "10",
+                    "25"
+                ],
+                "leftmargin": [
+                    "0",
+                    "15",
+                    "30"
+                ],
+                "link": [
+                    "#0000ee",
+                    "blue",
+                    "navy"
+                ],
+                "rightmargin": [
+                    "0",
+                    "10",
+                    "20"
+                ],
+                "text": [
+                    "#000000",
+                    "black",
+                    "#333333"
+                ],
+                "topmargin": [
+                    "0",
+                    "5",
+                    "15"
+                ],
+                "vlink": [
+                    "#551a8b",
+                    "purple",
+                    "#800080"
+                ]
+            }
+        }
+    },
+    {
+        "br": {
+            "attributes": {
+                "clear": [
+                    "none",
+                    "left",
+                    "right",
+                    "all"
+                ]
+            }
+        }
+    },
+    {
+        "button": {
+            "attributes": {
+                "command": [
+                    "custom-command",
+                    "save",
+                    "submit"
+                ],
+                "commandfor": [
+                    "form1",
+                    "modal-id",
+                    "componentX"
+                ],
+                "disabled": [
+                    "",
+                    "disabled"
+                ],
+                "form": [
+                    "form1",
+                    "contactForm",
+                    "customFormID"
+                ],
+                "formaction": [
+                    "/submit",
+                    "https://example.com/send",
+                    "action.php"
+                ],
+                "formenctype": [
+                    "application/x-www-form-urlencoded",
+                    "multipart/form-data",
+                    "text/plain"
+                ],
+                "formmethod": [
+                    "get",
+                    "post",
+                    "dialog"
+                ],
+                "formnovalidate": [
+                    "",
+                    "formnovalidate"
+                ],
+                "formtarget": [
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top",
+                    "customFrame"
+                ],
+                "name": [
+                    "submitBtn",
+                    "saveButton",
+                    "confirm"
+                ],
+                "popovertarget": [
+                    "popoverID",
+                    "infoBox",
+                    "tip1"
+                ],
+                "popovertargetaction": [
+                    "show",
+                    "hide",
+                    "toggle"
+                ],
+                "type": [
+                    "submit",
+                    "reset",
+                    "button",
+                    "menu"
+                ],
+                "value": [
+                    "Send",
+                    "OK",
+                    "Delete",
+                    "Save"
+                ]
+            }
+        }
+    },
+    {
+        "canvas": {
+            "attributes": {
+                "height": [
+                    "150",
+                    "300",
+                    "500",
+                    "768"
+                ],
+                "moz-opaque": [
+                    "",
+                    "moz-opaque"
+                ],
+                "width": [
+                    "300",
+                    "640",
+                    "800",
+                    "1024"
+                ]
+            }
+        }
+    },
+    {
+        "caption": {
+            "attributes": {
+                "align": [
+                    "top",
+                    "bottom",
+                    "left",
+                    "right"
+                ]
+            }
+        }
+    },
+    {
+        "center": {
+            "attributes": {
+                "noattr": [
+                    "0"
+                ]
+            }
+        }
+    },
+    {
+        "code": {
+            "attributes": {
+                "noattr": [
+                    "0"
+                ]
+            }
+        }
+    },
+    {
+        "col": {
+            "attributes": {
+                "align": [
+                    "left",
+                    "center",
+                    "right",
+                    "justify",
+                    "char"
+                ],
+                "char": [
+                    ".",
+                    ",",
+                    ":",
+                    ";"
+                ],
+                "charoff": [
+                    "1",
+                    "10",
+                    "50",
+                    "100"
+                ],
+                "span": [
+                    "1",
+                    "2",
+                    "3",
+                    "5",
+                    "10"
+                ],
+                "valign": [
+                    "top",
+                    "middle",
+                    "bottom",
+                    "baseline"
+                ],
+                "width": [
+                    "100",
+                    "25%",
+                    "200px",
+                    "auto"
+                ]
+            }
+        }
+    },
+    {
+        "colgroup": {
+            "attributes": {
+                "align": [
+                    "left",
+                    "center",
+                    "right",
+                    "justify",
+                    "char"
+                ],
+                "char": [
+                    ".",
+                    ",",
+                    ":",
+                    ";"
+                ],
+                "charoff": [
+                    "1",
+                    "10",
+                    "50",
+                    "100"
+                ],
+                "span": [
+                    "1",
+                    "2",
+                    "3",
+                    "5",
+                    "10"
+                ],
+                "valign": [
+                    "top",
+                    "middle",
+                    "bottom",
+                    "baseline"
+                ],
+                "width": [
+                    "100",
+                    "25%",
+                    "200px",
+                    "auto"
+                ]
+            }
+        }
+    },
+    {
+        "data": {
+            "attributes": {
+                "value": [
+                    "123",
+                    "3.14",
+                    "true",
+                    "false",
+                    "custom-value"
+                ]
+            }
+        }
+    },
+    {
+        "cite": {
+            "attributes": {
+                "noattr": [
+                    "0"
+                ]
+            }
+        }
+    },
+    {
+        "datalist": {
+            "attributes": {
+                "noattr": [
+                    "0"
+                ]
+            }
+        }
+    },
+    {
+        "del": {
+            "attributes": {
+                "cite": [
+                    "https://example.com/change-log",
+                    "https://docs.example.com/v2",
+                    "/local/edit/history"
+                ],
+                "datetime": [
+                    "2023-12-31T23:59:59Z",
+                    "2024-04-20T14:30",
+                    "2025-01-01"
+                ]
+            }
+        }
+    },
+    {
+        "details": {
+            "attributes": {
+                "name": [
+                    "faq1",
+                    "detailsBox",
+                    "disclosure"
+                ],
+                "open": [
+                    "",
+                    "open"
+                ]
+            }
+        }
+    },
+    {
+        "dfn": {
+            "attributes": {
+                "noattr": [
+                    "0"
+                ]
+            }
+        }
+    },
+    {
+        "dd": {
+            "attributes": {
+                "noattr": [
+                    "0"
+                ]
+            }
+        }
+    },
+    {
+        "dialog": {
+            "attributes": {
+                "closedby": [
+                    "button",
+                    "cancelBtn",
+                    "formSubmission"
+                ],
+                "open": [
+                    "",
+                    "open"
+                ]
+            }
+        }
+    },
+    {
+        "dir": {
+            "attributes": {
+                "compact": [
+                    "",
+                    "compact"
+                ]
+            }
+        }
+    },
+    {
+        "div": {
+            "attributes": {
+                "align": [
+                    "left",
+                    "right",
+                    "center",
+                    "justify"
+                ]
+            }
+        }
+    },
+    {
+        "dl": {
+            "attributes": {
+                "noattr": [
+                    "0"
+                ]
+            }
+        }
+    },
+    {
+        "em": {
+            "attributes": {
+                "noattr": [
+                    "0"
+                ]
+            }
+        }
+    },
+    {
+        "dt": {
+            "attributes": {
+                "noattr": [
+                    "0"
+                ]
+            }
+        }
+    },
+    {
+        "fieldset": {
+            "attributes": {
+                "disabled": [
+                    "",
+                    "disabled"
+                ],
+                "form": [
+                    "form1",
+                    "userForm",
+                    "payment-form"
+                ],
+                "name": [
+                    "user-info",
+                    "group1",
+                    "fieldset-custom"
+                ]
+            }
+        }
+    },
+    {
+        "embed": {
+            "attributes": {
+                "align": [
+                    "left",
+                    "right",
+                    "middle",
+                    "top",
+                    "bottom"
+                ],
+                "height": [
+                    "100",
+                    "200",
+                    "400",
+                    "100%",
+                    "auto"
+                ],
+                "name": [
+                    "mediaPlayer",
+                    "pluginObj",
+                    "embedElement"
+                ],
+                "noresize": [
+                    "",
+                    "noresize"
+                ],
+                "src": [
+                    "video.mp4",
+                    "plugin.swf",
+                    "https://example.com/player"
+                ],
+                "type": [
+                    "application/pdf",
+                    "video/mp4",
+                    "image/svg+xml",
+                    "application/x-shockwave-flash"
+                ],
+                "width": [
+                    "100",
+                    "300",
+                    "600",
+                    "100%",
+                    "auto"
+                ]
+            }
+        }
+    },
+    {
+        "fencedframe": {
+            "attributes": {
+                "allow": [
+                    "fullscreen",
+                    "payment",
+                    "geolocation",
+                    "microphone",
+                    "camera"
+                ],
+                "height": [
+                    "200",
+                    "400",
+                    "600",
+                    "100%"
+                ],
+                "width": [
+                    "300",
+                    "500",
+                    "800",
+                    "100%"
+                ]
+            }
+        }
+    },
+    {
+        "figcaption": {
+            "attributes": {
+                "noattr": [
+                    "0"
+                ]
+            }
+        }
+    },
+    {
+        "figure": {
+            "attributes": {
+                "noattr": [
+                    "0"
+                ]
+            }
+        }
+    },
+    {
+        "font": {
+            "attributes": {
+                "color": [
+                    "red",
+                    "#ff0000",
+                    "rgb(255,0,0)",
+                    "blue",
+                    "black"
+                ],
+                "face": [
+                    "Arial",
+                    "Verdana",
+                    "Courier New",
+                    "Times New Roman",
+                    "Comic Sans MS"
+                ],
+                "size": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7"
+                ]
+            }
+        }
+    },
+    {
+        "footer": {
+            "attributes": {
+                "noattr": [
+                    "0"
+                ]
+            }
+        }
+    },
+    {
+        "frame": {
+            "attributes": {
+                "frameborder": [
+                    "0",
+                    "1",
+                    "yes",
+                    "no"
+                ],
+                "marginheight": [
+                    "0",
+                    "10",
+                    "20"
+                ],
+                "marginwidth": [
+                    "0",
+                    "15",
+                    "25"
+                ],
+                "name": [
+                    "mainFrame",
+                    "contentFrame",
+                    "nav"
+                ],
+                "noresize": [
+                    "",
+                    "noresize"
+                ],
+                "scrolling": [
+                    "yes",
+                    "no",
+                    "auto"
+                ],
+                "src": [
+                    "frame.html",
+                    "https://example.com/frame",
+                    "/nested/page"
+                ]
+            }
+        }
+    },
+    {
+        "form": {
+            "attributes": {
+                "accept-charset": [
+                    "UTF-8",
+                    "ISO-8859-1",
+                    "ISO-8859-15",
+                    "windows-1252",
+                    "windows-1250",
+                    "windows-1251",
+                    "windows-1253",
+                    "windows-1254",
+                    "windows-1255",
+                    "windows-1256",
+                    "windows-1257",
+                    "windows-1258"
+                ],
+                "action": [
+                    "/submit",
+                    "https://example.com/form",
+                    "submit.php"
+                ],
+                "autocomplete": [
+                    "on",
+                    "off"
+                ],
+                "enctype": [
+                    "application/x-www-form-urlencoded",
+                    "multipart/form-data",
+                    "text/plain"
+                ],
+                "method": [
+                    "get",
+                    "post",
+                    "dialog"
+                ],
+                "name": [
+                    "contactForm",
+                    "loginForm",
+                    "form123"
+                ],
+                "novalidate": [
+                    "",
+                    "novalidate"
+                ],
+                "rel": [
+                    "external",
+                    "noopener",
+                    "noreferrer"
+                ],
+                "target": [
+                    "_self",
+                    "_blank",
+                    "_parent",
+                    "_top",
+                    "myFrame"
+                ]
+            }
+        }
+    },
+    {
+        "frameset": {
+            "attributes": {
+                "cols": [
+                    "100",
+                    "25%,75%",
+                    "200,*",
+                    "33%,33%,33%"
+                ],
+                "rows": [
+                    "50%,50%",
+                    "100",
+                    "20,*,20",
+                    "100,200"
+                ]
+            }
+        }
+    },
+    {
+        "h1": {
+            "attributes": {
+                "noattr": [
+                    "0"
+                ]
+            }
+        }
+    },
+    {
+        "h3": {
+            "attributes": {
+                "noattr": [
+                    "0"
+                ]
+            }
+        }
+    },
+    {
+        "h4": {
+            "attributes": {
+                "noattr": [
+                    "0"
+                ]
+            }
+        }
+    },
+    {
+        "h2": {
+            "attributes": {
+                "noattr": [
+                    "0"
+                ]
+            }
+        }
+    },
+    {
+        "h6": {
+            "attributes": {
+                "noattr": [
+                    "0"
+                ]
+            }
+        }
+    },
+    {
+        "h5": {
+            "attributes": {
+                "noattr": [
+                    "0"
+                ]
+            }
+        }
+    },
+    {
+        "head": {
+            "attributes": {
+                "noattr": [
+                    "0"
+                ]
+            }
+        }
+    },
+    {
+        "hr": {
+            "attributes": {
+                "align": [
+                    "left",
+                    "center",
+                    "right"
+                ],
+                "color": [
+                    "red",
+                    "#000000",
+                    "gray",
+                    "blue"
+                ],
+                "hr_in_select": [
+                    "true",
+                    "false"
+                ],
+                "noshade": [
+                    "",
+                    "noshade"
+                ],
+                "size": [
+                    "1",
+                    "2",
+                    "5",
+                    "10"
+                ],
+                "width": [
+                    "100%",
+                    "50%",
+                    "400",
+                    "800px"
+                ]
+            }
+        }
+    },
+    {
+        "html": {
+            "attributes": {
+                "version": [
+                    "HTML+RDFa 1.1",
+                    "HTML 5.2",
+                    "XHTML 1.0"
+                ],
+                "xmlns": [
+                    "http://www.w3.org/1999/xhtml",
+                    "http://www.w3.org/2000/svg"
+                ]
+            }
+        }
+    },
+    {
+        "header": {
+            "attributes": {
+                "noattr": [
+                    "0"
+                ]
+            }
+        }
+    },
+    {
+        "iframe": {
+            "attributes": {
+                "align": [
+                    "left",
+                    "right",
+                    "top",
+                    "middle",
+                    "bottom"
+                ],
+                "allow": [
+                    "fullscreen",
+                    "payment",
+                    "geolocation",
+                    "microphone",
+                    "camera",
+                    "encrypted-media",
+                    "clipboard-write",
+                    "accelerometer",
+                    "ambient-light-sensor",
+                    "autoplay",
+                    "gyroscope",
+                    "magnetometer",
+                    "midi",
+                    "picture-in-picture",
+                    "speaker-selection",
+                    "sync-xhr"
+                ],
+                "allowfullscreen": [
+                    "",
+                    "allowfullscreen"
+                ],
+                "allowpaymentrequest": [
+                    "",
+                    "allowpaymentrequest"
+                ],
+                "browsingtopics": [
+                    "",
+                    "browsingtopics"
+                ],
+                "credentialless": [
+                    "",
+                    "credentialless"
+                ],
+                "csp": [
+                    "default-src 'self'",
+                    "script-src 'none'"
+                ],
+                "frameborder": [
+                    "0",
+                    "1",
+                    "no",
+                    "yes"
+                ],
+                "height": [
+                    "150",
+                    "300",
+                    "600",
+                    "100%"
+                ],
+                "loading": [
+                    "lazy",
+                    "eager",
+                    "auto"
+                ],
+                "longdesc": [
+                    "longdesc.html",
+                    "https://example.com/details"
+                ],
+                "marginheight": [
+                    "0",
+                    "10",
+                    "20"
+                ],
+                "marginwidth": [
+                    "0",
+                    "15",
+                    "25"
+                ],
+                "name": [
+                    "myFrame",
+                    "embedBox",
+                    "previewPane"
+                ],
+                "referrerpolicy": [
+                    "no-referrer",
+                    "no-referrer-when-downgrade",
+                    "origin",
+                    "origin-when-cross-origin",
+                    "strict-origin",
+                    "unsafe-url"
+                ],
+                "sandbox": [
+                    "",
+                    "allow-forms",
+                    "allow-modals",
+                    "allow-orientation-lock",
+                    "allow-popups",
+                    "allow-pointer-lock",
+                    "allow-presentation",
+                    "allow-presentation-overrides",
+                    "allow-presentation-screenshots",
+                    "allow-push",
+                    "allow-same-origin",
+                    "allow-scripts",
+                    "allow-downloads",
+                    "allow-storage-access-by-user-activation",
+                    "allow-top-navigation",
+                    "allow-top-navigation-by-user-activation"
+                ],
+                "scrolling": [
+                    "yes",
+                    "no",
+                    "auto"
+                ],
+                "src": [
+                    "https://example.com/embed",
+                    "page.html",
+                    "/iframe/content"
+                ],
+                "srcdoc": [
+                    "<p>Inline content</p>",
+                    "<html><body>Hi</body></html>"
+                ],
+                "width": [
+                    "200",
+                    "400",
+                    "800",
+                    "100%"
+                ]
+            }
+        }
+    },
+    {
+        "i": {
+            "attributes": {
+                "noattr": [
+                    "0"
+                ]
+            }
+        }
+    },
+    {
+        "img": {
+            "attributes": {
+                "align": [
+                    "left",
+                    "right",
+                    "top",
+                    "bottom",
+                    "middle",
+                    "baseline",
+                    "texttop",
+                    "absmiddle",
+                    "absbottom"
+                ],
+                "alt": [
+                    "Image description",
+                    "Avatar",
+                    "Product Photo",
+                    "Logo"
+                ],
+                "aspect_ratio_computed_from_attributes": [
+                    "true",
+                    "false"
+                ],
+                "attributionsrc": [
+                    "https://source.example.com/img-metadata"
+                ],
+                "border": [
+                    "0",
+                    "1",
+                    "5",
+                    "10"
+                ],
+                "crossorigin": [
+                    "anonymous",
+                    "use-credentials"
+                ],
+                "decoding": [
+                    "async",
+                    "sync",
+                    "auto"
+                ],
+                "fetchpriority": [
+                    "high",
+                    "low",
+                    "auto"
+                ],
+                "height": [
+                    "100",
+                    "200",
+                    "400",
+                    "100%"
+                ],
+                "hspace": [
+                    "0",
+                    "5",
+                    "10",
+                    "15"
+                ],
+                "ismap": [
+                    "",
+                    "ismap"
+                ],
+                "loading": [
+                    "eager",
+                    "lazy"
+                ],
+                "longdesc": [
+                    "https://example.com/longdesc",
+                    "desc.html"
+                ],
+                "name": [
+                    "thumbnail",
+                    "logo",
+                    "image123"
+                ],
+                "referrerpolicy": [
+                    "no-referrer",
+                    "no-referrer-when-downgrade",
+                    "origin",
+                    "origin-when-cross-origin",
+                    "unsafe-url"
+                ],
+                "sizes": [
+                    "(max-width: 600px) 480px, 800px",
+                    "100vw"
+                ],
+                "src": [
+                    "image.jpg",
+                    "https://cdn.example.com/image.png",
+                    "/images/photo.webp"
+                ],
+                "srcset": [
+                    "img1.jpg 1x, img2.jpg 2x",
+                    "small.jpg 640w, large.jpg 1024w"
+                ],
+                "usemap": [
+                    "#map1",
+                    "#imgmap"
+                ],
+                "vspace": [
+                    "0",
+                    "5",
+                    "10",
+                    "20"
+                ],
+                "width": [
+                    "200",
+                    "400",
+                    "800",
+                    "100%"
+                ]
+            }
+        }
+    },
+    {
+        "input": {
+            "attributes": {
+                "accept": [
+                    "image/*",
+                    "audio/*",
+                    "video/*",
+                    ".pdf",
+                    ".docx"
+                ],
+                "align": [
+                    "left",
+                    "right",
+                    "center"
+                ],
+                "alpha": [
+                    "true",
+                    "false"
+                ],
+                "alt": [
+                    "Submit",
+                    "Upload Image",
+                    "Search"
+                ],
+                "autocomplete": [
+                    "on",
+                    "off",
+                    "name",
+                    "email",
+                    "username",
+                    "new-password"
+                ],
+                "capture": [
+                    "user",
+                    "environment"
+                ],
+                "checked": [
+                    "",
+                    "checked"
+                ],
+                "colorspace": [
+                    "srgb",
+                    "display-p3"
+                ],
+                "dirname": [
+                    "form.direction",
+                    "user.dir"
+                ],
+                "disabled": [
+                    "",
+                    "disabled"
+                ],
+                "form": [
+                    "form1",
+                    "userForm"
+                ],
+                "formaction": [
+                    "submit.php",
+                    "/send",
+                    "https://api.example.com/submit"
+                ],
+                "formenctype": [
+                    "application/x-www-form-urlencoded",
+                    "multipart/form-data",
+                    "text/plain"
+                ],
+                "formmethod": [
+                    "get",
+                    "post",
+                    "dialog"
+                ],
+                "formnovalidate": [
+                    "",
+                    "formnovalidate"
+                ],
+                "formtarget": [
+                    "_self",
+                    "_blank",
+                    "_parent",
+                    "_top",
+                    "framename"
+                ],
+                "list": [
+                    "datalist1",
+                    "optionsList"
+                ],
+                "max": [
+                    "100",
+                    "2025-12-31",
+                    "23:59"
+                ],
+                "maxlength": [
+                    "10",
+                    "255",
+                    "1000"
+                ],
+                "min": [
+                    "0",
+                    "1",
+                    "2023-01-01"
+                ],
+                "minlength": [
+                    "2",
+                    "5",
+                    "8"
+                ],
+                "mozactionhint": [
+                    "enter",
+                    "go",
+                    "next",
+                    "search",
+                    "send"
+                ],
+                "multiple": [
+                    "",
+                    "multiple"
+                ],
+                "name": [
+                    "username",
+                    "email",
+                    "age",
+                    "fileUpload"
+                ],
+                "pattern": [
+                    "[A-Za-z]+",
+                    "\\d{3}",
+                    "[0-9]{10}"
+                ],
+                "placeholder": [
+                    "Enter name",
+                    "Search...",
+                    "you@example.com"
+                ],
+                "popovertarget": [
+                    "popoverMenu",
+                    "tipBox"
+                ],
+                "popovertargetaction": [
+                    "show",
+                    "hide",
+                    "toggle"
+                ],
+                "readonly": [
+                    "",
+                    "readonly"
+                ],
+                "required": [
+                    "",
+                    "required"
+                ],
+                "size": [
+                    "20",
+                    "40",
+                    "80"
+                ],
+                "src": [
+                    "icon.png",
+                    "button.jpg"
+                ],
+                "step": [
+                    "1",
+                    "0.01",
+                    "any"
+                ],
+                "type": [
+                    "button",
+                    "checkbox",
+                    "color",
+                    "date",
+                    "datetime-local",
+                    "email",
+                    "file",
+                    "hidden",
+                    "image",
+                    "month",
+                    "number",
+                    "password",
+                    "radio",
+                    "range",
+                    "reset",
+                    "search",
+                    "submit",
+                    "tel",
+                    "text",
+                    "time",
+                    "url",
+                    "week"
+                ],
+                "usemap": [
+                    "#map1"
+                ]
+            }
+        }
+    },
+    {
+        "ins": {
+            "attributes": {
+                "cite": [
+                    "https://example.com/inserted-content",
+                    "/changelog",
+                    "https://blog.example.com/update"
+                ],
+                "datetime": [
+                    "2024-01-01T12:00:00Z",
+                    "2025-04-20",
+                    "2025-04-20T18:30"
+                ]
+            }
+        }
+    },
+    {
+        "label": {
+            "attributes": {
+                "for": [
+                    "username",
+                    "emailInput",
+                    "submitBtn",
+                    "custom-id"
+                ]
+            }
+        }
+    },
+    {
+        "kbd": {
+            "attributes": {
+                "noattr": [
+                    "0"
+                ]
+            }
+        }
+    },
+    {
+        "legend": {
+            "attributes": {
+                "align": [
+                    "left",
+                    "right",
+                    "top",
+                    "bottom",
+                    "center"
+                ]
+            }
+        }
+    },
+    {
+        "li": {
+            "attributes": {
+                "type": [
+                    "disc",
+                    "circle",
+                    "square",
+                    "a",
+                    "A",
+                    "i",
+                    "I",
+                    "1"
+                ],
+                "value": [
+                    "1",
+                    "5",
+                    "10",
+                    "100",
+                    "-1"
+                ]
+            }
+        }
+    },
+    {
+        "main": {
+            "attributes": {
+                "noattr": [
+                    "0"
+                ]
+            }
+        }
+    },
+    {
+        "map": {
+            "attributes": {
+                "name": [
+                    "image-map",
+                    "navmap",
+                    "worldmap",
+                    "customMap1"
+                ]
+            }
+        }
+    },
+    {
+        "link": {
+            "attributes": {
+                "as": [
+                    "audio",
+                    "document",
+                    "embed",
+                    "fetch",
+                    "font",
+                    "image",
+                    "manifest",
+                    "object",
+                    "script",
+                    "style",
+                    "track",
+                    "video",
+                    "worker"
+                ],
+                "blocking": [
+                    "render",
+                    "script"
+                ],
+                "charset": [
+                    "utf-8",
+                    "iso-8859-1",
+                    "windows-1252"
+                ],
+                "crossorigin": [
+                    "anonymous",
+                    "use-credentials"
+                ],
+                "disabled": [
+                    "",
+                    "disabled"
+                ],
+                "fetchpriority": [
+                    "high",
+                    "low",
+                    "auto"
+                ],
+                "href": [
+                    "styles.css",
+                    "https://cdn.example.com/main.css",
+                    "/assets/font.woff2",
+                    "theme-dark.css"
+                ],
+                "hreflang": [
+                    "en",
+                    "fr",
+                    "de",
+                    "zh",
+                    "pt",
+                    "ar",
+                    "ru"
+                ],
+                "imagesizes": [
+                    "(max-width: 600px) 480px, 800px",
+                    "100vw"
+                ],
+                "imagesrcset": [
+                    "img1.jpg 1x, img2.jpg 2x",
+                    "mobile.jpg 640w, desktop.jpg 1280w"
+                ],
+                "integrity": [
+                    "sha384-oqVuAfXRKap7fdgcCY5uykM6+R9GqQ8K/uxqF+1ww5rRLQkl4P8T/hfS5xUU6zvd",
+                    "sha256-abcd1234=="
+                ],
+                "media": [
+                    "screen",
+                    "print",
+                    "all",
+                    "(max-width: 600px)"
+                ],
+                "referrerpolicy": [
+                    "no-referrer",
+                    "no-referrer-when-downgrade",
+                    "origin",
+                    "origin-when-cross-origin",
+                    "unsafe-url",
+                    "strict-origin"
+                ],
+                "rel": [
+                    "alternate",
+                    "author",
+                    "bookmark",
+                    "cononical",
+                    "external",
+                    "help",
+                    "icon",
+                    "license",
+                    "next",
+                    "nofollow",
+                    "noopener",
+                    "noreferrer",
+                    "prev",
+                    "search",
+                    "tag",
+                    "stylesheet",
+                    "preload",
+                    "dns-prefetch",
+                    "prefetch",
+                    "preconnect",
+                    "modulepreload",
+                    "manifest"
+                ],
+                "rev": [
+                    "alternate",
+                    "author",
+                    "bookmark",
+                    "external",
+                    "help",
+                    "license",
+                    "next",
+                    "nofollow",
+                    "noopener",
+                    "noreferrer",
+                    "prev",
+                    "search",
+                    "tag"
+                ],
+                "sizes": [
+                    "16x16",
+                    "32x32",
+                    "any"
+                ],
+                "target": [
+                    "_self",
+                    "_blank",
+                    "_parent",
+                    "_top",
+                    "framename"
+                ],
+                "type": [
+                    "text/css",
+                    "application/ld+json",
+                    "image/png",
+                    "font/woff2",
+                    "application/json"
+                ]
+            }
+        }
+    },
+    {
+        "mark": {
+            "attributes": {
+                "noattr": [
+                    "0"
+                ]
+            }
+        }
+    },
+    {
+        "menu": {
+            "attributes": {
+                "noattr": [
+                    "0"
+                ]
+            }
+        }
+    },
+    {
+        "meta": {
+            "attributes": {
+                "charset": [
+                    "utf-8",
+                    "iso-8859-1"
+                ],
+                "content": [
+                    "text/html; charset=UTF-8",
+                    "width=device-width, initial-scale=1.0",
+                    "5; url=https://example.com",
+                    "IE=edge"
+                ],
+                "http-equiv": [
+                    "content-type",
+                    "default-style",
+                    "refresh",
+                    "x-ua-compatible",
+                    "content-security-policy"
+                ],
+                "name": [
+                    "application-name",
+                    "author",
+                    "description",
+                    "generator",
+                    "keywords",
+                    "viewport",
+                    "theme-color",
+                    "referrer",
+                    "robots"
+                ],
+                "scheme": [
+                    "Dublin Core",
+                    "ISBN",
+                    "custom-scheme"
+                ]
+            }
+        }
+    },
+    {
+        "meter": {
+            "attributes": {
+                "high": [
+                    "70",
+                    "90",
+                    "100"
+                ],
+                "low": [
+                    "20",
+                    "10",
+                    "5"
+                ],
+                "max": [
+                    "100",
+                    "10",
+                    "1000"
+                ],
+                "min": [
+                    "0",
+                    "1",
+                    "10"
+                ],
+                "optimum": [
+                    "60",
+                    "75",
+                    "95"
+                ],
+                "value": [
+                    "50",
+                    "65.5",
+                    "80"
+                ]
+            }
+        }
+    },
+    {
+        "marquee": {
+            "attributes": {
+                "behavior": [
+                    "scroll",
+                    "slide",
+                    "alternate"
+                ],
+                "bgcolor": [
+                    "#ffffff",
+                    "blue",
+                    "red",
+                    "black"
+                ],
+                "direction": [
+                    "left",
+                    "right",
+                    "up",
+                    "down"
+                ],
+                "height": [
+                    "100",
+                    "200",
+                    "100%"
+                ],
+                "hspace": [
+                    "0",
+                    "5",
+                    "10"
+                ],
+                "loop": [
+                    "-1",
+                    "0",
+                    "3",
+                    "infinite"
+                ],
+                "scrollamount": [
+                    "1",
+                    "2",
+                    "5",
+                    "10"
+                ],
+                "scrolldelay": [
+                    "60",
+                    "100",
+                    "200"
+                ],
+                "truespeed": [
+                    "",
+                    "truespeed"
+                ],
+                "vspace": [
+                    "0",
+                    "5",
+                    "10"
+                ],
+                "width": [
+                    "100",
+                    "200",
+                    "50%",
+                    "100%"
+                ]
+            }
+        }
+    },
+    {
+        "nav": {
+            "attributes": {
+                "noattr": [
+                    "0"
+                ]
+            }
+        }
+    },
+    {
+        "nobr": {
+            "attributes": {
+                "noattr": [
+                    "0"
+                ]
+            }
+        }
+    },
+    {
+        "noembed": {
+            "attributes": {
+                "noattr": [
+                    "0"
+                ]
+            }
+        }
+    },
+    {
+        "noscript": {
+            "attributes": {
+                "noattr": [
+                    "0"
+                ]
+            }
+        }
+    },
+    {
+        "noframes": {
+            "attributes": {
+                "noattr": [
+                    "0"
+                ]
+            }
+        }
+    },
+    {
+        "object": {
+            "attributes": {
+                "archive": [
+                    "archive.zip",
+                    "resources/",
+                    "https://cdn.example.com/lib/"
+                ],
+                "border": [
+                    "0",
+                    "1",
+                    "5",
+                    "10"
+                ],
+                "classid": [
+                    "clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+                ],
+                "codebase": [
+                    "https://example.com/activex/",
+                    "plugin.cab"
+                ],
+                "codetype": [
+                    "application/java",
+                    "application/pdf"
+                ],
+                "data": [
+                    "data.json",
+                    "plugin.swf",
+                    "https://example.com/embed"
+                ],
+                "declare": [
+                    "",
+                    "declare"
+                ],
+                "form": [
+                    "form1",
+                    "uploadForm"
+                ],
+                "height": [
+                    "200",
+                    "400",
+                    "100%"
+                ],
+                "name": [
+                    "plugin",
+                    "objectViewer",
+                    "flashMovie"
+                ],
+                "standby": [
+                    "Loading...",
+                    "Please wait..."
+                ],
+                "type": [
+                    "application/pdf",
+                    "application/x-shockwave-flash",
+                    "image/svg+xml"
+                ],
+                "usemap": [
+                    "#map1",
+                    "#objectmap"
+                ],
+                "width": [
+                    "300",
+                    "600",
+                    "100%"
+                ]
+            }
+        }
+    },
+    {
+        "optgroup": {
+            "attributes": {
+                "disabled": [
+                    "",
+                    "disabled"
+                ],
+                "label": [
+                    "Group 1",
+                    "Options A",
+                    "Categories",
+                    "Choose one"
+                ]
+            }
+        }
+    },
+    {
+        "option": {
+            "attributes": {
+                "disabled": [
+                    "",
+                    "disabled"
+                ],
+                "label": [
+                    "Option A",
+                    "Choice 1",
+                    "Item Name",
+                    "Selection"
+                ],
+                "selected": [
+                    "",
+                    "selected"
+                ],
+                "value": [
+                    "1",
+                    "yes",
+                    "no",
+                    "custom-value",
+                    "true",
+                    "false"
+                ]
+            }
+        }
+    },
+    {
+        "ol": {
+            "attributes": {
+                "compact": [
+                    "",
+                    "compact"
+                ],
+                "reversed": [
+                    "",
+                    "reversed"
+                ],
+                "start": [
+                    "1",
+                    "0",
+                    "5",
+                    "10",
+                    "-5"
+                ],
+                "type": [
+                    "1",
+                    "A",
+                    "a",
+                    "I",
+                    "i"
+                ]
+            }
+        }
+    },
+    {
+        "output": {
+            "attributes": {
+                "for": [
+                    "input1",
+                    "slider value",
+                    "username age"
+                ],
+                "form": [
+                    "calcForm",
+                    "form1"
+                ],
+                "name": [
+                    "result",
+                    "output1",
+                    "valueField"
+                ]
+            }
+        }
+    },
+    {
+        "p": {
+            "attributes": {
+                "noattr": [
+                    "0"
+                ]
+            }
+        }
+    },
+    {
+        "param": {
+            "attributes": {
+                "name": [
+                    "movie",
+                    "autoplay",
+                    "quality",
+                    "volume"
+                ],
+                "type": [
+                    "text",
+                    "ref",
+                    "data",
+                    "object"
+                ],
+                "value": [
+                    "true",
+                    "false",
+                    "high",
+                    "low",
+                    "1",
+                    "custom"
+                ],
+                "valuetype": [
+                    "data",
+                    "ref",
+                    "object"
+                ]
+            }
+        }
+    },
+    {
+        "plaintext": {
+            "attributes": {
+                "noattr": [
+                    "0"
+                ]
+            }
+        }
+    },
+    {
+        "pre": {
+            "attributes": {
+                "width": [
+                    "80",
+                    "100",
+                    "120",
+                    "auto"
+                ]
+            }
+        }
+    },
+    {
+        "progress": {
+            "attributes": {
+                "max": [
+                    "100",
+                    "10",
+                    "1.0"
+                ],
+                "min": [
+                    "0",
+                    "1",
+                    "10"
+                ],
+                "optimum": [
+                    "50",
+                    "75",
+                    "100"
+                ],
+                "value": [
+                    "25",
+                    "50.5",
+                    "75",
+                    "0"
+                ]
+            }
+        }
+    },
+    {
+        "picture": {
+            "attributes": {
+                "noattr": [
+                    "0"
+                ]
+            }
+        }
+    },
+    {
+        "q": {
+            "attributes": {
+                "cite": [
+                    "https://example.com/quote",
+                    "http://source.org/text",
+                    "/docs/reference.html"
+                ]
+            }
+        }
+    },
+    {
+        "rb": {
+            "attributes": {
+                "noattr": [
+                    "0"
+                ]
+            }
+        }
+    },
+    {
+        "rp": {
+            "attributes": {
+                "noattr": [
+                    "0"
+                ]
+            }
+        }
+    },
+    {
+        "rt": {
+            "attributes": {
+                "noattr": [
+                    "0"
+                ]
+            }
+        }
+    },
+    {
+        "rtc": {
+            "attributes": {
+                "noattr": [
+                    "0"
+                ]
+            }
+        }
+    },
+    {
+        "s": {
+            "attributes": {
+                "noattr": [
+                    "0"
+                ]
+            }
+        }
+    },
+    {
+        "samp": {
+            "attributes": {
+                "noattr": [
+                    "0"
+                ]
+            }
+        }
+    },
+    {
+        "script": {
+            "attributes": {
+                "async": [
+                    "",
+                    "async"
+                ],
+                "attributionsrc": [
+                    "https://cdn.example.com/script-meta",
+                    "/meta/script.json"
+                ],
+                "blocking": [
+                    "render",
+                    "style",
+                    "script"
+                ],
+                "crossorigin": [
+                    "anonymous",
+                    "use-credentials"
+                ],
+                "defer": [
+                    "",
+                    "defer"
+                ],
+                "fetchpriority": [
+                    "high",
+                    "low",
+                    "auto"
+                ],
+                "integrity": [
+                    "sha384-abc123==",
+                    "sha256-def456==",
+                    "sha512-hash=="
+                ],
+                "nomodule": [
+                    "",
+                    "nomodule"
+                ],
+                "referrerpolicy": [
+                    "no-referrer",
+                    "no-referrer-when-downgrade",
+                    "origin",
+                    "origin-when-cross-origin",
+                    "strict-origin",
+                    "unsafe-url"
+                ],
+                "src": [
+                    "script.js",
+                    "https://example.com/script.min.js",
+                    "/assets/init.js"
+                ],
+                "type": [
+                    "text/javascript",
+                    "module",
+                    "application/javascript",
+                    "text/ecmascript"
+                ]
+            }
+        }
+    },
+    {
+        "ruby": {
+            "attributes": {
+                "noattr": [
+                    "0"
+                ]
+            }
+        }
+    },
+    {
+        "search": {
+            "attributes": {
+                "noattr": [
+                    "0"
+                ]
+            }
+        }
+    },
+    {
+        "section": {
+            "attributes": {
+                "noattr": [
+                    "0"
+                ]
+            }
+        }
+    },
+    {
+        "selectedcontent": {
+            "attributes": {
+                "noattr": [
+                    "0"
+                ]
+            }
+        }
+    },
+    {
+        "slot": {
+            "attributes": {
+                "name": [
+                    "header",
+                    "footer",
+                    "sidebar",
+                    "custom-slot",
+                    "main"
+                ]
+            }
+        }
+    },
+    {
+        "select": {
+            "attributes": {
+                "autocomplete": [
+                    "on",
+                    "off"
+                ],
+                "disabled": [
+                    "",
+                    "disabled"
+                ],
+                "form": [
+                    "form1",
+                    "searchForm",
+                    "userForm"
+                ],
+                "hr_in_select": [
+                    "true",
+                    "false"
+                ],
+                "multiple": [
+                    "",
+                    "multiple"
+                ],
+                "name": [
+                    "options",
+                    "category",
+                    "dropdown1"
+                ],
+                "required": [
+                    "",
+                    "required"
+                ],
+                "size": [
+                    "1",
+                    "3",
+                    "5",
+                    "10"
+                ]
+            }
+        }
+    },
+    {
+        "small": {
+            "attributes": {
+                "noattr": [
+                    "0"
+                ]
+            }
+        }
+    },
+    {
+        "source": {
+            "attributes": {
+                "height": [
+                    "200",
+                    "400",
+                    "720",
+                    "100%"
+                ],
+                "media": [
+                    "(min-width: 600px)",
+                    "screen",
+                    "print",
+                    "all"
+                ],
+                "sizes": [
+                    "(max-width: 600px) 480px, 800px",
+                    "100vw"
+                ],
+                "src": [
+                    "video.mp4",
+                    "audio.ogg",
+                    "image.webp",
+                    "https://cdn.example.com/media"
+                ],
+                "srcset": [
+                    "img1.jpg 1x, img2.jpg 2x",
+                    "small.jpg 640w, large.jpg 1280w"
+                ],
+                "type": [
+                    "video/mp4",
+                    "audio/mpeg",
+                    "image/webp",
+                    "application/ogg"
+                ],
+                "width": [
+                    "300",
+                    "640",
+                    "1280",
+                    "100%"
+                ]
+            }
+        }
+    },
+    {
+        "span": {
+            "attributes": {
+                "noattr": [
+                    "0"
+                ]
+            }
+        }
+    },
+    {
+        "strike": {
+            "attributes": {
+                "noattr": [
+                    "0"
+                ]
+            }
+        }
+    },
+    {
+        "strong": {
+            "attributes": {
+                "noattr": [
+                    "0"
+                ]
+            }
+        }
+    },
+    {
+        "sub": {
+            "attributes": {
+                "noattr": [
+                    "0"
+                ]
+            }
+        }
+    },
+    {
+        "style": {
+            "attributes": {
+                "blocking": [
+                    "render",
+                    "script",
+                    "style"
+                ],
+                "media": [
+                    "all",
+                    "screen",
+                    "print",
+                    "(min-width: 600px)"
+                ],
+                "type": [
+                    "text/css",
+                    "text/less",
+                    "text/scss"
+                ]
+            }
+        }
+    },
+    {
+        "summary": {
+            "attributes": {
+                "display_list_item": [
+                    "true",
+                    "false",
+                    "",
+                    "display_list_item"
+                ]
+            }
+        }
+    },
+    {
+        "table": {
+            "attributes": {
+                "align": [
+                    "left",
+                    "center",
+                    "right",
+                    "justify"
+                ],
+                "bgcolor": [
+                    "#ffffff",
+                    "gray",
+                    "blue",
+                    "lightgreen"
+                ],
+                "border": [
+                    "0",
+                    "1",
+                    "2",
+                    "5"
+                ],
+                "cellpadding": [
+                    "0",
+                    "2",
+                    "5",
+                    "10"
+                ],
+                "cellspacing": [
+                    "0",
+                    "2",
+                    "5",
+                    "10"
+                ],
+                "frame": [
+                    "void",
+                    "above",
+                    "below",
+                    "hsides",
+                    "lhs",
+                    "rhs",
+                    "vsides",
+                    "box",
+                    "border"
+                ],
+                "rules": [
+                    "none",
+                    "groups",
+                    "rows",
+                    "cols",
+                    "all"
+                ],
+                "summary": [
+                    "Table summary for screen readers",
+                    "Layout table",
+                    "Data overview"
+                ],
+                "width": [
+                    "100",
+                    "400",
+                    "100%",
+                    "80%"
+                ]
+            }
+        }
+    },
+    {
+        "tbody": {
+            "attributes": {
+                "align": [
+                    "left",
+                    "center",
+                    "right"
+                ],
+                "bgcolor": [
+                    "#ffffff",
+                    "gray",
+                    "blue"
+                ],
+                "char": [
+                    ".",
+                    ",",
+                    ":",
+                    ";"
+                ],
+                "charoff": [
+                    "0",
+                    "1",
+                    "10",
+                    "50"
+                ],
+                "valign": [
+                    "top",
+                    "middle",
+                    "bottom",
+                    "baseline"
+                ]
+            }
+        }
+    },
+    {
+        "td": {
+            "attributes": {
+                "abbr": [
+                    "Abbreviation",
+                    "Code",
+                    "Label"
+                ],
+                "align": [
+                    "left",
+                    "center",
+                    "right",
+                    "justify",
+                    "char"
+                ],
+                "axis": [
+                    "category",
+                    "price",
+                    "date",
+                    "location"
+                ],
+                "bgcolor": [
+                    "#ffffff",
+                    "red",
+                    "green",
+                    "blue",
+                    "gray"
+                ],
+                "char": [
+                    ".",
+                    ",",
+                    ";",
+                    ":"
+                ],
+                "charoff": [
+                    "0",
+                    "1",
+                    "10",
+                    "20"
+                ],
+                "colspan": [
+                    "1",
+                    "2",
+                    "3",
+                    "5",
+                    "10"
+                ],
+                "headers": [
+                    "header1",
+                    "col-id",
+                    "row-id"
+                ],
+                "rowspan": [
+                    "1",
+                    "2",
+                    "3",
+                    "5"
+                ],
+                "scope": [
+                    "row",
+                    "col",
+                    "rowgroup",
+                    "colgroup"
+                ],
+                "valign": [
+                    "top",
+                    "middle",
+                    "bottom",
+                    "baseline"
+                ],
+                "width": [
+                    "100",
+                    "200",
+                    "25%",
+                    "50%",
+                    "100%"
+                ]
+            }
+        }
+    },
+    {
+        "sup": {
+            "attributes": {
+                "noattr": [
+                    "0"
+                ]
+            }
+        }
+    },
+    {
+        "textarea": {
+            "attributes": {
+                "autocomplete": [
+                    "on",
+                    "off"
+                ],
+                "cols": [
+                    "20",
+                    "40",
+                    "80",
+                    "100"
+                ],
+                "dirname": [
+                    "comment.dir",
+                    "feedback.dir",
+                    "userInput.dir"
+                ],
+                "disabled": [
+                    "",
+                    "disabled"
+                ],
+                "form": [
+                    "form1",
+                    "feedbackForm",
+                    "contactForm"
+                ],
+                "maxlength": [
+                    "100",
+                    "255",
+                    "500",
+                    "1000"
+                ],
+                "minlength": [
+                    "10",
+                    "50",
+                    "100"
+                ],
+                "name": [
+                    "message",
+                    "comments",
+                    "bio",
+                    "description"
+                ],
+                "placeholder": [
+                    "Write your comment...",
+                    "Type here",
+                    "Add a message"
+                ],
+                "readonly": [
+                    "",
+                    "readonly"
+                ],
+                "required": [
+                    "",
+                    "required"
+                ],
+                "rows": [
+                    "4",
+                    "6",
+                    "10",
+                    "20"
+                ],
+                "spellcheck": [
+                    "true",
+                    "false"
+                ],
+                "wrap": [
+                    "soft",
+                    "hard",
+                    "off"
+                ]
+            }
+        }
+    },
+    {
+        "template": {
+            "attributes": {
+                "shadowrootclonable": [
+                    "",
+                    "shadowrootclonable"
+                ],
+                "shadowrootdelegatesfocus": [
+                    "",
+                    "shadowrootdelegatesfocus"
+                ],
+                "shadowrootmode": [
+                    "open",
+                    "closed"
+                ],
+                "shadowrootserializable": [
+                    "",
+                    "shadowrootserializable"
+                ]
+            }
+        }
+    },
+    {
+        "tfoot": {
+            "attributes": {
+                "align": [
+                    "left",
+                    "center",
+                    "right"
+                ],
+                "bgcolor": [
+                    "#eeeeee",
+                    "#ffffff",
+                    "gray"
+                ],
+                "char": [
+                    ".",
+                    ",",
+                    ":",
+                    ";"
+                ],
+                "charoff": [
+                    "0",
+                    "1",
+                    "10",
+                    "20"
+                ],
+                "valign": [
+                    "top",
+                    "middle",
+                    "bottom",
+                    "baseline"
+                ]
+            }
+        }
+    },
+    {
+        "th": {
+            "attributes": {
+                "abbr": [
+                    "Title",
+                    "Description",
+                    "Name"
+                ],
+                "align": [
+                    "left",
+                    "center",
+                    "right",
+                    "justify",
+                    "char"
+                ],
+                "axis": [
+                    "row",
+                    "col",
+                    "category",
+                    "value"
+                ],
+                "bgcolor": [
+                    "#cccccc",
+                    "gray",
+                    "#ffffff"
+                ],
+                "char": [
+                    ".",
+                    ",",
+                    ":",
+                    ";"
+                ],
+                "charoff": [
+                    "0",
+                    "1",
+                    "10",
+                    "20"
+                ],
+                "colspan": [
+                    "1",
+                    "2",
+                    "3",
+                    "5"
+                ],
+                "headers": [
+                    "row-id",
+                    "header1",
+                    "title"
+                ],
+                "rowspan": [
+                    "1",
+                    "2",
+                    "3"
+                ],
+                "scope": [
+                    "row",
+                    "col",
+                    "rowgroup",
+                    "colgroup"
+                ],
+                "valign": [
+                    "top",
+                    "middle",
+                    "bottom",
+                    "baseline"
+                ],
+                "width": [
+                    "100",
+                    "25%",
+                    "50%",
+                    "auto"
+                ]
+            }
+        }
+    },
+    {
+        "thead": {
+            "attributes": {
+                "align": [
+                    "left",
+                    "center",
+                    "right"
+                ],
+                "bgcolor": [
+                    "#f2f2f2",
+                    "#ffffff",
+                    "gray"
+                ],
+                "char": [
+                    ".",
+                    ",",
+                    ":",
+                    ";"
+                ],
+                "charoff": [
+                    "0",
+                    "1",
+                    "10",
+                    "20"
+                ],
+                "valign": [
+                    "top",
+                    "middle",
+                    "bottom",
+                    "baseline"
+                ]
+            }
+        }
+    },
+    {
+        "time": {
+            "attributes": {
+                "datetime": [
+                    "2024-04-20",
+                    "2025-01-01T12:30",
+                    "2023-12-31T23:59:59Z",
+                    "14:30",
+                    "2025-04-20T18:00:00+05:30"
+                ]
+            }
+        }
+    },
+    {
+        "title": {
+            "attributes": {
+                "noattr": [
+                    "0"
+                ]
+            }
+        }
+    },
+    {
+        "tr": {
+            "attributes": {
+                "align": [
+                    "left",
+                    "center",
+                    "right",
+                    "justify",
+                    "char"
+                ],
+                "bgcolor": [
+                    "#ffffff",
+                    "#f0f0f0",
+                    "gray",
+                    "lightblue"
+                ],
+                "char": [
+                    ".",
+                    ",",
+                    ":",
+                    ";"
+                ],
+                "charoff": [
+                    "0",
+                    "1",
+                    "10",
+                    "20"
+                ],
+                "valign": [
+                    "top",
+                    "middle",
+                    "bottom",
+                    "baseline"
+                ]
+            }
+        }
+    },
+    {
+        "track": {
+            "attributes": {
+                "default": [
+                    "",
+                    "default"
+                ],
+                "kind": [
+                    "subtitles",
+                    "captions",
+                    "descriptions",
+                    "chapters",
+                    "metadata"
+                ],
+                "label": [
+                    "English",
+                    "Español",
+                    "Deutsch",
+                    "Narration",
+                    "Scene Info"
+                ],
+                "src": [
+                    "subtitles.vtt",
+                    "captions.srt",
+                    "https://example.com/en.vtt"
+                ],
+                "srclang": [
+                    "en",
+                    "es",
+                    "fr",
+                    "de",
+                    "zh",
+                    "ar",
+                    "ru",
+                    "pt"
+                ]
+            }
+        }
+    },
+    {
+        "tt": {
+            "attributes": {
+                "noattr": [
+                    "0"
+                ]
+            }
+        }
+    },
+    {
+        "u": {
+            "attributes": {
+                "noattr": [
+                    "0"
+                ]
+            }
+        }
+    },
+    {
+        "var": {
+            "attributes": {
+                "noattr": [
+                    "0"
+                ]
+            }
+        }
+    },
+    {
+        "ul": {
+            "attributes": {
+                "compact": [
+                    "",
+                    "compact"
+                ],
+                "type": [
+                    "disc",
+                    "circle",
+                    "square"
+                ]
+            }
+        }
+    },
+    {
+        "video": {
+            "attributes": {
+                "aspect_ratio_computed_from_attributes": [
+                    "true",
+                    "false"
+                ],
+                "autoplay": [
+                    "",
+                    "autoplay"
+                ],
+                "controls": [
+                    "",
+                    "controls"
+                ],
+                "controlslist": [
+                    "nodownload",
+                    "nofullscreen",
+                    "noremoteplayback",
+                    "noplaybackrate",
+                    "none"
+                ],
+                "crossorigin": [
+                    "anonymous",
+                    "use-credentials"
+                ],
+                "disablepictureinpicture": [
+                    "",
+                    "disablepictureinpicture"
+                ],
+                "disableremoteplayback": [
+                    "",
+                    "disableremoteplayback"
+                ],
+                "height": [
+                    "240",
+                    "360",
+                    "480",
+                    "720",
+                    "100%"
+                ],
+                "loop": [
+                    "",
+                    "loop"
+                ],
+                "muted": [
+                    "",
+                    "muted"
+                ],
+                "playsinline": [
+                    "",
+                    "playsinline"
+                ],
+                "poster": [
+                    "poster.jpg",
+                    "https://cdn.example.com/thumb.png"
+                ],
+                "preload": [
+                    "auto",
+                    "metadata",
+                    "none"
+                ],
+                "src": [
+                    "video.mp4",
+                    "/media/trailer.webm",
+                    "https://example.com/movie.ogv"
+                ],
+                "width": [
+                    "320",
+                    "640",
+                    "1280",
+                    "100%"
+                ]
+            }
+        }
+    },
+    {
+        "wbr": {
+            "attributes": {
+                "noattr": [
+                    "0"
+                ]
+            }
+        }
+    },
+    {
+        "xmp": {
+            "attributes": {
+                "noattr": [
+                    "0"
+                ]
+            }
+        }
+    }
+]

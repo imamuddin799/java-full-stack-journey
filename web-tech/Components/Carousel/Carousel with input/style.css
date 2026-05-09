@@ -1,0 +1,181 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #5454ff, #ff22da);
+}
+
+#parent{
+    height: 500px;
+    width: 900px;
+    background-color: chartreuse;
+    overflow: hidden;
+}
+#child{
+    height: 460px;
+    width: 500%;
+    background-color: cyan;
+    overflow: visible;
+    display: flex;
+    /* animation: slide 8s linear 1s infinite; */
+}
+@keyframes slide {
+    0%{
+        transform: translateX(0%);
+    }
+    20%{
+        transform: translateX(0%);
+    }
+    25%{
+        transform: translateX(-20% );
+    }
+    45%{
+        transform: translateX(-20%);
+    }
+    50%{
+        transform: translateX(-40% );
+    }
+    70%{
+        transform: translateX(-40%);
+    }
+    75%{
+        transform: translateX(-60% );
+    }
+    95%{
+        transform: translateX(-60%);
+    }
+    100%{
+        transform: translateX(-80%);
+    }
+}
+.g-child{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+input{
+    display: none;
+}
+#labels{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+label{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: blue;
+    margin: 5px;
+    border: 6px solid rgb(103, 0, 0);
+}
+label:hover{
+    background-color: #ff22da;
+    border-color: white;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+input:checked label{
+    background-color: #ff22da;
+    border-color: white;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+#input-1:checked ~ #child{
+    transform: translateX(0%);
+    transition: all 0.5s ease;
+}
+#input-2:checked ~ #child{
+    transform: translateX(-20%);
+    transition: all 0.5s ease;
+}
+#input-3:checked ~ #child{
+    transform: translateX(-40%);
+    transition: all 0.5s ease;
+}
+#input-4:checked ~ #child{
+    transform: translateX(-60%);
+    transition: all 0.5s ease;
+}
+
+#input-1:checked ~ #labels>#label-1{
+    background-color: #ff22da;
+    border-color: white;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+#input-2:checked ~ #labels>#label-2{
+    background-color: #ff22da;
+    border-color: white;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+#input-3:checked ~ #labels>#label-3{
+    background-color: #ff22da;
+    border-color: white;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+#input-4:checked ~ #labels>#label-4{
+    background-color: #ff22da;
+    border-color: white;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+
+/* #labels{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+label{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: blue;
+    margin: 5px;
+    border: 6px solid rgb(103, 0, 0);
+}
+label:hover{
+    background-color: #ff22da;
+    border-color: white;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+label:checked{
+    background-color: #ff22da;
+    border-color: white;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+
+#input-1:checked ~ #child{
+    transform: translateX(0%);
+}
+#input-2:checked ~ #child{
+    transform: translateX(-20%);
+}
+#input-3:checked ~ #child{
+    transform: translateX(-40%);
+}
+#input-4:checked ~ #child{
+    transform: translateX(-60%);
+} */

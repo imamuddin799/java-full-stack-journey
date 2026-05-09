@@ -1,0 +1,142 @@
+[
+    {
+        "employee_id": 1,
+        "full_name": "Anallese Showalter",
+        "job_title": "Quality Engineer",
+        "department": "Marketing",
+        "hire_date": "2013-07-25"
+    },
+    {
+        "employee_id": 2,
+        "full_name": "Sheree Parzis",
+        "job_title": "Desktop Support Technician",
+        "department": "Marketing",
+        "hire_date": "2002-06-11"
+    },
+    {
+        "employee_id": 3,
+        "full_name": "Griselda Rannald",
+        "job_title": "Research Associate",
+        "department": "Sales",
+        "hire_date": "2005-11-23"
+    },
+    {
+        "employee_id": 4,
+        "full_name": "Arin Ewells",
+        "job_title": "Software Consultant",
+        "department": "Finance",
+        "hire_date": "2014-06-19"
+    },
+    {
+        "employee_id": 5,
+        "full_name": "Bobette Cotman",
+        "job_title": "Operator",
+        "department": "IT",
+        "hire_date": "2018-05-29"
+    },
+    {
+        "employee_id": 6,
+        "full_name": "Kalvin McKerton",
+        "job_title": "Financial Advisor",
+        "department": "Marketing",
+        "hire_date": "2016-07-20"
+    },
+    {
+        "employee_id": 7,
+        "full_name": "Virgilio Liversley",
+        "job_title": "Sales Associate",
+        "department": "Operations",
+        "hire_date": "2020-02-27"
+    },
+    {
+        "employee_id": 8,
+        "full_name": "Arlinda Hanwell",
+        "job_title": "Programmer IV",
+        "department": "Finance",
+        "hire_date": "2016-07-27"
+    },
+    {
+        "employee_id": 9,
+        "full_name": "Shay Luis",
+        "job_title": "Developer II",
+        "department": "Sales",
+        "hire_date": "2013-08-18"
+    },
+    {
+        "employee_id": 10,
+        "full_name": "Marybelle Togwell",
+        "job_title": "Chemical Engineer",
+        "department": "Operations",
+        "hire_date": "2020-11-09"
+    },
+    {
+        "employee_id": 11,
+        "full_name": "Shelton Kilbourne",
+        "job_title": "Senior Sales Associate",
+        "department": "Marketing",
+        "hire_date": "2021-08-21"
+    },
+    {
+        "employee_id": 12,
+        "full_name": "Aldon Caldecott",
+        "job_title": "Compensation Analyst",
+        "department": "IT",
+        "hire_date": "2001-11-21"
+    },
+    {
+        "employee_id": 13,
+        "full_name": "Sigismondo Pinkerton",
+        "job_title": "Occupational Therapist",
+        "department": "Operations",
+        "hire_date": "2013-06-05"
+    },
+    {
+        "employee_id": 14,
+        "full_name": "Taddeusz Bickle",
+        "job_title": "Structural Engineer",
+        "department": "Sales",
+        "hire_date": "2010-08-20"
+    },
+    {
+        "employee_id": 15,
+        "full_name": "Edi Croizier",
+        "job_title": "Web Designer II",
+        "department": "IT",
+        "hire_date": "2022-05-10"
+    },
+    {
+        "employee_id": 16,
+        "full_name": "Coleman Burbridge",
+        "job_title": "Recruiter",
+        "department": "Marketing",
+        "hire_date": "2014-01-29"
+    },
+    {
+        "employee_id": 17,
+        "full_name": "Demetria MacDonald",
+        "job_title": "GIS Technical Architect",
+        "department": "Finance",
+        "hire_date": "2016-10-28"
+    },
+    {
+        "employee_id": 18,
+        "full_name": "Adolphus Oldred",
+        "job_title": "Dental Hygienist",
+        "department": "IT",
+        "hire_date": "2018-01-14"
+    },
+    {
+        "employee_id": 19,
+        "full_name": "Tibold Bridal",
+        "job_title": "Senior Financial Analyst",
+        "department": "Operations",
+        "hire_date": "2009-04-26"
+    },
+    {
+        "employee_id": 20,
+        "full_name": "Mitchel Cawdron",
+        "job_title": "Budget-Accounting Analyst III",
+        "department": "Marketing",
+        "hire_date": "2001-12-30"
+    }
+]

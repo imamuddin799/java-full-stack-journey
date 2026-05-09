@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="desc">List of departments and their heads</p>
+    <!-- <table border="2px solid" rules="all" summary="List of departments and their heads"> -->
+    <table border="2px solid" rules="all" aria-describedby="desc">
+        <tfoot>
+            <tr>
+                <td colspan="3" align="center">Footer</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+        </tbody>
+        <caption>Properties</caption>
+        <thead>
+            <tr>
+                <th>Heading 1</th>
+                <th>Heading 2</th>
+                <th>Heading 3</th>
+            </tr>
+        </thead>
+    </table>
+
+    <img src="../../HTML/IMAGES/autumn-7554430_1920.jpg" alt="" draggable="true" width="100px" height="100px"/>
+
+    <textarea spellcheck="true" cols="100" rows="20">Typo test</textarea>
+
+    <script>
+        let table = document.querySelector("table")
+        let i = 1;
+        for(let property in table){
+            document.write((i++) + "&nbsp &nbsp &nbsp &nbsp" + property + "<br>");
+        }
+
+        let body = document.createElement("body")
+        let j = 1;
+        for(let property in body){
+            document.write((j++) + "&nbsp &nbsp &nbsp &nbsp" + property + "<br>");
+        }
+    </script>
+
+    <script>
+        const allElements = document.getElementsByTagName("*");
+        for (let element of allElements) {
+            console.log(element.tagName);
+        }
+    </script>
+</body>
+</html>

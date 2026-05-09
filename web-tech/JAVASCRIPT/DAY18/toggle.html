@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        ol{
+            display: flex;
+            justify-content: space-evenly;
+            list-style: none;
+        }
+        nav{
+            border: 2px solid;
+        }
+        form{
+            border: 2px solid;
+            width: 40%;
+            height: 150px;
+            text-align: center;
+            margin: auto;
+            display: none;
+        }
+        div{
+            border: 2px solid;
+            width: 40%;
+            height: 150px;
+            text-align: center;
+            margin: auto;
+            display: none;
+        }
+    </style>
+    <nav>
+        <ol>
+            <li>home</li>
+            <li id="d1">login</li>
+            <li onmousemove="register1()" onmouseleave="register2()">register</li>
+        </ol>
+    </nav>
+
+    <form action="">
+        <h2>Login form</h2>
+    </form>
+
+    <div>
+        <h2>Register</h2>
+    </div>
+    <script src="./toggle.js"></script>
+</body>
+</html>

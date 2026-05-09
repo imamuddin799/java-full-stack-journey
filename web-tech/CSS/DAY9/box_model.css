@@ -1,0 +1,60 @@
+div{
+    border: 2px solid;
+    height: 50px;
+    width: 15px;
+    padding-left: 20px;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    padding-right: 40px;
+    padding: 40px;
+    padding: 40px 20px;
+    padding: 40px 20px 10px;
+    padding: 40px 20px 10px 5px;
+}
+
+section{
+    border: 2px solid red;
+    height: 100px;
+    width: 100px;
+    border-top: 3px dotted;
+    border-top-color: aqua;
+    border-top-width: 8px;
+    border-bottom-width: 0px;
+    border-bottom-style: double;
+    border-bottom-color: blue;
+    border-right-width: 10px;
+    border-right-style: groove;
+    border-right-color: crimson;
+    border-left-width: 10px;
+    border-left-style: ridge;
+    border-left-color: indigo;
+    /* border-top: none; */
+    margin-top: 20%;
+    margin-left: 20%;
+    /* margin-top: -30%; */
+    margin-bottom: 30%;
+
+}
+
+aside{
+    border: 2px solid;
+    height: 100px;
+    width: 100px;
+    border-radius: 90%;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-radius: 50%;
+    outline-width: 8px;
+    outline-style: dotted;
+    outline-color: red;
+    outline-offset: 15px;
+    margin-left: 20px;
+    margin-top: 30%;
+    margin: auto;
+    margin-left: 40%;
+    margin-top: -30%;
+    margin-right: 50%;
+    margin: 50%;
+}

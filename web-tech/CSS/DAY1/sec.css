@@ -1,0 +1,6 @@
+@import url(./footer.css);
+section{
+    border: 2px solid;
+    height: 200px;
+    background-color: aqua;
+}

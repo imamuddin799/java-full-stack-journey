@@ -1,0 +1,33 @@
+{
+    "heading": "DSA Courses at INR 2,499",
+    "cardDetails": [
+        {
+            "imageUrl": "https://media.geeksforgeeks.org/img-practice/prod/courses/198/Web/Content/dsa_1723009292.webp",
+            "noOfGeeks": "1377k+",
+            "courseName": "Data Structures and Algorithms - Self Paced [Online Course]",
+            "rating": 4.7,
+            "level": "Beginner to Advance"
+        },
+        {
+            "imageUrl": "https://media.geeksforgeeks.org/img-practice/prod/courses/261/Web/Content/dspy_1723008711.webp",
+            "noOfGeeks": "330k+",
+            "courseName": "Data Structures & Algorithms in Python - Self Paced",
+            "rating": 4.7,
+            "level": "Beginner to Advance"
+        },
+        {
+            "imageUrl": "https://media.geeksforgeeks.org/img-practice/prod/courses/463/Web/Content/dsa_js_1723009405.webp",
+            "noOfGeeks": "56k+",
+            "courseName": "Data Structures & Algorithms in JavaScript - Self Paced Course",
+            "rating": 4.6,
+            "level": "Beginner to Advance"
+        },
+        {
+            "imageUrl": "https://media.geeksforgeeks.org/img-practice/prod/courses/451/Web/Content/cp_1723008864.webp",
+            "noOfGeeks": "258k+",
+            "courseName": "Master Competitive Programming - Complete Beginner to Advanced",
+            "rating": 4.8,
+            "level": "Beginner to Advance"
+        }
+    ]
+}

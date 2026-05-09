@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body class="bg-info">
+    <form action="register" method="post">
+        <div class="container-fluid d-flex flex-column justify-content-center"  style="height : 100vh; width : 100vw;" >
+            <div class="container border border-danger bg-warning rounded-3 my-3 col-4 align-self-center">
+                <h2 class="text-danger my-3">Register Yourself</h2>
+                <div class="form-floating my-3">
+                    <input type="text" name="name" id="name" class="form-control" placeholder="Enter Your Name : " >
+                    <label for="name">Enter Your Name : </label>
+                </div>
+                <div class="form-floating my-3">
+                    <input type="date" name="dob" id="dob" class="form-control" placeholder="Enter Your dob : " >
+                    <label for="dob">Enter Your Date of Birth : </label>
+                </div>
+                <div class="form-floating my-3">
+                    <input type="email" name="email" id="email" class="form-control" placeholder="Enter Your Email : " >
+                    <label for="email">Enter Your Email : </label>
+                </div>
+                <div class="form-floating my-3">
+                    <input type="number" name="phone" id="phone" class="form-control" placeholder="Enter Your Phone : " >
+                    <label for="phone">Enter Your Phone : </label>
+                </div>
+                <div class="form-floating my-3">
+                    <input type="text" name="password" id="password" class="form-control" placeholder="Enter Your Password : ">
+                    <label for="password">Enter Your Password : </label>
+                </div>
+                <button type="submit" class="btn btn-success mb-3 py-2 me-3 col-3">Submit</button>
+                <a href="login.html" class="btn btn-primary mb-3 py-2 col-6">Already have an Account</a>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>

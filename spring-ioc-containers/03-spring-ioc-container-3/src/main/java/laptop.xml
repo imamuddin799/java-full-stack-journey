@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://www.springframework.org/schema/context
+            http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+    <bean id="mylaptop" class="org.jsp.spring_ioc_container2.constructor_injection.Laptop">
+    	<constructor-arg name="brand" value="Dell"></constructor-arg>
+    	<constructor-arg name="model" value="XPS 13"></constructor-arg>
+    	<constructor-arg name="ramGB" value="16"></constructor-arg>
+    	<constructor-arg name="mouse" ref="mymouse"></constructor-arg>
+    </bean>
+
+    <bean id="mymouse" class="org.jsp.spring_ioc_container2.constructor_injection.Mouse">
+    	<constructor-arg name="buttonType" value="Optical"></constructor-arg>
+    	<constructor-arg name="numberOfButtons" value="3"></constructor-arg>
+    	<constructor-arg name="scrollType" value="Wheel"></constructor-arg>
+    </bean>
+
+</beans>

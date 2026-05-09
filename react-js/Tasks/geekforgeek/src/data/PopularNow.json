@@ -1,0 +1,38 @@
+{
+    "heading": "Popular Now",
+    "cardDetails": [
+        {
+            "imageUrl": "https://media.geeksforgeeks.org/img-practice/prod/courses/504/Mobile/Other/Course_DSA_to_Dev_1720846081.webp",
+            "noOfGeeks": "569k+",
+            "courseName": "DSA to Development: A Complete Guide",
+            "rating": 4.4,
+            "level": "Beginner to Advance"
+        },
+        {
+            "imageUrl": "https://media.geeksforgeeks.org/img-practice/prod/courses/227/Mobile/Other/Course_Backend_1720846992.webp",
+            "noOfGeeks": "308k+",
+            "courseName": "JAVA Backend Development - Live",
+            "rating": 4.7,
+            "level": "Intermediate and Advance"
+        },
+        {
+            "imageUrl": "https://media.geeksforgeeks.org/img-practice/prod/courses/405/Mobile/Other/Course_ML_&_DS_1720846555.webp",
+            "noOfGeeks": "429k+",
+            "courseName": "Complete Machine Learning & Data Science Program",
+            "rating": 4.7,
+            "level": "Beginner to Advance"
+        },
+        {
+            "imageUrl": "https://media.geeksforgeeks.org/wp-content/uploads/20250515134416018376/IMG-20250510-WA0006.jpg",
+            "noOfGeeks": "1k+",
+            "courseName": "Placement Tayyari With DSA",
+            "level": "Beginner to Advance"
+        },
+        {
+            "imageUrl": "https://media.geeksforgeeks.org/wp-content/uploads/20250515134416018376/IMG-20250510-WA0006.jpg",
+            "noOfGeeks": "1k+",
+            "courseName": "Placement Tayyari With DSA",
+            "level": "Beginner to Advance"
+        }
+    ]
+}

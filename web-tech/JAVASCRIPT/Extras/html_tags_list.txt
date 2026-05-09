@@ -1,0 +1,129 @@
+<a> (Attributes: href, target, title)
+<abbr>
+<address>
+<area>
+<article>
+<aside>
+<audio> (Attributes: src, controls)
+<b>
+<base>
+<bdi>
+<bdo>
+<blockquote>
+<body>
+<br>
+<button> (Attributes: type, onclick)
+<canvas>
+<caption>
+<cite>
+<code>
+<col>
+<colgroup>
+<data>
+<datalist>
+<dd>
+<del>
+<details>
+<dfn>
+<dialog>
+<div> (Attributes: id, class)
+<dl>
+<dt>
+<em>
+<embed>
+<fieldset>
+<figcaption>
+<figure>
+<footer>
+<form> (Attributes: action, method)
+<h1>
+<h2>
+<h3>
+<h4>
+<h5>
+<h6>
+<head>
+<header>
+<hr>
+<html>
+<i>
+<iframe> (Attributes: src, width, height)
+<img> (Attributes: src, alt, width, height)
+<input> (Attributes: type, name, value, placeholder)
+<ins>
+<kbd>
+<label>
+<legend>
+<li>
+<link> (Attributes: href, rel, type)
+<main>
+<map>
+<mark>
+<meta> (Attributes: name, content, charset)
+<meter>
+<nav>
+<noscript>
+<object>
+<ol>
+<optgroup>
+<option> (Attributes: value, selected)
+<output>
+<p>
+<param>
+<picture>
+<pre>
+<progress>
+<q>
+<rp>
+<rt>
+<ruby>
+<s>
+<samp>
+<script> (Attributes: src, type)
+<section>
+<select> (Attributes: multiple, name)
+<small>
+<source>
+<span> (Attributes: id, class)
+<strong>
+<style>
+<sub>
+<summary>
+<sup>
+<table> (Attributes: border, cellpadding)
+<tbody>
+<td> (Attributes: colspan, rowspan)
+<template>
+<textarea> (Attributes: rows, cols)
+<tfoot>
+<th> (Attributes: scope)
+<thead>
+<time>
+<title>
+<tr>
+<track>
+<u>
+<ul>
+<var>
+<video> (Attributes: src, controls, autoplay)
+<wbr>
+<acronym>
+<applet>
+<basefont>
+<big>
+<blink>
+<center>
+<dir>
+<font>
+<frame>
+<frameset>
+<isindex>
+<listing>
+<marquee>
+<menuitem>
+<nobr>
+<noframes>
+<plaintext>
+<strike>
+<tt>
+<xmp>

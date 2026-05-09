@@ -1,0 +1,4208 @@
+java-full-stack-journey
+├── PROJECT_TREE.txt
+├── advanced-java
+│   ├── java-app-demo-01
+│   │   ├── lib
+│   │   └── src
+│   │       └── demo
+│   │           └── Demo.java
+│   ├── java-app-demo-02
+│   │   ├── lib
+│   │   └── src
+│   │       └── demo
+│   │           └── Demo1.java
+│   ├── java-app-jdbc-steps-03
+│   │   ├── lib
+│   │   └── src
+│   │       └── jdbc_steps
+│   │           ├── CloseCostlyResources13.java
+│   │           ├── CreateLoginTable14.java
+│   │           ├── CreateTable01.java
+│   │           ├── DeleteMultipleRecords06.java
+│   │           ├── DeleteRecord04.java
+│   │           ├── DynamicDelete10.java
+│   │           ├── DynamicInsert08.java
+│   │           ├── DynamicUpdate09.java
+│   │           ├── FetchAllRecords11.java
+│   │           ├── FetchAllRecordsUsingLoop12.java
+│   │           ├── InsertMultipleRecords05.java
+│   │           ├── InsertRecord02.java
+│   │           ├── Login16.java
+│   │           ├── PreparedStatement07.java
+│   │           ├── Register15.java
+│   │           └── UpdateRecord03.java
+│   ├── java-app-object-demo-17
+│   │   ├── lib
+│   │   └── src
+│   │       └── objectdemo
+│   │           ├── InsertObject.java
+│   │           └── Student.java
+│   ├── jsp-calculator-16
+│   │   └── src
+│   │       └── main
+│   │           ├── java
+│   │           └── webapp
+│   │               ├── META-INF
+│   │               │   └── MANIFEST.MF
+│   │               ├── WEB-INF
+│   │               │   ├── lib
+│   │               │   └── web.xml
+│   │               ├── add.jsp
+│   │               ├── divide.jsp
+│   │               ├── dividebyzero.jsp
+│   │               ├── error.jsp
+│   │               ├── index.jsp
+│   │               ├── nav.jsp
+│   │               └── square.jsp
+│   ├── jsp-demo-14
+│   │   └── src
+│   │       └── main
+│   │           ├── java
+│   │           └── webapp
+│   │               ├── META-INF
+│   │               │   └── MANIFEST.MF
+│   │               ├── WEB-INF
+│   │               │   ├── lib
+│   │               │   └── web.xml
+│   │               ├── index.jsp
+│   │               └── registered.jsp
+│   ├── jsp-login-15
+│   │   └── src
+│   │       └── main
+│   │           ├── java
+│   │           └── webapp
+│   │               ├── META-INF
+│   │               │   └── MANIFEST.MF
+│   │               ├── WEB-INF
+│   │               │   ├── lib
+│   │               │   └── web.xml
+│   │               ├── home.jsp
+│   │               ├── index.jsp
+│   │               ├── login.jsp
+│   │               └── register.jsp
+│   ├── servlet-all-ott-platforms-13
+│   │   └── src
+│   │       └── main
+│   │           ├── java
+│   │           │   └── all_ott
+│   │           │       ├── Login.java
+│   │           │       └── Register.java
+│   │           └── webapp
+│   │               ├── META-INF
+│   │               │   └── MANIFEST.MF
+│   │               ├── WEB-INF
+│   │               │   ├── lib
+│   │               │   └── web.xml
+│   │               ├── index.html
+│   │               ├── login.html
+│   │               └── register.html
+│   ├── servlet-calculations-10
+│   │   └── src
+│   │       └── main
+│   │           ├── java
+│   │           │   └── calculation
+│   │           │       ├── Add.java
+│   │           │       ├── Divide.java
+│   │           │       └── Square.java
+│   │           └── webapp
+│   │               ├── 404.html
+│   │               ├── 405.html
+│   │               ├── 500.html
+│   │               ├── META-INF
+│   │               │   └── MANIFEST.MF
+│   │               ├── WEB-INF
+│   │               │   ├── lib
+│   │               │   └── web.xml
+│   │               ├── add.html
+│   │               └── error.html
+│   ├── servlet-demo-04
+│   │   └── src
+│   │       └── main
+│   │           ├── java
+│   │           │   └── demoservlet
+│   │           │       └── DemoServlet.java
+│   │           └── webapp
+│   │               ├── META-INF
+│   │               │   └── MANIFEST.MF
+│   │               ├── WEB-INF
+│   │               │   ├── lib
+│   │               │   └── web.xml
+│   │               └── index.html
+│   ├── servlet-demo-05
+│   │   └── src
+│   │       └── main
+│   │           ├── java
+│   │           │   └── demoserv
+│   │           │       └── DemoServlet.java
+│   │           └── webapp
+│   │               ├── META-INF
+│   │               │   └── MANIFEST.MF
+│   │               ├── WEB-INF
+│   │               │   ├── lib
+│   │               │   └── web.xml
+│   │               └── index.html
+│   ├── servlet-demo-httpservlet-07
+│   │   └── src
+│   │       └── main
+│   │           ├── java
+│   │           │   └── demohttpservlet
+│   │           │       └── DemoHttpServlet.java
+│   │           └── webapp
+│   │               ├── META-INF
+│   │               │   └── MANIFEST.MF
+│   │               ├── WEB-INF
+│   │               │   ├── lib
+│   │               │   └── web.xml
+│   │               └── index.html
+│   ├── servlet-firstservlet-06
+│   │   └── src
+│   │       └── main
+│   │           ├── java
+│   │           │   └── firstservlet
+│   │           │       ├── Age.java
+│   │           │       └── FirstServlet.java
+│   │           └── webapp
+│   │               ├── META-INF
+│   │               │   └── MANIFEST.MF
+│   │               ├── WEB-INF
+│   │               │   ├── lib
+│   │               │   └── web.xml
+│   │               └── index.html
+│   ├── servlet-lifecycle-12
+│   │   └── src
+│   │       └── main
+│   │           ├── java
+│   │           │   └── servletlifecycle
+│   │           │       └── LifeCycle.java
+│   │           └── webapp
+│   │               ├── META-INF
+│   │               │   └── MANIFEST.MF
+│   │               ├── WEB-INF
+│   │               │   ├── lib
+│   │               │   └── web.xml
+│   │               └── index.html
+│   ├── servlet-login-08
+│   │   └── src
+│   │       └── main
+│   │           ├── java
+│   │           │   └── login
+│   │           │       ├── LoginServlet.java
+│   │           │       └── RegisterServlet.java
+│   │           └── webapp
+│   │               ├── META-INF
+│   │               │   └── MANIFEST.MF
+│   │               ├── WEB-INF
+│   │               │   ├── lib
+│   │               │   └── web.xml
+│   │               ├── index.html
+│   │               ├── login.html
+│   │               └── register.html
+│   ├── servlet-mini-project-studentmanagementsystem-09
+│   │   └── src
+│   │       └── main
+│   │           ├── java
+│   │           │   └── smsystem
+│   │           │       ├── ConfirmDelete.java
+│   │           │       ├── DeleteServlet.java
+│   │           │       ├── EditServlet.java
+│   │           │       ├── LoginServlet.java
+│   │           │       ├── RegisterServlet.java
+│   │           │       ├── Sum60.java
+│   │           │       ├── Test.java
+│   │           │       └── UpdateServlet.java
+│   │           └── webapp
+│   │               ├── META-INF
+│   │               │   └── MANIFEST.MF
+│   │               ├── WEB-INF
+│   │               │   ├── lib
+│   │               │   └── web.xml
+│   │               ├── home.html
+│   │               ├── index.html
+│   │               ├── login.html
+│   │               ├── register.html
+│   │               └── test.html
+│   └── servlet-sendredirect-11
+│       └── src
+│           └── main
+│               ├── java
+│               │   └── sendredirect_prog
+│               │       └── LoginServlet.java
+│               └── webapp
+│                   ├── META-INF
+│                   │   └── MANIFEST.MF
+│                   ├── WEB-INF
+│                   │   ├── lib
+│                   │   └── web.xml
+│                   └── demo.html
+├── core-java
+│   └── cjd-a12
+│       └── src
+│           ├── arrays_10
+│           │   ├── Arrays03.java
+│           │   ├── DistinctOdd21.java
+│           │   ├── DistinctOddArrayByMe22.java
+│           │   ├── DistinctOddArrayInClass23.java
+│           │   ├── Duplicate13.java
+│           │   ├── DuplicateEvenArrayByMe15.java
+│           │   ├── DuplicateEvenArrayInClass16.java
+│           │   ├── DuplicateEvenElements14.java
+│           │   ├── EvenArray04.java
+│           │   ├── Fibonacci06.java
+│           │   ├── FibonacciArray07.java
+│           │   ├── GCD_Of_N29.java
+│           │   ├── LCM_Of_N_ByMe30.java
+│           │   ├── LeftRotation08.java
+│           │   ├── Merge25.java
+│           │   ├── MinMax01.java
+│           │   ├── Occurrence11.java
+│           │   ├── OccurrenceOfGivenElement10.java
+│           │   ├── PairSumFive26.java
+│           │   ├── PairSumFive27.java
+│           │   ├── PairUniqueSumFive28.java
+│           │   ├── PrimeArray05.java
+│           │   ├── PushZeroRight24.java
+│           │   ├── Reverse02.java
+│           │   ├── RightGreater12.java
+│           │   ├── RightRotation09.java
+│           │   ├── Unique17.java
+│           │   ├── UniquePrime18.java
+│           │   ├── UniquePrimeArrayByMe19.java
+│           │   ├── UniquePrimeArrayInClass20.java
+│           │   ├── problems_03
+│           │   │   ├── LongestIncreasingSubsequence01.java
+│           │   │   └── MaxSumSubarray02.java
+│           │   ├── searching_02
+│           │   │   ├── BinarySearch01.java
+│           │   │   ├── FirstAndLastOccurrence03.java
+│           │   │   ├── LinearSearch02.java
+│           │   │   └── NSquareArray04.java
+│           │   ├── sort_01
+│           │   │   ├── BubbleSortOrBruteForceSort01.java
+│           │   │   ├── SelectionSort02.java
+│           │   │   └── assignment
+│           │   │       ├── EvenOddSort01.java
+│           │   │       └── PrimeArray02.java
+│           │   └── two_dimensional_array_04
+│           │       ├── ProductOfEachRow04.java
+│           │       ├── SumOfAllElements02.java
+│           │       ├── SumOfEachColumn03.java
+│           │       ├── TwoDimensionalArray01.java
+│           │       └── matrix
+│           │           ├── MatrixMultiplication02.java
+│           │           ├── SumOfTwoMatrix01.java
+│           │           └── TransposeMatrix03.java
+│           ├── basics_01
+│           │   ├── AadhaarInfo02.java
+│           │   ├── Demo03.java
+│           │   ├── Sample01.java
+│           │   ├── operators_02
+│           │   │   ├── Area10.java
+│           │   │   ├── Arithemetic01.java
+│           │   │   ├── Bitwise05.java
+│           │   │   ├── Conditional06.java
+│           │   │   ├── IncrDecrement03.java
+│           │   │   ├── Logical04.java
+│           │   │   ├── MaxOfFour07.java
+│           │   │   ├── MaxOfSeven09.java
+│           │   │   ├── MinOfFive08.java
+│           │   │   ├── Perimeter11.java
+│           │   │   └── Relational02.java
+│           │   └── primitive_type_casting_01
+│           │       ├── AreaOfCircle04.java
+│           │       ├── AreaOfRectangle05.java
+│           │       ├── ExplicitNarrowing03.java
+│           │       ├── Primitive01.java
+│           │       └── PrimitiveTypeCasting02.java
+│           ├── class_members_06
+│           │   ├── non_static_member_02
+│           │   │   ├── non_static_initializer_block_02
+│           │   │   │   ├── OctTwentyFive01.java
+│           │   │   │   ├── OctTwentyFive02.java
+│           │   │   │   └── OctTwentyFive03.java
+│           │   │   ├── non_static_method_03
+│           │   │   │   ├── OctTwentyEight03.java
+│           │   │   │   ├── OctTwentyEight04.java
+│           │   │   │   ├── OctTwentyEight05.java
+│           │   │   │   ├── OctTwentyEight06.java
+│           │   │   │   ├── OctTwentySix01.java
+│           │   │   │   └── OctTwentySix02.java
+│           │   │   └── non_static_variable_01
+│           │   │       └── OctTwentyThree01.java
+│           │   └── static_member_01
+│           │       ├── static_initializer_block_02
+│           │       │   └── oct_19
+│           │       │       └── E.java
+│           │       ├── static_method_03
+│           │       │   └── oct_19
+│           │       │       ├── M.java
+│           │       │       └── OctNineteenAssignment02.java
+│           │       └── static_variable_01
+│           │           └── oct_18
+│           │               ├── A01.java
+│           │               ├── A02.java
+│           │               ├── A03.java
+│           │               └── B04.java
+│           ├── collection_13
+│           │   ├── list_01
+│           │   │   └── arraylist_01
+│           │   │       ├── dec_19
+│           │   │       │   ├── DistinctObject03.java
+│           │   │       │   ├── PrimeList04.java
+│           │   │       │   ├── RemoveAllEven05.java
+│           │   │       │   ├── RemoveDuplicates02.java
+│           │   │       │   ├── RemovePrime01.java
+│           │   │       │   └── assignments
+│           │   │       │       ├── AddNewStringBeforeStringStartWithVowel01.java
+│           │   │       │       └── RemoveAlternate02.java
+│           │   │       ├── dec_20
+│           │   │       │   ├── RetainFruites01.java
+│           │   │       │   └── assignment
+│           │   │       │       └── StringSorting01.java
+│           │   │       └── sorting
+│           │   │           ├── dec_23
+│           │   │           │   ├── Car01.java
+│           │   │           │   └── CarShowroom02.java
+│           │   │           ├── dec_24
+│           │   │           │   ├── Company02.java
+│           │   │           │   ├── Employee01.java
+│           │   │           │   ├── School04.java
+│           │   │           │   ├── Students03.java
+│           │   │           │   └── assignment
+│           │   │           │       ├── School02.java
+│           │   │           │       └── Student01.java
+│           │   │           └── dec_25
+│           │   │               ├── IDComparator02.java
+│           │   │               ├── MarksComparator04.java
+│           │   │               ├── NameComparator03.java
+│           │   │               ├── School05.java
+│           │   │               └── Student01.java
+│           │   ├── queue_03
+│           │   │   └── priorityqueue
+│           │   │       └── jan_02
+│           │   │           ├── INT.java
+│           │   │           └── PriorityQueueExample02.java
+│           │   └── set_02
+│           │       ├── hash_set_01
+│           │       │   └── dec_30
+│           │       │       ├── RemoveDuplicates01.java
+│           │       │       └── assignments
+│           │       │           ├── Difference03.java
+│           │       │           ├── Intersection02.java
+│           │       │           └── Union01.java
+│           │       └── tree_set_02
+│           │           └── dec_31
+│           │               ├── Flower02.java
+│           │               ├── Garden03.java
+│           │               └── NthMaximum01.java
+│           ├── controlflow_02
+│           │   ├── conditionals_01
+│           │   │   ├── AbsoluteDiff03.java
+│           │   │   ├── Employee05.java
+│           │   │   ├── GT17Abs06.java
+│           │   │   ├── IfElse02.java
+│           │   │   ├── IfElseLadder07.java
+│           │   │   ├── IfElseLadderAssignment08.java
+│           │   │   ├── Monkey04.java
+│           │   │   ├── SepSixteen09.java
+│           │   │   └── SimpleIf01.java
+│           │   ├── loops_03
+│           │   │   ├── do_while_02
+│           │   │   │   └── SepTwenty01.java
+│           │   │   ├── for_03
+│           │   │   │   ├── SepTwenty01.java
+│           │   │   │   ├── SepTwentyAssignment02.java
+│           │   │   │   └── SepTwentyFirst03.java
+│           │   │   ├── nested_loop_04
+│           │   │   │   ├── SepTwentyFisrt01.java
+│           │   │   │   ├── SepTwentyFisrtAssignment02.java
+│           │   │   │   ├── number_patterns_02
+│           │   │   │   │   ├── SepTwentySeven01.java
+│           │   │   │   │   └── SepTwentySevenAssignment02.java
+│           │   │   │   └── patterns_01
+│           │   │   │       ├── NameUsingStars09.java
+│           │   │   │       ├── OctFirst12.java
+│           │   │   │       ├── OctFirstAssignment13.java
+│           │   │   │       ├── SepThirty10.java
+│           │   │   │       ├── SepThirtyAssignment11.java
+│           │   │   │       ├── SepTwentyFive05.java
+│           │   │   │       ├── SepTwentyFiveAssignment06.java
+│           │   │   │       ├── SepTwentyFour03.java
+│           │   │   │       ├── SepTwentyFourAssignment04.java
+│           │   │   │       ├── SepTwentySix07.java
+│           │   │   │       ├── SepTwentySixAssignment08.java
+│           │   │   │       ├── SepTwentyThird01.java
+│           │   │   │       └── SepTwentyThirdAssignment02.java
+│           │   │   ├── number_program_05
+│           │   │   │   ├── NovSeven09.java
+│           │   │   │   ├── OctFive07.java
+│           │   │   │   ├── OctFiveAssignment08.java
+│           │   │   │   ├── OctFour05.java
+│           │   │   │   ├── OctFourAssignment06.java
+│           │   │   │   ├── OctSecond01.java
+│           │   │   │   ├── OctSecondAssignment02.java
+│           │   │   │   ├── OctThird03.java
+│           │   │   │   └── OctThirdAssignment04.java
+│           │   │   └── while_01
+│           │   │       ├── SepNinteen01.java
+│           │   │       ├── SepNinteenAssignment02.java
+│           │   │       └── SepTwenty03.java
+│           │   └── switchcases02
+│           │       ├── SepEighteen03.java
+│           │       ├── SepSeventeen01.java
+│           │       └── SepSeventeenAssignment02.java
+│           ├── exception_12
+│           │   ├── ExceptionExample01.java
+│           │   ├── ExceptionHandling03.java
+│           │   └── TryCatch02.java
+│           ├── java_important_questions_with_answers_17
+│           │   ├── ProgrammingQuestions.pdf
+│           │   ├── basic_programs
+│           │   │   ├── DivisibleBy7OrNot.java
+│           │   │   ├── EvenOrOdd.java
+│           │   │   ├── LargestOfThreeNum.java
+│           │   │   ├── LargestOfTwoNum.java
+│           │   │   ├── SmallestOfThreeNum.java
+│           │   │   ├── Swap.java
+│           │   │   └── SwapWithoutThirdVar.java
+│           │   ├── conditional_operator
+│           │   │   ├── LargestOf5Num.java
+│           │   │   ├── LargestOf7Num.java
+│           │   │   ├── SmallestOf4Num.java
+│           │   │   └── SmallestOf7Num.java
+│           │   ├── if_else
+│           │   │   ├── AscOrderOf3Num.java
+│           │   │   ├── AsciiOfCharIsEvenOrOdd.java
+│           │   │   ├── CharIsAlphabetOrNot.java
+│           │   │   ├── CharIsSpecialCharOrNot.java
+│           │   │   ├── LargestOf2Num.java
+│           │   │   ├── LargestOf5Num.java
+│           │   │   ├── LastDigit.java
+│           │   │   ├── LastDigit5OrNot.java
+│           │   │   ├── MidOf3Num.java
+│           │   │   ├── OddOrEven.java
+│           │   │   ├── SmallestOf2Num.java
+│           │   │   └── SmallestOf5Num.java
+│           │   ├── important_loop_ques
+│           │   │   ├── DigitsHorizotally.java
+│           │   │   ├── DigitsVertically.java
+│           │   │   ├── LastDigit.java
+│           │   │   ├── NumBwMAndNExcept7InIt.java
+│           │   │   ├── NumBwMToN3InIt.java
+│           │   │   ├── NumBwMToN5InIt.java
+│           │   │   ├── NumBwMToN6InIt.java
+│           │   │   ├── NumOfDigitsInNum.java
+│           │   │   ├── PalindromeOrNot.java
+│           │   │   ├── ProductOfDigitsOddOrEven.java
+│           │   │   ├── ReverseNum.java
+│           │   │   ├── SumOfDigits.java
+│           │   │   └── SumOfDigitsOddOrEven.java
+│           │   ├── loops
+│           │   │   ├── AlphabetsInHorizontal.java
+│           │   │   ├── CountOfDivisibleBy7MToN.java
+│           │   │   ├── DescAlphaInVertical.java
+│           │   │   ├── DivisibleBy7.java
+│           │   │   ├── EvenNumBetweenMAndN.java
+│           │   │   ├── LowerCaseAndUpperCaseAlphaInVertical.java
+│           │   │   ├── Natural1To10.java
+│           │   │   ├── NaturalNum1ToN.java
+│           │   │   ├── NaturalNumMToN.java
+│           │   │   ├── OddNumBetweenMAndN.java
+│           │   │   ├── PrintAlphaByReadingNum.java
+│           │   │   ├── ProductOfEvenNumBetweenMAndN.java
+│           │   │   ├── ProductOfNaturalNumBetweenMToN.java
+│           │   │   ├── ProductOfOddNumBetweenMAndN.java
+│           │   │   ├── QuotientOf85DividedBy5.java
+│           │   │   ├── QuotientWithoutDivisorOp.java
+│           │   │   ├── RemainderWithoutModOp.java
+│           │   │   ├── SumOfDivisibleBy5MToN.java
+│           │   │   ├── SumOfEvenNumBetweenMAndN.java
+│           │   │   ├── SumOfNaturalNumBetweenMAndN.java
+│           │   │   ├── SumOfOddNumBetweenMAndN.java
+│           │   │   ├── TableByUserInput.java
+│           │   │   ├── TableOf2.java
+│           │   │   ├── TableWithoutMulOp.java
+│           │   │   └── UpperCaseAlphaWithNumInVertical.java
+│           │   ├── patterns
+│           │   │   ├── part_1_and_2
+│           │   │   │   ├── P1.java
+│           │   │   │   ├── P10.java
+│           │   │   │   ├── P11.java
+│           │   │   │   ├── P12.java
+│           │   │   │   ├── P13.java
+│           │   │   │   ├── P14.java
+│           │   │   │   ├── P15.java
+│           │   │   │   ├── P16.java
+│           │   │   │   ├── P17.java
+│           │   │   │   ├── P18.java
+│           │   │   │   ├── P19.java
+│           │   │   │   ├── P2.java
+│           │   │   │   ├── P3.java
+│           │   │   │   ├── P4.java
+│           │   │   │   ├── P5.java
+│           │   │   │   ├── P6.java
+│           │   │   │   ├── P7.java
+│           │   │   │   ├── P8.java
+│           │   │   │   └── P9.java
+│           │   │   ├── part_3
+│           │   │   │   ├── P1.java
+│           │   │   │   ├── P2.java
+│           │   │   │   ├── P3.java
+│           │   │   │   ├── P4.java
+│           │   │   │   ├── P5.java
+│           │   │   │   ├── P6.java
+│           │   │   │   ├── P7.java
+│           │   │   │   └── P8.java
+│           │   │   ├── part_4
+│           │   │   │   ├── P1.java
+│           │   │   │   ├── P10.java
+│           │   │   │   ├── P11.java
+│           │   │   │   ├── P12.java
+│           │   │   │   ├── P13.java
+│           │   │   │   ├── P14.java
+│           │   │   │   ├── P15.java
+│           │   │   │   ├── P16.java
+│           │   │   │   ├── P17.java
+│           │   │   │   ├── P2.java
+│           │   │   │   ├── P3.java
+│           │   │   │   ├── P4.java
+│           │   │   │   ├── P5.java
+│           │   │   │   ├── P6.java
+│           │   │   │   ├── P7.java
+│           │   │   │   ├── P8.java
+│           │   │   │   └── P9.java
+│           │   │   └── part_5
+│           │   │       ├── P1.java
+│           │   │       ├── P2.java
+│           │   │       ├── P3.java
+│           │   │       ├── P4.java
+│           │   │       ├── P5.java
+│           │   │       ├── P6.java
+│           │   │       ├── P7.java
+│           │   │       └── P8.java
+│           │   ├── recursion
+│           │   │   ├── Factorial.java
+│           │   │   ├── Natural10to1.java
+│           │   │   ├── Natural1to10.java
+│           │   │   ├── Num4to1and1to3.java
+│           │   │   ├── Palindrome.java
+│           │   │   └── Prime.java
+│           │   ├── standard_programs
+│           │   │   ├── Armstrong.java
+│           │   │   ├── Factorial.java
+│           │   │   ├── Fibonacci.java
+│           │   │   ├── FibonacciTillN.java
+│           │   │   ├── Palindrome.java
+│           │   │   ├── Perfect.java
+│           │   │   ├── PerfectMtoN.java
+│           │   │   ├── PerfectPosition.java
+│           │   │   ├── PerfectSquare.java
+│           │   │   ├── PerfectSquareMtoN.java
+│           │   │   ├── Prime.java
+│           │   │   ├── PrimeMtoN.java
+│           │   │   ├── PrimePosition.java
+│           │   │   ├── Product.java
+│           │   │   ├── Reverse.java
+│           │   │   ├── Spy.java
+│           │   │   ├── SpyMtoN.java
+│           │   │   ├── SpyPosition.java
+│           │   │   ├── Strong.java
+│           │   │   ├── StrongMtoN.java
+│           │   │   ├── Sum.java
+│           │   │   ├── Swap.java
+│           │   │   └── XPowerN.java
+│           │   └── switch_01
+│           │       ├── DayName.java
+│           │       ├── MonthNumFromMonthName.java
+│           │       ├── NumOfDay.java
+│           │       ├── NumOfDaysInMonth.java
+│           │       ├── RemaingDayName.java
+│           │       ├── SeasonName.java
+│           │       ├── VowelOrNot.java
+│           │       └── WorkingDayOrNot.java
+│           ├── lambdaexpression_14
+│           │   └── dec_26
+│           │       ├── Car03.java
+│           │       ├── CarShowroom04.java
+│           │       ├── First01.java
+│           │       └── FirstName02.java
+│           ├── map_15
+│           │   ├── hashmap_01
+│           │   │   └── jan04
+│           │   │       ├── CharacterOccurrence01.java
+│           │   │       ├── IterateMaps03.java
+│           │   │       └── WordsOccurrence02.java
+│           │   └── treemap_02
+│           │       └── jan04
+│           │           └── assignments
+│           │               ├── School02.java
+│           │               └── Student01.java
+│           ├── method_overloading_05
+│           │   ├── oct_16
+│           │   │   ├── Adding02.java
+│           │   │   ├── Area04.java
+│           │   │   ├── CompileTimeBinding03.java
+│           │   │   ├── Login01.java
+│           │   │   └── Perimeter05.java
+│           │   └── oct_18
+│           │       └── MainMethod01.java
+│           ├── methods_03
+│           │   ├── Sample.java
+│           │   ├── oct_06
+│           │   │   ├── Area01.java
+│           │   │   └── Calculator02.java
+│           │   ├── oct_07
+│           │   │   ├── AreaUsingFormalArguments01.java
+│           │   │   ├── TableFromMtoN02.java
+│           │   │   └── TableFromMtoN03.java
+│           │   ├── oct_08
+│           │   │   ├── AlternatePrime02.java
+│           │   │   ├── NthPrime03.java
+│           │   │   ├── OctEightAssignment04.java
+│           │   │   └── PrimeNumber01.java
+│           │   └── oct_09
+│           │       ├── ArmstrongRange02.java
+│           │       ├── OctNineAssignment03.java
+│           │       └── StrongRange01.java
+│           ├── object_class_09
+│           │   ├── equals_02
+│           │   │   ├── Car01.java
+│           │   │   └── Main02.java
+│           │   └── to_string_01
+│           │       ├── Main02.java
+│           │       └── Watch01.java
+│           ├── oop_concepts_08
+│           │   ├── absatraction_08
+│           │   │   ├── ATM01.java
+│           │   │   ├── Bank02.java
+│           │   │   └── Main03.java
+│           │   ├── basic_oop_01
+│           │   │   ├── oct_29
+│           │   │   │   ├── Bike01.java
+│           │   │   │   ├── Contact03.java
+│           │   │   │   ├── Road02.java
+│           │   │   │   ├── Save04.java
+│           │   │   │   ├── School06.java
+│           │   │   │   ├── Student05.java
+│           │   │   │   └── assignments
+│           │   │   │       ├── AreaOfRectangle02.java
+│           │   │   │       ├── Car03.java
+│           │   │   │       ├── CarObject04.java
+│           │   │   │       └── Rectangle01.java
+│           │   │   └── oct_30
+│           │   │       ├── Car01.java
+│           │   │       ├── Garage02.java
+│           │   │       ├── School04.java
+│           │   │       └── Student03.java
+│           │   ├── constructor_02
+│           │   │   ├── nov_02
+│           │   │   │   ├── Area02.java
+│           │   │   │   └── Circle01.java
+│           │   │   ├── nov_04
+│           │   │   │   ├── Box03.java
+│           │   │   │   ├── Boxes04.java
+│           │   │   │   ├── JobMela02.java
+│           │   │   │   ├── Student01.java
+│           │   │   │   └── assignments
+│           │   │   │       ├── Box03.java
+│           │   │   │       ├── Boxes04.java
+│           │   │   │       ├── JobMela02.java
+│           │   │   │       └── Student01.java
+│           │   │   └── nov_05
+│           │   │       └── A.java
+│           │   ├── encapsulation_03
+│           │   │   └── nav_06
+│           │   │       ├── A01.java
+│           │   │       ├── Clock03.java
+│           │   │       ├── Main02.java
+│           │   │       ├── School06.java
+│           │   │       ├── Student05.java
+│           │   │       └── WallClock04.java
+│           │   ├── non_primitive_typecasting_06
+│           │   │   ├── auto_upcasting_01
+│           │   │   │   ├── Main01.java
+│           │   │   │   └── Main02.java
+│           │   │   └── explicit_downcasting_02
+│           │   │       ├── Main01.java
+│           │   │       └── Main02.java
+│           │   ├── package_07
+│           │   │   └── access_specifiers_01
+│           │   │       ├── package_01
+│           │   │       │   ├── A01.java
+│           │   │       │   └── B01.java
+│           │   │       └── package_02
+│           │   │           ├── C01.java
+│           │   │           └── D02.java
+│           │   ├── relationship_04
+│           │   │   ├── has_a_relation_01
+│           │   │   │   └── nov_08
+│           │   │   │       ├── Bike02.java
+│           │   │   │       ├── Engine01.java
+│           │   │   │       ├── Garage03.java
+│           │   │   │       └── assignment
+│           │   │   │           ├── Cap01.java
+│           │   │   │           ├── Pen02.java
+│           │   │   │           └── Writing03.java
+│           │   │   └── is_a_relation_02
+│           │   │       └── nov_09
+│           │   │           ├── Car02.java
+│           │   │           ├── Garage03.java
+│           │   │           ├── Vehical01.java
+│           │   │           └── assignments
+│           │   │               ├── Flower01.java
+│           │   │               ├── Garden03.java
+│           │   │               └── Rose02.java
+│           │   └── super_05
+│           │       ├── super_call_01
+│           │       │   ├── Main01.java
+│           │       │   └── Main02.java
+│           │       └── super_keyword_02
+│           │           └── Main01.java
+│           ├── recursion_07
+│           │   ├── oct_21
+│           │   │   ├── PrintAToZ03.java
+│           │   │   ├── PrintMToN04.java
+│           │   │   ├── PrintOneToFive01.java
+│           │   │   ├── SumOfFirstFiveNum02.java
+│           │   │   └── assignments
+│           │   │       ├── Factorial02.java
+│           │   │       ├── FactorialOfFive01.java
+│           │   │       ├── SumOfDigits04.java
+│           │   │       └── SumOfEvenNum03.java
+│           │   ├── oct_22
+│           │   │   ├── ProductOfOddDigits01.java
+│           │   │   ├── Reverse03.java
+│           │   │   ├── ReverseOfNum02.java
+│           │   │   └── assignment
+│           │   │       ├── FibonacciGivenNumberOfTerms01.java
+│           │   │       ├── FibonacciUptoN02.java
+│           │   │       ├── Palindrome03.java
+│           │   │       └── Prime04.java
+│           │   └── oct_23
+│           │       ├── FibonacciNumOfElements03.java
+│           │       ├── FibonacciUptoN02.java
+│           │       ├── Prime01.java
+│           │       └── assignment
+│           │           ├── HappyNum02.java
+│           │           └── SumTillOneDigit01.java
+│           ├── scanner_class_04
+│           │   ├── NextLineMethod03.java
+│           │   ├── NextMethod02.java
+│           │   └── ReadInput01.java
+│           ├── strings_11
+│           │   ├── dec_02_02
+│           │   │   └── Assignment01.java
+│           │   ├── dec_03_03
+│           │   │   ├── ClassAssignment00.java
+│           │   │   ├── FirstLast03.java
+│           │   │   ├── PrimeAndNonPrime07.java
+│           │   │   ├── PrintVertically01.java
+│           │   │   ├── Reverse02.java
+│           │   │   ├── SecFirst05.java
+│           │   │   ├── Toggle04.java
+│           │   │   ├── Vowels06.java
+│           │   │   └── assignment
+│           │   │       └── ReverseStringArray01.java
+│           │   ├── dec_04_04
+│           │   │   ├── Palindrome02.java
+│           │   │   ├── StartWithConsonants01.java
+│           │   │   ├── SwapExtremeChars03.java
+│           │   │   └── assignments
+│           │   │       ├── DistinctChar01.java
+│           │   │       ├── PreviousCharNTime03.java
+│           │   │       ├── RemoveSpace02.java
+│           │   │       └── WordsContainingAT04.java
+│           │   ├── dec_05_05
+│           │   │   ├── Palindrome01.java
+│           │   │   ├── SumOfDigits02.java
+│           │   │   └── assignments
+│           │   │       ├── AB2C3DEFG203.java
+│           │   │       ├── ArrangeWords02.java
+│           │   │       └── Palindrome01.java
+│           │   ├── dec_06_06
+│           │   │   ├── AB2C3DEFG201.java
+│           │   │   ├── ArrangeString02.java
+│           │   │   ├── Palindrome03.java
+│           │   │   ├── RemoveOccurrenceOfC04.java
+│           │   │   └── assignments
+│           │   │       ├── File03.java
+│           │   │       ├── RemoveOccurrenceOfs2.java
+│           │   │       └── Reverse02.java
+│           │   ├── dec_07_07
+│           │   │   ├── DistinctConsonants01.java
+│           │   │   ├── DuplicateVowels02.java
+│           │   │   ├── Occurrences03.java
+│           │   │   ├── ReverseWithoutSpChars06.java
+│           │   │   ├── StringRotation04.java
+│           │   │   ├── UniqueSpecialChars05.java
+│           │   │   └── assignments
+│           │   │       ├── Anagrams02.java
+│           │   │       └── RepeatingString01.java
+│           │   └── string_methods_01
+│           │       └── StringMethods01.java
+│           └── thread_16
+│               └── jan_06
+│                   ├── Number01.java
+│                   ├── PrintStrongAndArmStrong04.java
+│                   ├── PrintTable07.java
+│                   ├── TableFive05.java
+│                   ├── TableSeven06.java
+│                   ├── ThreadOne02.java
+│                   ├── ThreadTwo03.java
+│                   └── assignment
+│                       ├── PrintTables03.java
+│                       ├── TableFive01.java
+│                       └── TableSeven02.java
+├── hibernate
+│   ├── 01-demo-project
+│   │   ├── pom.xml
+│   │   └── src
+│   │       ├── main
+│   │       │   ├── java
+│   │       │   │   └── demo_package
+│   │       │   │       ├── A.java
+│   │       │   │       └── B.java
+│   │       │   └── resources
+│   │       └── test
+│   │           ├── java
+│   │           └── resources
+│   ├── 02-bike-wala
+│   │   ├── pom.xml
+│   │   └── src
+│   │       ├── main
+│   │       │   ├── java
+│   │       │   │   └── org
+│   │       │   │       └── jsp
+│   │       │   │           ├── Bike.java
+│   │       │   │           ├── BikeDriver.java
+│   │       │   │           ├── BikeDriverDelete.java
+│   │       │   │           ├── BikeDriverFind.java
+│   │       │   │           ├── BikeDriverUpdate.java
+│   │       │   │           └── FetchAllRecords.java
+│   │       │   └── resources
+│   │       │       └── META-INF
+│   │       │           └── persistence.xml
+│   │       └── test
+│   │           ├── java
+│   │           └── resources
+│   ├── 03-car-wala
+│   │   ├── pom.xml
+│   │   └── src
+│   │       ├── main
+│   │       │   ├── java
+│   │       │   │   └── org
+│   │       │   │       └── jsp
+│   │       │   │           ├── Car.java
+│   │       │   │           ├── CarDriver.java
+│   │       │   │           ├── CarDriverDelete.java
+│   │       │   │           ├── CarDriverFind.java
+│   │       │   │           ├── CarDriverUpdate.java
+│   │       │   │           └── FetchAllRecords.java
+│   │       │   └── resources
+│   │       │       └── META-INF
+│   │       │           └── persistence.xml
+│   │       └── test
+│   │           ├── java
+│   │           └── resources
+│   ├── 04-employee
+│   │   ├── pom.xml
+│   │   └── src
+│   │       ├── main
+│   │       │   ├── java
+│   │       │   │   └── org
+│   │       │   │       └── jsp
+│   │       │   │           └── employee
+│   │       │   │               ├── controller
+│   │       │   │               │   └── EmployeeController.java
+│   │       │   │               ├── dao
+│   │       │   │               │   └── EmployeeDao.java
+│   │       │   │               └── dto
+│   │       │   │                   └── Employee.java
+│   │       │   └── resources
+│   │       │       └── META-INF
+│   │       │           └── persistence.xml
+│   │       └── test
+│   │           ├── java
+│   │           └── resources
+│   ├── 05-one-to-one-uni-dir
+│   │   ├── pom.xml
+│   │   └── src
+│   │       ├── main
+│   │       │   ├── java
+│   │       │   │   └── com
+│   │       │   │       └── tcs
+│   │       │   │           └── onetoone_uni
+│   │       │   │               ├── controller
+│   │       │   │               │   └── CountryCapitalController.java
+│   │       │   │               ├── dao
+│   │       │   │               │   └── CountryCapitalDao.java
+│   │       │   │               └── dto
+│   │       │   │                   ├── Capital.java
+│   │       │   │                   └── Country.java
+│   │       │   └── resources
+│   │       │       └── META-INF
+│   │       │           └── persistence.xml
+│   │       └── test
+│   │           ├── java
+│   │           └── resources
+│   ├── 06-one-to-one-uni-dir-assignment
+│   │   ├── pom.xml
+│   │   └── src
+│   │       ├── main
+│   │       │   ├── java
+│   │       │   │   └── org
+│   │       │   │       └── jsp
+│   │       │   │           └── onetoone_uni_assignment
+│   │       │   │               ├── controller
+│   │       │   │               │   └── PersonPassportController.java
+│   │       │   │               ├── dao
+│   │       │   │               │   └── PersonPassportDao.java
+│   │       │   │               └── dto
+│   │       │   │                   ├── Passport.java
+│   │       │   │                   └── Person.java
+│   │       │   └── resources
+│   │       │       └── META-INF
+│   │       │           └── persistence.xml
+│   │       └── test
+│   │           ├── java
+│   │           └── resources
+│   ├── 07-one-to-one-bi-dir
+│   │   ├── pom.xml
+│   │   └── src
+│   │       ├── main
+│   │       │   ├── java
+│   │       │   │   └── org
+│   │       │   │       └── jsp
+│   │       │   │           └── onetoone_bi
+│   │       │   │               ├── controller
+│   │       │   │               │   └── PersonHeartController.java
+│   │       │   │               ├── dao
+│   │       │   │               │   └── PersonHeartDao.java
+│   │       │   │               └── dto
+│   │       │   │                   ├── Heart.java
+│   │       │   │                   └── Person.java
+│   │       │   └── resources
+│   │       │       └── META-INF
+│   │       │           └── persistence.xml
+│   │       └── test
+│   │           ├── java
+│   │           └── resources
+│   ├── 08-one-to-one-bi-dir-assignment
+│   │   ├── pom.xml
+│   │   └── src
+│   │       ├── main
+│   │       │   ├── java
+│   │       │   │   └── org
+│   │       │   │       └── jsp
+│   │       │   │           └── onetoone_bi_assignment
+│   │       │   │               ├── controller
+│   │       │   │               │   └── CarEngineController.java
+│   │       │   │               ├── dao
+│   │       │   │               │   └── CarEngineDao.java
+│   │       │   │               └── dto
+│   │       │   │                   ├── Car.java
+│   │       │   │                   └── Engine.java
+│   │       │   └── resources
+│   │       │       └── META-INF
+│   │       │           └── persistence.xml
+│   │       └── test
+│   │           ├── java
+│   │           └── resources
+│   ├── 09-one-to-many-uni-dir
+│   │   ├── pom.xml
+│   │   └── src
+│   │       ├── main
+│   │       │   ├── java
+│   │       │   │   └── org
+│   │       │   │       └── jsp
+│   │       │   │           └── onetomany_uni
+│   │       │   │               ├── controller
+│   │       │   │               │   └── NetflixMovieController.java
+│   │       │   │               ├── dao
+│   │       │   │               │   └── NetflixMovieDao.java
+│   │       │   │               └── dto
+│   │       │   │                   ├── Movie.java
+│   │       │   │                   └── Netflix.java
+│   │       │   └── resources
+│   │       │       └── META-INF
+│   │       │           └── persistence.xml
+│   │       └── test
+│   │           ├── java
+│   │           └── resources
+│   ├── 10-one-to-many-bi-dir
+│   │   ├── pom.xml
+│   │   └── src
+│   │       ├── main
+│   │       │   ├── java
+│   │       │   │   └── org
+│   │       │   │       └── jsp
+│   │       │   │           └── onetomany_bi
+│   │       │   │               ├── controller
+│   │       │   │               │   └── BankAccountController.java
+│   │       │   │               ├── dao
+│   │       │   │               │   └── BankAccountDao.java
+│   │       │   │               └── dto
+│   │       │   │                   ├── Account.java
+│   │       │   │                   └── Bank.java
+│   │       │   └── resources
+│   │       │       └── META-INF
+│   │       │           └── persistence.xml
+│   │       └── test
+│   │           ├── java
+│   │           └── resources
+│   ├── 11-many-to-one
+│   │   ├── pom.xml
+│   │   └── src
+│   │       ├── main
+│   │       │   ├── java
+│   │       │   │   └── org
+│   │       │   │       └── jsp
+│   │       │   │           └── manytoone
+│   │       │   │               ├── controller
+│   │       │   │               │   └── EmployeeDepartmentController.java
+│   │       │   │               ├── dao
+│   │       │   │               │   └── EmployeeDepartmentDao.java
+│   │       │   │               └── dto
+│   │       │   │                   ├── Department.java
+│   │       │   │                   └── Employee.java
+│   │       │   └── resources
+│   │       │       └── META-INF
+│   │       │           └── persistence.xml
+│   │       └── test
+│   │           ├── java
+│   │           └── resources
+│   ├── 12-many-to-many-uni-dir
+│   │   ├── pom.xml
+│   │   └── src
+│   │       ├── main
+│   │       │   ├── java
+│   │       │   │   └── org
+│   │       │   │       └── jsp
+│   │       │   │           └── manytomany_uni
+│   │       │   │               ├── controller
+│   │       │   │               │   └── CustomerProductController.java
+│   │       │   │               ├── dao
+│   │       │   │               │   └── CustomerProductDao.java
+│   │       │   │               └── dto
+│   │       │   │                   ├── Customer.java
+│   │       │   │                   └── Product.java
+│   │       │   └── resources
+│   │       │       └── META-INF
+│   │       │           └── persistence.xml
+│   │       └── test
+│   │           ├── java
+│   │           └── resources
+│   ├── 13-many-to-many-bi-dir
+│   │   ├── pom.xml
+│   │   └── src
+│   │       ├── main
+│   │       │   ├── java
+│   │       │   │   └── org
+│   │       │   │       └── jsp
+│   │       │   │           └── manytomany_bi
+│   │       │   │               ├── controller
+│   │       │   │               │   └── StudentCouseController.java
+│   │       │   │               ├── dao
+│   │       │   │               │   └── StudentCourseDao.java
+│   │       │   │               └── dto
+│   │       │   │                   ├── Course.java
+│   │       │   │                   └── Student.java
+│   │       │   └── resources
+│   │       │       └── META-INF
+│   │       │           └── persistence.xml
+│   │       └── test
+│   │           ├── java
+│   │           └── resources
+│   ├── 14-caching
+│   │   ├── pom.xml
+│   │   └── src
+│   │       ├── main
+│   │       │   ├── java
+│   │       │   │   └── org
+│   │       │   │       └── jsp
+│   │       │   │           └── caching
+│   │       │   │               ├── controller
+│   │       │   │               │   └── StudentController.java
+│   │       │   │               ├── dao
+│   │       │   │               │   └── StudentDao.java
+│   │       │   │               └── dto
+│   │       │   │                   └── Student.java
+│   │       │   └── resources
+│   │       │       └── META-INF
+│   │       │           └── persistence.xml
+│   │       └── test
+│   │           ├── java
+│   │           └── resources
+│   ├── 15-caching-02
+│   │   ├── pom.xml
+│   │   └── src
+│   │       ├── main
+│   │       │   ├── java
+│   │       │   │   └── com
+│   │       │   │       └── jsp
+│   │       │   │           └── caching2
+│   │       │   │               ├── controller
+│   │       │   │               │   └── CachingController.java
+│   │       │   │               └── dto
+│   │       │   │                   └── Student.java
+│   │       │   └── resources
+│   │       │       └── META-INF
+│   │       │           └── persistence.xml
+│   │       └── test
+│   │           ├── java
+│   │           └── resources
+│   ├── 16-composit-key
+│   │   ├── pom.xml
+│   │   └── src
+│   │       ├── main
+│   │       │   ├── java
+│   │       │   │   └── org
+│   │       │   │       └── jsp
+│   │       │   │           └── compositkey
+│   │       │   │               ├── controller
+│   │       │   │               │   └── AmazonController.java
+│   │       │   │               ├── dao
+│   │       │   │               │   └── AmazonDao.java
+│   │       │   │               └── dto
+│   │       │   │                   ├── Amazon.java
+│   │       │   │                   ├── AmazonId.java
+│   │       │   │                   └── FuncInterface.java
+│   │       │   └── resources
+│   │       │       └── META-INF
+│   │       │           └── persistence.xml
+│   │       └── test
+│   │           ├── java
+│   │           └── resources
+│   ├── 17-annotation-01
+│   │   ├── pom.xml
+│   │   └── src
+│   │       ├── main
+│   │       │   ├── java
+│   │       │   │   └── org
+│   │       │   │       └── jsp
+│   │       │   │           └── annotations
+│   │       │   │               ├── controller
+│   │       │   │               │   └── UserController.java
+│   │       │   │               └── dto
+│   │       │   │                   └── Users.java
+│   │       │   └── resources
+│   │       │       └── META-INF
+│   │       │           └── persistence.xml
+│   │       └── test
+│   │           ├── java
+│   │           └── resources
+│   └── 18-annotation-02
+│       ├── pom.xml
+│       └── src
+│           ├── main
+│           │   ├── java
+│           │   │   └── org
+│           │   │       └── jsp
+│           │   │           └── annotations
+│           │   │               ├── controller
+│           │   │               │   └── TwoWheelerController.java
+│           │   │               └── dto
+│           │   │                   └── Two_Wheeler.java
+│           │   └── resources
+│           │       └── META-INF
+│           │           └── persistence.xml
+│           └── test
+│               ├── java
+│               └── resources
+├── next-js
+│   ├── crud-in-next
+│   │   ├── README.md
+│   │   ├── data
+│   │   │   └── users.json
+│   │   ├── eslint.config.mjs
+│   │   ├── next-env.d.ts
+│   │   ├── next.config.ts
+│   │   ├── package.json
+│   │   ├── postcss.config.mjs
+│   │   ├── public
+│   │   │   ├── file.svg
+│   │   │   ├── globe.svg
+│   │   │   ├── next.svg
+│   │   │   ├── vercel.svg
+│   │   │   └── window.svg
+│   │   ├── src
+│   │   │   ├── app
+│   │   │   │   ├── actions.ts
+│   │   │   │   ├── api
+│   │   │   │   │   ├── hello
+│   │   │   │   │   │   └── route.ts
+│   │   │   │   │   └── user
+│   │   │   │   │       ├── [id]
+│   │   │   │   │       │   └── route.ts
+│   │   │   │   │       └── route.ts
+│   │   │   │   ├── dashboard
+│   │   │   │   │   └── page.tsx
+│   │   │   │   ├── favicon.ico
+│   │   │   │   ├── globals.css
+│   │   │   │   ├── layout.tsx
+│   │   │   │   ├── page.tsx
+│   │   │   │   └── profile
+│   │   │   │       └── [id]
+│   │   │   │           ├── DeleteUserButton.tsx
+│   │   │   │           ├── EditUserButton.tsx
+│   │   │   │           ├── actions.ts
+│   │   │   │           └── page.tsx
+│   │   │   ├── components
+│   │   │   │   ├── DeleteModal.tsx
+│   │   │   │   └── EditUserModal.tsx
+│   │   │   └── middleware.ts
+│   │   └── tsconfig.json
+│   ├── custome-auth-app
+│   │   ├── README.md
+│   │   ├── eslint.config.mjs
+│   │   ├── next-env.d.ts
+│   │   ├── next.config.ts
+│   │   ├── package.json
+│   │   ├── postcss.config.mjs
+│   │   ├── prisma
+│   │   │   ├── migrations
+│   │   │   │   ├── 20250709064727_fisrt_migration
+│   │   │   │   │   └── migration.sql
+│   │   │   │   └── migration_lock.toml
+│   │   │   └── schema.prisma
+│   │   ├── public
+│   │   │   ├── file.svg
+│   │   │   ├── globe.svg
+│   │   │   ├── next.svg
+│   │   │   ├── vercel.svg
+│   │   │   └── window.svg
+│   │   ├── src
+│   │   │   ├── app
+│   │   │   │   ├── (auth)
+│   │   │   │   │   ├── login
+│   │   │   │   │   │   ├── LoginForm.tsx
+│   │   │   │   │   │   └── page.tsx
+│   │   │   │   │   ├── mfa
+│   │   │   │   │   │   └── page.tsx
+│   │   │   │   │   └── register
+│   │   │   │   │       └── page.tsx
+│   │   │   │   ├── api
+│   │   │   │   │   ├── login
+│   │   │   │   │   │   └── route.ts
+│   │   │   │   │   ├── logout
+│   │   │   │   │   │   └── route.ts
+│   │   │   │   │   ├── mfa
+│   │   │   │   │   │   ├── setup
+│   │   │   │   │   │   │   └── route.ts
+│   │   │   │   │   │   └── verify
+│   │   │   │   │   │       └── route.ts
+│   │   │   │   │   ├── refresh
+│   │   │   │   │   │   └── route.ts
+│   │   │   │   │   ├── register
+│   │   │   │   │   │   └── route.ts
+│   │   │   │   │   └── users
+│   │   │   │   │       ├── [id]
+│   │   │   │   │       │   ├── password
+│   │   │   │   │       │   │   └── route.ts
+│   │   │   │   │       │   └── route.ts
+│   │   │   │   │       └── route.ts
+│   │   │   │   ├── dashboard
+│   │   │   │   │   ├── DashboardClient.tsx
+│   │   │   │   │   └── page.tsx
+│   │   │   │   ├── favicon.ico
+│   │   │   │   ├── globals.css
+│   │   │   │   ├── layout.tsx
+│   │   │   │   └── page.tsx
+│   │   │   ├── lib
+│   │   │   │   ├── cookies.ts
+│   │   │   │   ├── jwt.ts
+│   │   │   │   └── prisma.ts
+│   │   │   ├── middleware.ts
+│   │   │   └── types
+│   │   │       └── auth.ts
+│   │   └── tsconfig.json
+│   ├── employee-management-crud
+│   │   ├── README.md
+│   │   ├── data
+│   │   │   ├── employees.json
+│   │   │   ├── package.json
+│   │   │   └── server.js
+│   │   ├── eslint.config.mjs
+│   │   ├── next-env.d.ts
+│   │   ├── next.config.ts
+│   │   ├── package.json
+│   │   ├── postcss.config.mjs
+│   │   ├── public
+│   │   │   ├── file.svg
+│   │   │   ├── globe.svg
+│   │   │   ├── next.svg
+│   │   │   ├── vercel.svg
+│   │   │   └── window.svg
+│   │   ├── src
+│   │   │   ├── app
+│   │   │   │   ├── add
+│   │   │   │   │   └── page.tsx
+│   │   │   │   ├── edit
+│   │   │   │   │   └── [id]
+│   │   │   │   │       └── page.tsx
+│   │   │   │   ├── favicon.ico
+│   │   │   │   ├── globals.css
+│   │   │   │   ├── layout.tsx
+│   │   │   │   └── page.tsx
+│   │   │   ├── components
+│   │   │   │   └── EmployeeCard.tsx
+│   │   │   └── lib
+│   │   │       └── api.ts
+│   │   └── tsconfig.json
+│   ├── imam-portfolio
+│   │   ├── AGENTS.md
+│   │   ├── CLAUDE.md
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── deploy.cjs
+│   │   ├── eslint.config.mjs
+│   │   ├── next-env.d.ts
+│   │   ├── next.config.ts
+│   │   ├── package.json
+│   │   ├── postcss.config.mjs
+│   │   ├── projects
+│   │   │   └── imamuddin
+│   │   │       └── Day1
+│   │   │           └── my-app
+│   │   │               ├── README.md
+│   │   │               ├── package.json
+│   │   │               ├── public
+│   │   │               │   ├── favicon.ico
+│   │   │               │   ├── index.html
+│   │   │               │   ├── logo192.png
+│   │   │               │   ├── logo512.png
+│   │   │               │   ├── manifest.json
+│   │   │               │   └── robots.txt
+│   │   │               └── src
+│   │   │                   ├── App.css
+│   │   │                   ├── App.js
+│   │   │                   ├── App.test.js
+│   │   │                   ├── index.css
+│   │   │                   ├── index.js
+│   │   │                   ├── logo.svg
+│   │   │                   ├── reportWebVitals.js
+│   │   │                   └── setupTests.js
+│   │   ├── public
+│   │   │   ├── builds
+│   │   │   │   └── Day1
+│   │   │   │       └── my-app
+│   │   │   │           ├── asset-manifest.json
+│   │   │   │           ├── favicon.ico
+│   │   │   │           ├── index.html
+│   │   │   │           ├── logo192.png
+│   │   │   │           ├── logo512.png
+│   │   │   │           ├── manifest.json
+│   │   │   │           ├── robots.txt
+│   │   │   │           └── static
+│   │   │   │               ├── css
+│   │   │   │               │   ├── main.f855e6bc.css
+│   │   │   │               │   └── main.f855e6bc.css.map
+│   │   │   │               ├── js
+│   │   │   │               │   ├── 453.e9e7ec89.chunk.js
+│   │   │   │               │   ├── 453.e9e7ec89.chunk.js.map
+│   │   │   │               │   ├── main.0bc3e556.js
+│   │   │   │               │   ├── main.0bc3e556.js.LICENSE.txt
+│   │   │   │               │   └── main.0bc3e556.js.map
+│   │   │   │               └── media
+│   │   │   │                   └── logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg
+│   │   │   ├── file.svg
+│   │   │   ├── files
+│   │   │   │   └── Imamuddin_resume.pdf
+│   │   │   ├── globe.svg
+│   │   │   ├── next.svg
+│   │   │   ├── vercel.svg
+│   │   │   └── window.svg
+│   │   ├── scripts
+│   │   │   ├── build-all.cjs
+│   │   │   └── clean-all.cjs
+│   │   ├── src
+│   │   │   ├── app
+│   │   │   │   ├── _home
+│   │   │   │   │   ├── AboutSection.tsx
+│   │   │   │   │   ├── ContactSection.tsx
+│   │   │   │   │   ├── HeroSection.tsx
+│   │   │   │   │   ├── SkillsSection.tsx
+│   │   │   │   │   └── StatsSection.tsx
+│   │   │   │   ├── api
+│   │   │   │   │   ├── debug
+│   │   │   │   │   │   └── route.ts
+│   │   │   │   │   ├── demo-asset
+│   │   │   │   │   │   └── route.ts
+│   │   │   │   │   ├── demo-asset-proxy
+│   │   │   │   │   │   └── route.ts
+│   │   │   │   │   ├── demo-html
+│   │   │   │   │   │   └── route.ts
+│   │   │   │   │   ├── demo-react
+│   │   │   │   │   │   └── route.ts
+│   │   │   │   │   ├── demo-react-asset
+│   │   │   │   │   │   └── route.ts
+│   │   │   │   │   ├── demo-status
+│   │   │   │   │   │   └── route.ts
+│   │   │   │   │   ├── file-content
+│   │   │   │   │   │   └── route.ts
+│   │   │   │   │   └── project-file
+│   │   │   │   │       └── route.ts
+│   │   │   │   ├── code
+│   │   │   │   │   └── [...slug]
+│   │   │   │   │       └── page.tsx
+│   │   │   │   ├── demo
+│   │   │   │   │   └── [...slug]
+│   │   │   │   │       └── page.tsx
+│   │   │   │   ├── favicon.ico
+│   │   │   │   ├── globals.css
+│   │   │   │   ├── layout.tsx
+│   │   │   │   ├── page.tsx
+│   │   │   │   └── projects
+│   │   │   │       └── page.tsx
+│   │   │   ├── components
+│   │   │   │   ├── code-viewer
+│   │   │   │   │   ├── CodePanel.tsx
+│   │   │   │   │   ├── CodeToolbar.tsx
+│   │   │   │   │   ├── CodeViewerClient.tsx
+│   │   │   │   │   ├── FileTree.tsx
+│   │   │   │   │   ├── FileTreeNode.tsx
+│   │   │   │   │   └── fileIcons.ts
+│   │   │   │   ├── demo
+│   │   │   │   │   ├── DemoToolbar.tsx
+│   │   │   │   │   ├── DemoUnavailable.tsx
+│   │   │   │   │   ├── DemoViewer.tsx
+│   │   │   │   │   └── EnvWarningBanner.tsx
+│   │   │   │   ├── icons
+│   │   │   │   │   └── SocialIcons.tsx
+│   │   │   │   ├── layout
+│   │   │   │   │   ├── Footer.tsx
+│   │   │   │   │   └── Navbar.tsx
+│   │   │   │   ├── projects
+│   │   │   │   │   ├── ProjectCard.tsx
+│   │   │   │   │   ├── ProjectFilters.tsx
+│   │   │   │   │   ├── ProjectTypeBadge.tsx
+│   │   │   │   │   ├── ProjectsClient.tsx
+│   │   │   │   │   └── ProjectsStats.tsx
+│   │   │   │   └── providers
+│   │   │   │       └── ThemeProvider.tsx
+│   │   │   └── lib
+│   │   │       ├── constants.ts
+│   │   │       ├── demoResolver.ts
+│   │   │       ├── markdownToHtml.ts
+│   │   │       ├── projectScanner.ts
+│   │   │       └── types.ts
+│   │   ├── tailwind.config.ts
+│   │   ├── tsconfig.json
+│   │   └── vercel.json
+│   ├── my-portfolio
+│   │   ├── AGENTS.md
+│   │   ├── CLAUDE.md
+│   │   ├── README.md
+│   │   ├── eslint.config.mjs
+│   │   ├── netlify.toml
+│   │   ├── next-env.d.ts
+│   │   ├── next.config.ts
+│   │   ├── package.json
+│   │   ├── postcss.config.mjs
+│   │   ├── public
+│   │   │   ├── file.svg
+│   │   │   ├── globe.svg
+│   │   │   ├── next.svg
+│   │   │   ├── vercel.svg
+│   │   │   └── window.svg
+│   │   ├── src
+│   │   │   └── app
+│   │   │       ├── ThemeContext.tsx
+│   │   │       ├── ThemeToggle.tsx
+│   │   │       ├── favicon.ico
+│   │   │       ├── globals.css
+│   │   │       ├── layout.tsx
+│   │   │       └── page.tsx
+│   │   └── tsconfig.json
+│   ├── next-app-router
+│   │   ├── README.md
+│   │   ├── eslint.config.mjs
+│   │   ├── next-env.d.ts
+│   │   ├── next.config.ts
+│   │   ├── package.json
+│   │   ├── postcss.config.mjs
+│   │   ├── public
+│   │   │   ├── file.svg
+│   │   │   ├── globe.svg
+│   │   │   ├── next.svg
+│   │   │   ├── vercel.svg
+│   │   │   └── window.svg
+│   │   ├── src
+│   │   │   ├── app
+│   │   │   │   ├── about
+│   │   │   │   │   └── page.tsx
+│   │   │   │   ├── api
+│   │   │   │   │   └── hello
+│   │   │   │   │       └── route.ts
+│   │   │   │   ├── contact
+│   │   │   │   │   └── page.tsx
+│   │   │   │   ├── favicon.ico
+│   │   │   │   ├── globals.css
+│   │   │   │   ├── layout.tsx
+│   │   │   │   ├── page.tsx
+│   │   │   │   ├── products
+│   │   │   │   │   └── page.tsx
+│   │   │   │   └── user
+│   │   │   │       ├── [id]
+│   │   │   │       │   └── page.tsx
+│   │   │   │       └── page.tsx
+│   │   │   ├── lib
+│   │   │   │   └── api
+│   │   │   │       └── hello.ts
+│   │   │   └── server
+│   │   │       └── actions.ts
+│   │   └── tsconfig.json
+│   └── quran-stats-app
+│       ├── AGENTS.md
+│       ├── CLAUDE.md
+│       ├── README.md
+│       ├── TODO.md
+│       ├── eslint.config.mjs
+│       ├── next-env.d.ts
+│       ├── next.config.ts
+│       ├── package.json
+│       ├── postcss.config.mjs
+│       ├── public
+│       │   ├── file.svg
+│       │   ├── globe.svg
+│       │   ├── next.svg
+│       │   ├── vercel.svg
+│       │   └── window.svg
+│       ├── src
+│       │   ├── app
+│       │   │   ├── chapters
+│       │   │   │   └── page.tsx
+│       │   │   ├── favicon.ico
+│       │   │   ├── globals.css
+│       │   │   ├── layout.tsx
+│       │   │   └── page.tsx
+│       │   ├── components
+│       │   │   ├── DataTable.tsx
+│       │   │   ├── StatsTable.tsx
+│       │   │   └── TanStackTable.tsx
+│       │   └── data
+│       │       └── quran-stats.ts
+│       └── tsconfig.json
+├── python
+│   └── A-SPAM-Transformer-Model
+│       ├── DOCUMENT
+│       │   └── Document.rar
+│       ├── Database
+│       │   └── aspam transformer.sql
+│       ├── LICENSE
+│       ├── README.md
+│       ├── Remote_User
+│       │   ├── __init__.py
+│       │   ├── admin.py
+│       │   ├── apps.py
+│       │   ├── forms.py
+│       │   ├── migrations
+│       │   │   ├── 0001_initial.py
+│       │   │   └── __init__.py
+│       │   ├── models.py
+│       │   ├── tests.py
+│       │   ├── urls.py
+│       │   └── views.py
+│       ├── SMS_Datasets.csv
+│       ├── Service_Provider
+│       │   ├── __init__.py
+│       │   ├── admin.py
+│       │   ├── apps.py
+│       │   ├── migrations
+│       │   │   └── __init__.py
+│       │   ├── models.py
+│       │   ├── tests.py
+│       │   ├── urls.py
+│       │   └── views.py
+│       ├── Template
+│       │   ├── htmls
+│       │   │   ├── RUser
+│       │   │   │   ├── Add_DataSet_Details.html
+│       │   │   │   ├── Predict_SMSMessage_Type.html
+│       │   │   │   ├── Register1.html
+│       │   │   │   ├── ViewYourProfile.html
+│       │   │   │   ├── button1.swf
+│       │   │   │   ├── design.html
+│       │   │   │   ├── login.css
+│       │   │   │   ├── login.html
+│       │   │   │   ├── ratings.html
+│       │   │   │   └── text1.swf
+│       │   │   └── SProvider
+│       │   │       ├── Download_Trained_DataSets.html
+│       │   │       ├── View_Prediction_Of_SMSMessage_Type.html
+│       │   │       ├── View_Remote_Users.html
+│       │   │       ├── View_SMSMessage_Type_Ratio.html
+│       │   │       ├── charts.html
+│       │   │       ├── charts1.html
+│       │   │       ├── design1.html
+│       │   │       ├── dislikeschart.html
+│       │   │       ├── likeschart.html
+│       │   │       ├── serviceproviderlogin.html
+│       │   │       └── train_model.html
+│       │   └── images
+│       │       ├── Login.jpg
+│       │       ├── Login1.jpg
+│       │       ├── Register.jpg
+│       │       ├── sp.jpg
+│       │       ├── spam.png
+│       │       └── spp.jpg
+│       ├── aspam_transformer_model
+│       │   ├── __init__.py
+│       │   ├── asgi.py
+│       │   ├── settings.py
+│       │   ├── urls.py
+│       │   └── wsgi.py
+│       ├── labeled_data.csv
+│       ├── manage.py
+│       └── static
+│           ├── Login.jpg
+│           ├── Login1.jpg
+│           ├── Register.jpg
+│           ├── admin
+│           │   ├── css
+│           │   │   ├── autocomplete.css
+│           │   │   ├── base.css
+│           │   │   ├── changelists.css
+│           │   │   ├── dark_mode.css
+│           │   │   ├── dashboard.css
+│           │   │   ├── forms.css
+│           │   │   ├── login.css
+│           │   │   ├── nav_sidebar.css
+│           │   │   ├── responsive.css
+│           │   │   ├── responsive_rtl.css
+│           │   │   ├── rtl.css
+│           │   │   ├── unusable_password_field.css
+│           │   │   ├── vendor
+│           │   │   │   └── select2
+│           │   │   │       ├── LICENSE-SELECT2.md
+│           │   │   │       ├── select2.css
+│           │   │   │       └── select2.min.css
+│           │   │   └── widgets.css
+│           │   ├── img
+│           │   │   ├── LICENSE
+│           │   │   ├── README.txt
+│           │   │   ├── calendar-icons.svg
+│           │   │   ├── gis
+│           │   │   │   ├── move_vertex_off.svg
+│           │   │   │   └── move_vertex_on.svg
+│           │   │   ├── icon-addlink.svg
+│           │   │   ├── icon-alert.svg
+│           │   │   ├── icon-calendar.svg
+│           │   │   ├── icon-changelink.svg
+│           │   │   ├── icon-clock.svg
+│           │   │   ├── icon-deletelink.svg
+│           │   │   ├── icon-hidelink.svg
+│           │   │   ├── icon-no.svg
+│           │   │   ├── icon-unknown-alt.svg
+│           │   │   ├── icon-unknown.svg
+│           │   │   ├── icon-viewlink.svg
+│           │   │   ├── icon-yes.svg
+│           │   │   ├── inline-delete.svg
+│           │   │   ├── search.svg
+│           │   │   ├── selector-icons.svg
+│           │   │   ├── sorting-icons.svg
+│           │   │   ├── tooltag-add.svg
+│           │   │   └── tooltag-arrowright.svg
+│           │   └── js
+│           │       ├── SelectBox.js
+│           │       ├── SelectFilter2.js
+│           │       ├── actions.js
+│           │       ├── admin
+│           │       │   ├── DateTimeShortcuts.js
+│           │       │   └── RelatedObjectLookups.js
+│           │       ├── autocomplete.js
+│           │       ├── calendar.js
+│           │       ├── cancel.js
+│           │       ├── change_form.js
+│           │       ├── core.js
+│           │       ├── filters.js
+│           │       ├── inlines.js
+│           │       ├── jquery.init.js
+│           │       ├── nav_sidebar.js
+│           │       ├── popup_response.js
+│           │       ├── prepopulate.js
+│           │       ├── prepopulate_init.js
+│           │       ├── theme.js
+│           │       ├── unusable_password_field.js
+│           │       ├── urlify.js
+│           │       └── vendor
+│           │           ├── jquery
+│           │           │   ├── LICENSE.txt
+│           │           │   ├── jquery.js
+│           │           │   └── jquery.min.js
+│           │           ├── select2
+│           │           │   ├── LICENSE.md
+│           │           │   ├── i18n
+│           │           │   │   ├── af.js
+│           │           │   │   ├── ar.js
+│           │           │   │   ├── az.js
+│           │           │   │   ├── bg.js
+│           │           │   │   ├── bn.js
+│           │           │   │   ├── bs.js
+│           │           │   │   ├── ca.js
+│           │           │   │   ├── cs.js
+│           │           │   │   ├── da.js
+│           │           │   │   ├── de.js
+│           │           │   │   ├── dsb.js
+│           │           │   │   ├── el.js
+│           │           │   │   ├── en.js
+│           │           │   │   ├── es.js
+│           │           │   │   ├── et.js
+│           │           │   │   ├── eu.js
+│           │           │   │   ├── fa.js
+│           │           │   │   ├── fi.js
+│           │           │   │   ├── fr.js
+│           │           │   │   ├── gl.js
+│           │           │   │   ├── he.js
+│           │           │   │   ├── hi.js
+│           │           │   │   ├── hr.js
+│           │           │   │   ├── hsb.js
+│           │           │   │   ├── hu.js
+│           │           │   │   ├── hy.js
+│           │           │   │   ├── id.js
+│           │           │   │   ├── is.js
+│           │           │   │   ├── it.js
+│           │           │   │   ├── ja.js
+│           │           │   │   ├── ka.js
+│           │           │   │   ├── km.js
+│           │           │   │   ├── ko.js
+│           │           │   │   ├── lt.js
+│           │           │   │   ├── lv.js
+│           │           │   │   ├── mk.js
+│           │           │   │   ├── ms.js
+│           │           │   │   ├── nb.js
+│           │           │   │   ├── ne.js
+│           │           │   │   ├── nl.js
+│           │           │   │   ├── pl.js
+│           │           │   │   ├── ps.js
+│           │           │   │   ├── pt-BR.js
+│           │           │   │   ├── pt.js
+│           │           │   │   ├── ro.js
+│           │           │   │   ├── ru.js
+│           │           │   │   ├── sk.js
+│           │           │   │   ├── sl.js
+│           │           │   │   ├── sq.js
+│           │           │   │   ├── sr-Cyrl.js
+│           │           │   │   ├── sr.js
+│           │           │   │   ├── sv.js
+│           │           │   │   ├── th.js
+│           │           │   │   ├── tk.js
+│           │           │   │   ├── tr.js
+│           │           │   │   ├── uk.js
+│           │           │   │   ├── vi.js
+│           │           │   │   ├── zh-CN.js
+│           │           │   │   └── zh-TW.js
+│           │           │   ├── select2.full.js
+│           │           │   └── select2.full.min.js
+│           │           └── xregexp
+│           │               ├── LICENSE.txt
+│           │               ├── xregexp.js
+│           │               └── xregexp.min.js
+│           ├── sp.jpg
+│           ├── spam.png
+│           └── spp.jpg
+├── react-js
+│   ├── AITest
+│   │   ├── crud
+│   │   │   ├── README.md
+│   │   │   ├── eslint.config.js
+│   │   │   ├── index.html
+│   │   │   ├── package.json
+│   │   │   ├── public
+│   │   │   │   └── vite.svg
+│   │   │   ├── src
+│   │   │   │   ├── App.jsx
+│   │   │   │   ├── components
+│   │   │   │   │   ├── Card.jsx
+│   │   │   │   │   ├── DialogBox.jsx
+│   │   │   │   │   ├── Header.jsx
+│   │   │   │   │   ├── Home.jsx
+│   │   │   │   │   ├── Nav.jsx
+│   │   │   │   │   ├── StudentCard.jsx
+│   │   │   │   │   ├── StudentList.jsx
+│   │   │   │   │   └── Table.jsx
+│   │   │   │   ├── index.css
+│   │   │   │   └── main.jsx
+│   │   │   └── vite.config.js
+│   │   ├── crud_by_ai
+│   │   │   ├── README.md
+│   │   │   ├── eslint.config.js
+│   │   │   ├── index.html
+│   │   │   ├── package.json
+│   │   │   ├── public
+│   │   │   │   └── vite.svg
+│   │   │   ├── src
+│   │   │   │   ├── App.css
+│   │   │   │   ├── App.jsx
+│   │   │   │   ├── assets
+│   │   │   │   │   └── react.svg
+│   │   │   │   ├── components
+│   │   │   │   │   ├── DeleteStudentDialog.jsx
+│   │   │   │   │   ├── EditStudentDialog.jsx
+│   │   │   │   │   ├── Header.jsx
+│   │   │   │   │   ├── Home.jsx
+│   │   │   │   │   ├── Nav.jsx
+│   │   │   │   │   ├── SearchSortBar.jsx
+│   │   │   │   │   ├── StudentCard.jsx
+│   │   │   │   │   ├── StudentList.jsx
+│   │   │   │   │   └── Table.jsx
+│   │   │   │   ├── index.css
+│   │   │   │   ├── main.jsx
+│   │   │   │   ├── styles.css
+│   │   │   │   └── utils
+│   │   │   │       └── validate.js
+│   │   │   └── vite.config.js
+│   │   ├── login.css
+│   │   ├── login.html
+│   │   └── login.js
+│   ├── Day1
+│   │   ├── index.html
+│   │   └── index.js
+│   ├── Day10
+│   │   ├── class_based_component
+│   │   │   ├── README.md
+│   │   │   ├── eslint.config.js
+│   │   │   ├── index.html
+│   │   │   ├── package.json
+│   │   │   ├── public
+│   │   │   │   └── vite.svg
+│   │   │   ├── src
+│   │   │   │   ├── App.jsx
+│   │   │   │   └── main.jsx
+│   │   │   └── vite.config.js
+│   │   ├── classes.html
+│   │   └── classes.js
+│   ├── Day11
+│   │   └── functional_based_component
+│   │       ├── README.md
+│   │       ├── eslint.config.js
+│   │       ├── index.html
+│   │       ├── package.json
+│   │       ├── public
+│   │       │   └── vite.svg
+│   │       ├── src
+│   │       │   ├── App.jsx
+│   │       │   ├── components
+│   │       │   │   ├── Footer.jsx
+│   │       │   │   ├── MainContent.jsx
+│   │       │   │   └── Navbar.jsx
+│   │       │   └── main.jsx
+│   │       └── vite.config.js
+│   ├── Day13
+│   │   └── state
+│   │       ├── README.md
+│   │       ├── eslint.config.js
+│   │       ├── index.html
+│   │       ├── package.json
+│   │       ├── public
+│   │       │   └── vite.svg
+│   │       ├── src
+│   │       │   ├── App.jsx
+│   │       │   ├── assets
+│   │       │   │   └── images
+│   │       │   │       ├── bellicon.png
+│   │       │   │       └── silentbell.png
+│   │       │   ├── components
+│   │       │   │   └── Message.jsx
+│   │       │   └── main.jsx
+│   │       └── vite.config.js
+│   ├── Day14
+│   │   └── state
+│   │       ├── README.md
+│   │       ├── eslint.config.js
+│   │       ├── index.html
+│   │       ├── package.json
+│   │       ├── public
+│   │       │   └── vite.svg
+│   │       ├── src
+│   │       │   ├── App.jsx
+│   │       │   ├── Components
+│   │       │   │   ├── Counter.jsx
+│   │       │   │   └── Skills.jsx
+│   │       │   └── main.jsx
+│   │       └── vite.config.js
+│   ├── Day15
+│   │   ├── jsonobject
+│   │   │   ├── README.md
+│   │   │   ├── eslint.config.js
+│   │   │   ├── index.html
+│   │   │   ├── package.json
+│   │   │   ├── public
+│   │   │   │   └── vite.svg
+│   │   │   ├── src
+│   │   │   │   ├── App.jsx
+│   │   │   │   ├── components
+│   │   │   │   │   ├── JsonInState.jsx
+│   │   │   │   │   └── MOCK_DATA.json
+│   │   │   │   └── main.jsx
+│   │   │   └── vite.config.js
+│   │   └── props
+│   │       ├── README.md
+│   │       ├── eslint.config.js
+│   │       ├── index.html
+│   │       ├── package.json
+│   │       ├── public
+│   │       │   └── vite.svg
+│   │       ├── src
+│   │       │   ├── App.jsx
+│   │       │   ├── components
+│   │       │   │   ├── Demo.jsx
+│   │       │   │   └── Test.jsx
+│   │       │   └── main.jsx
+│   │       └── vite.config.js
+│   ├── Day16
+│   │   └── props
+│   │       └── props
+│   │           ├── README.md
+│   │           ├── eslint.config.js
+│   │           ├── index.html
+│   │           ├── package.json
+│   │           ├── public
+│   │           │   └── vite.svg
+│   │           ├── src
+│   │           │   ├── App.jsx
+│   │           │   ├── components
+│   │           │   │   ├── Card.jsx
+│   │           │   │   ├── CardDetails.jsx
+│   │           │   │   ├── Child.jsx
+│   │           │   │   ├── MOCK_DATA.json
+│   │           │   │   └── Parent.jsx
+│   │           │   ├── index.css
+│   │           │   └── main.jsx
+│   │           └── vite.config.js
+│   ├── Day17
+│   │   └── default_props
+│   │       ├── README.md
+│   │       ├── eslint.config.js
+│   │       ├── index.html
+│   │       ├── package.json
+│   │       ├── public
+│   │       │   └── vite.svg
+│   │       ├── src
+│   │       │   ├── App.jsx
+│   │       │   ├── components
+│   │       │   │   ├── DefaultProps.jsx
+│   │       │   │   ├── ParentProps.jsx
+│   │       │   │   ├── SecondWayDefaultProps.jsx
+│   │       │   │   ├── children_props
+│   │       │   │   │   ├── ComponentE.jsx
+│   │       │   │   │   └── ComponentF.jsx
+│   │       │   │   └── props_drilling
+│   │       │   │       ├── ComponentA.jsx
+│   │       │   │       ├── ComponentB.jsx
+│   │       │   │       ├── ComponentC.jsx
+│   │       │   │       └── ComponentD.jsx
+│   │       │   └── main.jsx
+│   │       └── vite.config.js
+│   ├── Day18
+│   │   └── theme
+│   │       ├── README.md
+│   │       ├── eslint.config.js
+│   │       ├── index.html
+│   │       ├── package.json
+│   │       ├── public
+│   │       │   └── vite.svg
+│   │       ├── src
+│   │       │   ├── App.jsx
+│   │       │   ├── assets
+│   │       │   │   └── react.svg
+│   │       │   ├── context
+│   │       │   │   ├── Nav.jsx
+│   │       │   │   └── ThemeContext.jsx
+│   │       │   ├── index.css
+│   │       │   └── main.jsx
+│   │       └── vite.config.js
+│   ├── Day2
+│   │   ├── index.html
+│   │   └── index.js
+│   ├── Day21
+│   │   └── conditional_rendering
+│   │       ├── README.md
+│   │       ├── eslint.config.js
+│   │       ├── index.html
+│   │       ├── package.json
+│   │       ├── public
+│   │       │   └── vite.svg
+│   │       ├── src
+│   │       │   ├── App.jsx
+│   │       │   ├── assets
+│   │       │   │   └── react.svg
+│   │       │   ├── components
+│   │       │   │   ├── Banking.jsx
+│   │       │   │   ├── DisplayPopup.jsx
+│   │       │   │   ├── Marriage.jsx
+│   │       │   │   ├── SecondMarriage.jsx
+│   │       │   │   ├── Voting.jsx
+│   │       │   │   ├── WeekDays.jsx
+│   │       │   │   └── tasks
+│   │       │   │       ├── Short.jsx
+│   │       │   │       └── ifelse
+│   │       │   │           └── IfElse1.jsx
+│   │       │   ├── index.css
+│   │       │   └── main.jsx
+│   │       └── vite.config.js
+│   ├── Day22
+│   │   └── events
+│   │       ├── README.md
+│   │       ├── eslint.config.js
+│   │       ├── index.html
+│   │       ├── package.json
+│   │       ├── public
+│   │       │   └── vite.svg
+│   │       ├── src
+│   │       │   ├── App.jsx
+│   │       │   ├── components
+│   │       │   │   ├── MultipleEventHandler.jsx
+│   │       │   │   ├── RandomColor.jsx
+│   │       │   │   └── SayHello.jsx
+│   │       │   ├── index.css
+│   │       │   └── main.jsx
+│   │       └── vite.config.js
+│   ├── Day23
+│   │   └── css_in_react
+│   │       ├── README.md
+│   │       ├── eslint.config.js
+│   │       ├── index.html
+│   │       ├── package.json
+│   │       ├── public
+│   │       │   └── vite.svg
+│   │       ├── src
+│   │       │   ├── App.css
+│   │       │   ├── App.jsx
+│   │       │   ├── components
+│   │       │   │   ├── ExternalCSS.jsx
+│   │       │   │   ├── InlineCSS.jsx
+│   │       │   │   ├── InternalCSS.jsx
+│   │       │   │   ├── ModuleCSS.jsx
+│   │       │   │   └── ModuleCSS.module.css
+│   │       │   ├── index.css
+│   │       │   └── main.jsx
+│   │       └── vite.config.js
+│   ├── Day25
+│   │   └── tailwind_css
+│   │       ├── README.md
+│   │       ├── eslint.config.js
+│   │       ├── index.html
+│   │       ├── package.json
+│   │       ├── public
+│   │       │   └── vite.svg
+│   │       ├── src
+│   │       │   ├── App.jsx
+│   │       │   ├── components
+│   │       │   │   ├── GitNav.jsx
+│   │       │   │   └── GitSignIn.jsx
+│   │       │   ├── index.css
+│   │       │   └── main.jsx
+│   │       └── vite.config.js
+│   ├── Day26
+│   │   └── react_ref
+│   │       ├── README.md
+│   │       ├── eslint.config.js
+│   │       ├── index.html
+│   │       ├── package.json
+│   │       ├── public
+│   │       │   └── vite.svg
+│   │       ├── src
+│   │       │   ├── App.css
+│   │       │   ├── App.jsx
+│   │       │   ├── assets
+│   │       │   │   └── react.svg
+│   │       │   ├── components
+│   │       │   │   └── Focus.jsx
+│   │       │   ├── index.css
+│   │       │   └── main.jsx
+│   │       └── vite.config.js
+│   ├── Day27
+│   │   └── form_in_react
+│   │       ├── README.md
+│   │       ├── eslint.config.js
+│   │       ├── index.html
+│   │       ├── package.json
+│   │       ├── public
+│   │       │   └── vite.svg
+│   │       ├── src
+│   │       │   ├── App.jsx
+│   │       │   ├── assets
+│   │       │   │   └── react.svg
+│   │       │   ├── components
+│   │       │   │   └── Uncontrolled.jsx
+│   │       │   ├── index.css
+│   │       │   └── main.jsx
+│   │       └── vite.config.js
+│   ├── Day28
+│   │   └── controlled_form
+│   │       ├── README.md
+│   │       ├── eslint.config.js
+│   │       ├── index.html
+│   │       ├── package.json
+│   │       ├── public
+│   │       │   └── vite.svg
+│   │       ├── src
+│   │       │   ├── App.jsx
+│   │       │   ├── assets
+│   │       │   │   └── react.svg
+│   │       │   ├── components
+│   │       │   │   └── ControlledForm.jsx
+│   │       │   ├── index.css
+│   │       │   └── main.jsx
+│   │       └── vite.config.js
+│   ├── Day29
+│   │   └── form_in_react
+│   │       ├── README.md
+│   │       ├── eslint.config.js
+│   │       ├── index.html
+│   │       ├── package.json
+│   │       ├── public
+│   │       │   └── vite.svg
+│   │       ├── src
+│   │       │   ├── App.jsx
+│   │       │   ├── components
+│   │       │   │   └── SingleStateForm.jsx
+│   │       │   ├── index.css
+│   │       │   └── main.jsx
+│   │       └── vite.config.js
+│   ├── Day3
+│   │   ├── index.html
+│   │   └── index.js
+│   ├── Day31
+│   │   └── useeffect
+│   │       ├── README.md
+│   │       ├── eslint.config.js
+│   │       ├── index.html
+│   │       ├── package.json
+│   │       ├── public
+│   │       │   └── vite.svg
+│   │       ├── src
+│   │       │   ├── App.jsx
+│   │       │   ├── components
+│   │       │   │   ├── Count.jsx
+│   │       │   │   └── FetchAPI.jsx
+│   │       │   ├── index.css
+│   │       │   └── main.jsx
+│   │       └── vite.config.js
+│   ├── Day32
+│   │   └── browserrouter_way
+│   │       ├── README.md
+│   │       ├── eslint.config.js
+│   │       ├── index.html
+│   │       ├── package.json
+│   │       ├── public
+│   │       │   └── vite.svg
+│   │       ├── src
+│   │       │   ├── App.jsx
+│   │       │   ├── components
+│   │       │   │   ├── About.jsx
+│   │       │   │   ├── Contact.jsx
+│   │       │   │   ├── Home.jsx
+│   │       │   │   ├── Login.jsx
+│   │       │   │   ├── Nav.jsx
+│   │       │   │   └── Register.jsx
+│   │       │   ├── index.css
+│   │       │   └── main.jsx
+│   │       └── vite.config.js
+│   ├── Day33
+│   │   └── routing_use_navigate
+│   │       ├── README.md
+│   │       ├── eslint.config.js
+│   │       ├── index.html
+│   │       ├── package.json
+│   │       ├── public
+│   │       │   └── vite.svg
+│   │       ├── src
+│   │       │   ├── App.css
+│   │       │   ├── App.jsx
+│   │       │   ├── assets
+│   │       │   │   └── react.svg
+│   │       │   ├── components
+│   │       │   │   ├── About.jsx
+│   │       │   │   ├── Contact.jsx
+│   │       │   │   ├── Home.jsx
+│   │       │   │   ├── Login.jsx
+│   │       │   │   ├── Nav.jsx
+│   │       │   │   └── Register.jsx
+│   │       │   ├── index.css
+│   │       │   └── main.jsx
+│   │       ├── src.zip
+│   │       └── vite.config.js
+│   ├── Day34
+│   │   └── create_browser_router_way
+│   │       ├── README.md
+│   │       ├── eslint.config.js
+│   │       ├── index.html
+│   │       ├── package.json
+│   │       ├── public
+│   │       │   └── vite.svg
+│   │       ├── src
+│   │       │   ├── App.jsx
+│   │       │   ├── components
+│   │       │   │   ├── About.jsx
+│   │       │   │   ├── Contact.jsx
+│   │       │   │   ├── Home.jsx
+│   │       │   │   ├── Login.jsx
+│   │       │   │   ├── NavBar.jsx
+│   │       │   │   └── Register.jsx
+│   │       │   ├── index.css
+│   │       │   ├── main.jsx
+│   │       │   └── routing
+│   │       │       └── Routings.jsx
+│   │       └── vite.config.js
+│   ├── Day35
+│   │   └── advance_routings
+│   │       ├── README.md
+│   │       ├── eslint.config.js
+│   │       ├── index.html
+│   │       ├── package.json
+│   │       ├── public
+│   │       │   └── vite.svg
+│   │       ├── src
+│   │       │   ├── App.jsx
+│   │       │   ├── Routing
+│   │       │   │   └── Router.jsx
+│   │       │   ├── components
+│   │       │   │   ├── NavBar.jsx
+│   │       │   │   └── maincontent
+│   │       │   │       ├── Carts.jsx
+│   │       │   │       ├── Products.jsx
+│   │       │   │       └── Users.jsx
+│   │       │   ├── index.css
+│   │       │   ├── layouts
+│   │       │   │   ├── Layout.jsx
+│   │       │   │   ├── MainContent.jsx
+│   │       │   │   └── SideNavBar.jsx
+│   │       │   └── main.jsx
+│   │       └── vite.config.js
+│   ├── Day36
+│   │   └── dynamic_routing
+│   │       ├── README.md
+│   │       ├── eslint.config.js
+│   │       ├── index.html
+│   │       ├── package.json
+│   │       ├── public
+│   │       │   └── vite.svg
+│   │       ├── src
+│   │       │   ├── App.jsx
+│   │       │   ├── Routing
+│   │       │   │   └── Router.jsx
+│   │       │   ├── components
+│   │       │   │   ├── NavBar.jsx
+│   │       │   │   └── maincontent
+│   │       │   │       ├── Carts.jsx
+│   │       │   │       ├── Products.jsx
+│   │       │   │       ├── SecondSingleCart.jsx
+│   │       │   │       ├── SecondSingleProduct.jsx
+│   │       │   │       ├── SecondSingleUser.jsx
+│   │       │   │       ├── SingleCart.jsx
+│   │       │   │       ├── SingleProduct.jsx
+│   │       │   │       ├── SingleUser.jsx
+│   │       │   │       └── Users.jsx
+│   │       │   ├── index.css
+│   │       │   ├── layouts
+│   │       │   │   ├── Layout.jsx
+│   │       │   │   ├── MainContent.jsx
+│   │       │   │   └── SideNavBar.jsx
+│   │       │   └── main.jsx
+│   │       ├── src.zip
+│   │       └── vite.config.js
+│   ├── Day37
+│   │   └── use-reducer
+│   │       ├── README.md
+│   │       ├── eslint.config.js
+│   │       ├── index.html
+│   │       ├── package.json
+│   │       ├── public
+│   │       │   └── vite.svg
+│   │       ├── src
+│   │       │   ├── App.jsx
+│   │       │   ├── components
+│   │       │   │   ├── Bank.jsx
+│   │       │   │   └── Counter.jsx
+│   │       │   ├── index.css
+│   │       │   └── main.jsx
+│   │       └── vite.config.js
+│   ├── Day38
+│   │   └── use-memo
+│   │       ├── README.md
+│   │       ├── eslint.config.js
+│   │       ├── index.html
+│   │       ├── package.json
+│   │       ├── public
+│   │       │   └── vite.svg
+│   │       ├── src
+│   │       │   ├── App.jsx
+│   │       │   ├── components
+│   │       │   │   ├── Child.jsx
+│   │       │   │   ├── ExpensiveComponent.jsx
+│   │       │   │   ├── Memo.jsx
+│   │       │   │   └── UseMemoExample.jsx
+│   │       │   ├── index.css
+│   │       │   └── main.jsx
+│   │       └── vite.config.js
+│   ├── Day39
+│   │   └── use-callback
+│   │       ├── README.md
+│   │       ├── eslint.config.js
+│   │       ├── index.html
+│   │       ├── package.json
+│   │       ├── public
+│   │       │   └── vite.svg
+│   │       ├── src
+│   │       │   ├── App.jsx
+│   │       │   ├── components
+│   │       │   │   ├── Button.jsx
+│   │       │   │   ├── Count.jsx
+│   │       │   │   ├── Parent.jsx
+│   │       │   │   └── Title.jsx
+│   │       │   ├── index.css
+│   │       │   └── main.jsx
+│   │       └── vite.config.js
+│   ├── Day4
+│   │   ├── app.js
+│   │   ├── demo.js
+│   │   ├── export_default.html
+│   │   ├── export_default.js
+│   │   ├── export_default_main.js
+│   │   ├── global_local_context.html
+│   │   ├── global_local_context.js
+│   │   ├── index.html
+│   │   ├── method.html
+│   │   └── method.js
+│   ├── Day40
+│   │   └── todo-list
+│   │       ├── README.md
+│   │       ├── eslint.config.js
+│   │       ├── index.html
+│   │       ├── package.json
+│   │       ├── public
+│   │       │   └── vite.svg
+│   │       ├── server.js
+│   │       ├── src
+│   │       │   ├── App.jsx
+│   │       │   ├── components
+│   │       │   │   ├── Todo.jsx
+│   │       │   │   └── TodoList.jsx
+│   │       │   ├── data
+│   │       │   │   └── todo.json
+│   │       │   ├── index.css
+│   │       │   └── main.jsx
+│   │       └── vite.config.js
+│   ├── Day6
+│   │   ├── dom.html
+│   │   └── dom.js
+│   ├── Day8
+│   │   ├── my-app
+│   │   │   ├── README.md
+│   │   │   ├── package.json
+│   │   │   ├── public
+│   │   │   │   ├── favicon.ico
+│   │   │   │   ├── index.html
+│   │   │   │   ├── logo192.png
+│   │   │   │   ├── logo512.png
+│   │   │   │   ├── manifest.json
+│   │   │   │   └── robots.txt
+│   │   │   └── src
+│   │   │       ├── App.css
+│   │   │       ├── App.js
+│   │   │       ├── App.test.js
+│   │   │       ├── index.css
+│   │   │       ├── index.js
+│   │   │       ├── logo.svg
+│   │   │       ├── reportWebVitals.js
+│   │   │       └── setupTests.js
+│   │   └── second-app
+│   │       ├── README.md
+│   │       ├── eslint.config.js
+│   │       ├── index.html
+│   │       ├── package.json
+│   │       ├── public
+│   │       │   └── vite.svg
+│   │       ├── src
+│   │       │   ├── App.css
+│   │       │   ├── App.jsx
+│   │       │   ├── assets
+│   │       │   │   └── react.svg
+│   │       │   ├── index.css
+│   │       │   └── main.jsx
+│   │       └── vite.config.js
+│   ├── Day9
+│   │   └── my-app
+│   │       ├── README.md
+│   │       ├── eslint.config.js
+│   │       ├── index.html
+│   │       ├── package.json
+│   │       ├── public
+│   │       │   └── vite.svg
+│   │       ├── src
+│   │       │   └── main.jsx
+│   │       └── vite.config.js
+│   └── Tasks
+│       ├── Day1.html
+│       ├── Day1.js
+│       ├── Day3.html
+│       ├── Day3.js
+│       ├── adventure-aura-clone
+│       │   ├── README.md
+│       │   ├── TODO.md
+│       │   ├── index.html
+│       │   ├── package.json
+│       │   ├── public
+│       │   │   └── vite.svg
+│       │   ├── src
+│       │   │   ├── App.jsx
+│       │   │   ├── Routing
+│       │   │   │   └── Routings.jsx
+│       │   │   ├── assets
+│       │   │   │   ├── images
+│       │   │   │   │   ├── About
+│       │   │   │   │   │   ├── about-destination-11.jpg
+│       │   │   │   │   │   ├── about-destination-12.jpg
+│       │   │   │   │   │   ├── about-destination-13.jpg
+│       │   │   │   │   │   ├── about-hero.jpg
+│       │   │   │   │   │   ├── image11.jpg
+│       │   │   │   │   │   ├── team12.jpg
+│       │   │   │   │   │   └── team13.jpg
+│       │   │   │   │   ├── contact
+│       │   │   │   │   │   ├── Travel-50.svg
+│       │   │   │   │   │   ├── contact-hero.jpg
+│       │   │   │   │   │   ├── explore.jpg
+│       │   │   │   │   │   ├── header-logo-1.svg
+│       │   │   │   │   │   ├── home-destination1.jpg
+│       │   │   │   │   │   ├── home-destination2-1.jpg
+│       │   │   │   │   │   ├── home-destination3.jpg
+│       │   │   │   │   │   ├── home-destination4.jpg
+│       │   │   │   │   │   ├── home-destination5-1.jpg
+│       │   │   │   │   │   ├── home-hero.jpg
+│       │   │   │   │   │   ├── home-journey2.jpg
+│       │   │   │   │   │   ├── home-journey3.jpg
+│       │   │   │   │   │   ├── home-journey4.jpg
+│       │   │   │   │   │   ├── home-review.png
+│       │   │   │   │   │   ├── home-tour.jpg
+│       │   │   │   │   │   ├── image-12.png
+│       │   │   │   │   │   ├── image-6.png
+│       │   │   │   │   │   ├── packages-01.jpg
+│       │   │   │   │   │   ├── packages-02.jpg
+│       │   │   │   │   │   └── packages-03.jpg
+│       │   │   │   │   ├── home
+│       │   │   │   │   │   ├── home-destination1.jpg
+│       │   │   │   │   │   ├── home-destination2-1.jpg
+│       │   │   │   │   │   ├── home-destination3.jpg
+│       │   │   │   │   │   ├── home-destination4.jpg
+│       │   │   │   │   │   ├── home-destination5-1.jpg
+│       │   │   │   │   │   ├── home-hero.jpg
+│       │   │   │   │   │   ├── home-journey2.jpg
+│       │   │   │   │   │   └── home-tour.jpg
+│       │   │   │   │   └── packages
+│       │   │   │   │       ├── download (1).svg
+│       │   │   │   │       ├── download (2).svg
+│       │   │   │   │       ├── download (3).svg
+│       │   │   │   │       ├── download (4).svg
+│       │   │   │   │       ├── download (5).svg
+│       │   │   │   │       ├── download (6).svg
+│       │   │   │   │       ├── download (7).svg
+│       │   │   │   │       ├── download (8).svg
+│       │   │   │   │       ├── download (9).svg
+│       │   │   │   │       ├── download.svg
+│       │   │   │   │       ├── maldives-250x300.jpg
+│       │   │   │   │       ├── maldives-400x480.jpg
+│       │   │   │   │       ├── maldives.jpg
+│       │   │   │   │       ├── morocco-250x300.jpg
+│       │   │   │   │       ├── morocco-400x480.jpg
+│       │   │   │   │       ├── morocco.jpg
+│       │   │   │   │       ├── packages-hero.jpg
+│       │   │   │   │       ├── packages1-250x300.jpg
+│       │   │   │   │       ├── packages1-400x480.jpg
+│       │   │   │   │       ├── packages1.jpg
+│       │   │   │   │       ├── vietnam-250x300.jpg
+│       │   │   │   │       ├── vietnam-400x480.jpg
+│       │   │   │   │       └── vietnam.jpg
+│       │   │   │   └── react.svg
+│       │   │   ├── components
+│       │   │   │   ├── About
+│       │   │   │   │   ├── Section2.jsx
+│       │   │   │   │   ├── Section3.jsx
+│       │   │   │   │   ├── Section4.jsx
+│       │   │   │   │   ├── Section5.jsx
+│       │   │   │   │   └── Section6.jsx
+│       │   │   │   ├── Footer.jsx
+│       │   │   │   ├── Home
+│       │   │   │   │   ├── Fifth.jsx
+│       │   │   │   │   ├── Fourth.jsx
+│       │   │   │   │   ├── Secondpart.jsx
+│       │   │   │   │   ├── Sixth.jsx
+│       │   │   │   │   └── Thirdpart.jsx
+│       │   │   │   ├── NavBar.jsx
+│       │   │   │   └── PackageCard.jsx
+│       │   │   ├── index.css
+│       │   │   ├── main.jsx
+│       │   │   └── pages
+│       │   │       ├── About.jsx
+│       │   │       ├── Contact.jsx
+│       │   │       ├── Home.jsx
+│       │   │       ├── MyErrorPage.jsx
+│       │   │       └── Packages.jsx
+│       │   └── vite.config.js
+│       ├── conditional_rendering
+│       │   ├── README.md
+│       │   ├── eslint.config.js
+│       │   ├── index.html
+│       │   ├── package.json
+│       │   ├── public
+│       │   │   └── vite.svg
+│       │   ├── src
+│       │   │   ├── App.jsx
+│       │   │   ├── components
+│       │   │   │   ├── elseifladder
+│       │   │   │   │   ├── GradeDisplay.jsx
+│       │   │   │   │   ├── Greeting.jsx
+│       │   │   │   │   ├── SpeedInfo.jsx
+│       │   │   │   │   └── Temparature.jsx
+│       │   │   │   ├── ifelse
+│       │   │   │   │   ├── AgeStatus.jsx
+│       │   │   │   │   ├── Banner.jsx
+│       │   │   │   │   ├── StockStatus.jsx
+│       │   │   │   │   └── WelcomeMessage.jsx
+│       │   │   │   ├── shortcircuit
+│       │   │   │   │   ├── ErrorMessage.jsx
+│       │   │   │   │   ├── Notification.jsx
+│       │   │   │   │   ├── OfflineMessage.jsx
+│       │   │   │   │   └── UserName.jsx
+│       │   │   │   ├── switchcase
+│       │   │   │   │   ├── ShirtSize.jsx
+│       │   │   │   │   ├── TrafficSignal.jsx
+│       │   │   │   │   ├── UserRole.jsx
+│       │   │   │   │   └── WeekType.jsx
+│       │   │   │   └── ternary
+│       │   │   │       ├── AgeCheck.jsx
+│       │   │   │       ├── CartMessage.jsx
+│       │   │   │       ├── GradeTag.jsx
+│       │   │   │       └── LoginStatus.jsx
+│       │   │   ├── index.css
+│       │   │   └── main.jsx
+│       │   └── vite.config.js
+│       ├── edusta
+│       │   ├── README.md
+│       │   ├── eslint.config.js
+│       │   ├── index.html
+│       │   ├── package.json
+│       │   ├── public
+│       │   │   └── vite.svg
+│       │   ├── src
+│       │   │   ├── App.jsx
+│       │   │   ├── assets
+│       │   │   │   └── images
+│       │   │   │       └── home
+│       │   │   │           ├── 256_daniel-gaffey-1060698-unsplash.jpg
+│       │   │   │           ├── 256_jeremy-banks-798787-unsplash.jpg
+│       │   │   │           ├── 256_joao-silas-636453-unsplash.jpg
+│       │   │   │           ├── 256_luke-porter-261779-unsplash.jpg
+│       │   │   │           ├── 256_michael-dam-258165-unsplash.jpg
+│       │   │   │           ├── 256_rsz_1andy-lee-642320-unsplash.jpg
+│       │   │   │           ├── 256_rsz_clem-onojeghuo-193397-unsplash.jpg
+│       │   │   │           ├── 256_s-a-r-a-h-s-h-a-r-p-764291-unsplash.jpg
+│       │   │   │           └── download.svg
+│       │   │   ├── components
+│       │   │   │   ├── MainContent.jsx
+│       │   │   │   └── SideBar.jsx
+│       │   │   ├── index.css
+│       │   │   ├── layouts
+│       │   │   │   └── Layout.jsx
+│       │   │   ├── main.jsx
+│       │   │   ├── pages
+│       │   │   └── routing
+│       │   │       └── Router.jsx
+│       │   └── vite.config.js
+│       ├── eseeffecttask
+│       │   ├── README.md
+│       │   ├── eslint.config.js
+│       │   ├── index.html
+│       │   ├── package.json
+│       │   ├── public
+│       │   │   └── vite.svg
+│       │   ├── src
+│       │   │   ├── App.css
+│       │   │   ├── App.jsx
+│       │   │   ├── assets
+│       │   │   │   └── react.svg
+│       │   │   ├── components
+│       │   │   │   └── Day31
+│       │   │   │       ├── Cart.jsx
+│       │   │   │       └── Users.jsx
+│       │   │   ├── index.css
+│       │   │   └── main.jsx
+│       │   └── vite.config.js
+│       ├── events
+│       │   ├── README.md
+│       │   ├── eslint.config.js
+│       │   ├── index.html
+│       │   ├── package.json
+│       │   ├── public
+│       │   │   └── vite.svg
+│       │   ├── src
+│       │   │   ├── App.jsx
+│       │   │   ├── components
+│       │   │   │   └── Day22
+│       │   │   │       ├── multipleevents
+│       │   │   │       │   ├── FocusBlurInput.jsx
+│       │   │   │       │   └── MouseEventsBox.jsx
+│       │   │   │       └── singleevent
+│       │   │   │           ├── HoverBox.jsx
+│       │   │   │           └── InputField.jsx
+│       │   │   ├── index.css
+│       │   │   └── main.jsx
+│       │   └── vite.config.js
+│       ├── form_in_react
+│       │   ├── README.md
+│       │   ├── eslint.config.js
+│       │   ├── index.html
+│       │   ├── package.json
+│       │   ├── public
+│       │   │   └── vite.svg
+│       │   ├── src
+│       │   │   ├── App.jsx
+│       │   │   ├── assets
+│       │   │   │   ├── bg.jpg
+│       │   │   │   └── images
+│       │   │   │       └── right.svg
+│       │   │   ├── components
+│       │   │   │   ├── Day28
+│       │   │   │   │   ├── ChooseForm.jsx
+│       │   │   │   │   ├── Form1.jsx
+│       │   │   │   │   ├── Form2.jsx
+│       │   │   │   │   ├── Form3.jsx
+│       │   │   │   │   └── Form4.jsx
+│       │   │   │   ├── Day29
+│       │   │   │   │   ├── SSForm1.jsx
+│       │   │   │   │   ├── SSForm2.jsx
+│       │   │   │   │   ├── SSForm3.jsx
+│       │   │   │   │   └── SSForm4.jsx
+│       │   │   │   └── FormExample.jsx
+│       │   │   ├── index.css
+│       │   │   └── main.jsx
+│       │   └── vite.config.js
+│       ├── frontent_mentor_pages
+│       │   ├── README.md
+│       │   ├── eslint.config.js
+│       │   ├── index.html
+│       │   ├── package.json
+│       │   ├── public
+│       │   │   └── vite.svg
+│       │   ├── src
+│       │   │   ├── App.jsx
+│       │   │   ├── assets
+│       │   │   │   ├── landingpage
+│       │   │   │   │   └── images
+│       │   │   │   │       ├── desktop
+│       │   │   │   │       │   ├── image-gallery-cone.jpg
+│       │   │   │   │       │   ├── image-gallery-milkbottles.jpg
+│       │   │   │   │       │   ├── image-gallery-orange.jpg
+│       │   │   │   │       │   ├── image-gallery-sugarcubes.jpg
+│       │   │   │   │       │   ├── image-graphic-design.jpg
+│       │   │   │   │       │   ├── image-header.jpg
+│       │   │   │   │       │   ├── image-photography.jpg
+│       │   │   │   │       │   ├── image-stand-out.jpg
+│       │   │   │   │       │   └── image-transform.jpg
+│       │   │   │   │       ├── favicon-32x32.png
+│       │   │   │   │       ├── icon-arrow-down.svg
+│       │   │   │   │       ├── icon-facebook.svg
+│       │   │   │   │       ├── icon-hamburger.svg
+│       │   │   │   │       ├── icon-instagram.svg
+│       │   │   │   │       ├── icon-pinterest.svg
+│       │   │   │   │       ├── icon-twitter.svg
+│       │   │   │   │       ├── image-emily.jpg
+│       │   │   │   │       ├── image-jennie.jpg
+│       │   │   │   │       ├── image-thomas.jpg
+│       │   │   │   │       ├── logo.svg
+│       │   │   │   │       └── mobile
+│       │   │   │   │           ├── image-gallery-cone.jpg
+│       │   │   │   │           ├── image-gallery-milkbottles.jpg
+│       │   │   │   │           ├── image-gallery-orange.jpg
+│       │   │   │   │           ├── image-gallery-sugar-cubes.jpg
+│       │   │   │   │           ├── image-graphic-design.jpg
+│       │   │   │   │           ├── image-header.jpg
+│       │   │   │   │           ├── image-photography.jpg
+│       │   │   │   │           ├── image-stand-out.jpg
+│       │   │   │   │           └── image-transform.jpg
+│       │   │   │   ├── react.svg
+│       │   │   │   └── timetracking
+│       │   │   │       └── images
+│       │   │   │           ├── favicon-32x32.png
+│       │   │   │           ├── icon-ellipsis.svg
+│       │   │   │           ├── icon-exercise.svg
+│       │   │   │           ├── icon-play.svg
+│       │   │   │           ├── icon-self-care.svg
+│       │   │   │           ├── icon-social.svg
+│       │   │   │           ├── icon-study.svg
+│       │   │   │           ├── icon-work.svg
+│       │   │   │           └── image-jeremy.png
+│       │   │   ├── components
+│       │   │   │   ├── landingpage
+│       │   │   │   │   ├── FirstSect.jsx
+│       │   │   │   │   ├── Footer.jsx
+│       │   │   │   │   ├── Nav.jsx
+│       │   │   │   │   ├── Photography.jsx
+│       │   │   │   │   ├── StandOut.jsx
+│       │   │   │   │   ├── Testimonials.jsx
+│       │   │   │   │   └── TransformBrand.jsx
+│       │   │   │   └── timetrackig
+│       │   │   ├── data
+│       │   │   │   └── timetracking
+│       │   │   │       └── data.json
+│       │   │   ├── index.css
+│       │   │   ├── main.jsx
+│       │   │   └── pages
+│       │   │       ├── SunnySide.jsx
+│       │   │       ├── TimeTracking.jsx
+│       │   │       └── TimeTracking.module.css
+│       │   └── vite.config.js
+│       ├── geekforgeek
+│       │   ├── README.md
+│       │   ├── eslint.config.js
+│       │   ├── index.html
+│       │   ├── package.json
+│       │   ├── public
+│       │   │   └── vite.svg
+│       │   ├── src
+│       │   │   ├── App.jsx
+│       │   │   ├── assets
+│       │   │   │   ├── images
+│       │   │   │   │   ├── gif1.gif
+│       │   │   │   │   ├── gif2.jpg
+│       │   │   │   │   ├── grow.svg
+│       │   │   │   │   ├── ibm.png
+│       │   │   │   │   ├── level.svg
+│       │   │   │   │   ├── logo.svg
+│       │   │   │   │   ├── rating.svg
+│       │   │   │   │   └── star.png
+│       │   │   │   └── react.svg
+│       │   │   ├── components
+│       │   │   │   ├── Card.jsx
+│       │   │   │   ├── Cards.jsx
+│       │   │   │   ├── CourseCategories.jsx
+│       │   │   │   ├── Courses.jsx
+│       │   │   │   ├── Discount.jsx
+│       │   │   │   ├── Footer.jsx
+│       │   │   │   ├── GeekNav.jsx
+│       │   │   │   └── WebPageBody.jsx
+│       │   │   ├── context
+│       │   │   │   └── Theme.jsx
+│       │   │   ├── data
+│       │   │   │   ├── PopularNow.json
+│       │   │   │   ├── beginner.json
+│       │   │   │   ├── dsaCourses.json
+│       │   │   │   ├── footerLinks.json
+│       │   │   │   ├── liveCourses.json
+│       │   │   │   ├── offline.json
+│       │   │   │   └── special.json
+│       │   │   ├── index.css
+│       │   │   ├── main.jsx
+│       │   │   └── pages
+│       │   │       └── Home.jsx
+│       │   └── vite.config.js
+│       ├── generic-clone
+│       │   ├── README.md
+│       │   ├── index.html
+│       │   ├── package.json
+│       │   ├── public
+│       │   ├── src
+│       │   │   ├── App.jsx
+│       │   │   ├── assets
+│       │   │   │   ├── about-bg.jpg
+│       │   │   │   ├── about-us-1.jpg
+│       │   │   │   ├── cta.jpg
+│       │   │   │   ├── final-cta.jpg
+│       │   │   │   ├── hero-bg.jpg
+│       │   │   │   └── images
+│       │   │   │       ├── contact
+│       │   │   │       │   ├── contact-bg.jpg
+│       │   │   │       │   ├── download (1).svg
+│       │   │   │       │   ├── download (10).svg
+│       │   │   │       │   ├── download (2).svg
+│       │   │   │       │   ├── download (3).svg
+│       │   │   │       │   ├── download (4).svg
+│       │   │   │       │   ├── download (5).svg
+│       │   │   │       │   ├── download (6).svg
+│       │   │   │       │   ├── download (7).svg
+│       │   │   │       │   ├── download (8).svg
+│       │   │   │       │   ├── download (9).svg
+│       │   │   │       │   ├── download.svg
+│       │   │   │       │   ├── final-cta.jpg
+│       │   │   │       │   └── submit-spin.svg
+│       │   │   │       └── offerings
+│       │   │   │           ├── download (1).svg
+│       │   │   │           ├── download (2).svg
+│       │   │   │           ├── download (3).svg
+│       │   │   │           ├── download (4).svg
+│       │   │   │           ├── download (5).svg
+│       │   │   │           ├── download (6).svg
+│       │   │   │           ├── download.svg
+│       │   │   │           ├── final.jpg
+│       │   │   │           ├── services-01-300x232.jpg
+│       │   │   │           ├── services-01-400x309.jpg
+│       │   │   │           ├── services-01.jpg
+│       │   │   │           ├── services-02-300x232.jpg
+│       │   │   │           ├── services-02-400x309.jpg
+│       │   │   │           ├── services-02.jpg
+│       │   │   │           ├── services-03-300x232.jpg
+│       │   │   │           ├── services-03-400x309.jpg
+│       │   │   │           ├── services-03.jpg
+│       │   │   │           └── services-bg.jpg
+│       │   │   ├── components
+│       │   │   │   ├── Footer.jsx
+│       │   │   │   ├── Nav.jsx
+│       │   │   │   └── offerings
+│       │   │   │       └── TextAside.jsx
+│       │   │   ├── index.css
+│       │   │   ├── main.jsx
+│       │   │   └── pages
+│       │   │       ├── About.jsx
+│       │   │       ├── Contact.jsx
+│       │   │       ├── Home.jsx
+│       │   │       └── Offerings.jsx
+│       │   └── vite.config.js
+│       ├── mercedes-benz
+│       │   ├── README.md
+│       │   ├── eslint.config.js
+│       │   ├── index.html
+│       │   ├── package.json
+│       │   ├── public
+│       │   │   └── vite.svg
+│       │   ├── src
+│       │   │   ├── App.jsx
+│       │   │   ├── assets
+│       │   │   │   ├── images
+│       │   │   │   │   ├── 16 (1).svg
+│       │   │   │   │   ├── 16 (2).svg
+│       │   │   │   │   ├── 16.svg
+│       │   │   │   │   ├── 1740015975368.jpg
+│       │   │   │   │   ├── 1740065262547.jpg
+│       │   │   │   │   ├── 1740065391112.jpg
+│       │   │   │   │   ├── 1746156728632.jpg
+│       │   │   │   │   ├── 24 (1).svg
+│       │   │   │   │   ├── 24 (2).svg
+│       │   │   │   │   ├── 24 (3).svg
+│       │   │   │   │   ├── 24 (4).svg
+│       │   │   │   │   ├── 24 (5).svg
+│       │   │   │   │   ├── 24 (6).svg
+│       │   │   │   │   ├── 24 (7).svg
+│       │   │   │   │   ├── 24.svg
+│       │   │   │   │   ├── Allbrands-BG_small.png
+│       │   │   │   │   ├── MB-star_n_web.svg
+│       │   │   │   │   ├── Vehicle-Fallback-Image.png
+│       │   │   │   │   ├── convertible.svg
+│       │   │   │   │   ├── coupe.svg
+│       │   │   │   │   ├── download.svg
+│       │   │   │   │   ├── imageye___-_1740015975368.jpg
+│       │   │   │   │   ├── imageye___-_1740065262547.jpg
+│       │   │   │   │   ├── imageye___-_1740065391112.jpg
+│       │   │   │   │   ├── imageye___-_1746156728632.jpg
+│       │   │   │   │   ├── imageye___-_1746156855940 (1).jpg
+│       │   │   │   │   ├── imageye___-_1746156855940 (2).jpg
+│       │   │   │   │   ├── imageye___-_1746156855940 (3).jpg
+│       │   │   │   │   ├── imageye___-_1746156855940 (4).jpg
+│       │   │   │   │   ├── imageye___-_1746156855940.jpg
+│       │   │   │   │   ├── imageye___-_1746543608983 (1).jpg
+│       │   │   │   │   ├── imageye___-_1746543608983 (2).jpg
+│       │   │   │   │   ├── imageye___-_1746543608983.jpg
+│       │   │   │   │   ├── imageye___-_Allbrands-BG_small.png
+│       │   │   │   │   ├── imageye___-_f01f6151bdc78c913c23cda769c0092d7d065.png
+│       │   │   │   │   ├── imageye___-_iris (1).png
+│       │   │   │   │   ├── imageye___-_iris (10).png
+│       │   │   │   │   ├── imageye___-_iris (11).png
+│       │   │   │   │   ├── imageye___-_iris (2).png
+│       │   │   │   │   ├── imageye___-_iris (3).png
+│       │   │   │   │   ├── imageye___-_iris (4).png
+│       │   │   │   │   ├── imageye___-_iris (5).png
+│       │   │   │   │   ├── imageye___-_iris (6).png
+│       │   │   │   │   ├── imageye___-_iris (7).png
+│       │   │   │   │   ├── imageye___-_iris (8).png
+│       │   │   │   │   ├── imageye___-_iris (9).png
+│       │   │   │   │   ├── imageye___-_iris.png
+│       │   │   │   │   ├── imageye___-_ogimage.jpg
+│       │   │   │   │   ├── logo.svg
+│       │   │   │   │   ├── logo1.svg
+│       │   │   │   │   ├── logo2.svg
+│       │   │   │   │   ├── offroader.svg
+│       │   │   │   │   ├── ogimage.jpg
+│       │   │   │   │   ├── sedan.svg
+│       │   │   │   │   ├── sportstourer.svg
+│       │   │   │   │   └── wordmark.svg
+│       │   │   │   └── videos
+│       │   │   │       └── liI-tvc-30s-eqs-wodp-wsf-weotr-16-9-vo-en-hqmaster-l-ending-h264-1-1.mp4
+│       │   │   ├── components
+│       │   │   │   ├── Hero.jsx
+│       │   │   │   ├── NavBar.jsx
+│       │   │   │   ├── Section1.jsx
+│       │   │   │   ├── Section2.jsx
+│       │   │   │   ├── Section3.jsx
+│       │   │   │   ├── Section4.jsx
+│       │   │   │   ├── Section5.jsx
+│       │   │   │   └── smallcomponents
+│       │   │   │       ├── Button2.jsx
+│       │   │   │       ├── ButtonBlue.jsx
+│       │   │   │       ├── Card1.jsx
+│       │   │   │       ├── Card2.jsx
+│       │   │   │       ├── LearnMore.jsx
+│       │   │   │       ├── Slider.jsx
+│       │   │   │       ├── SliderCard.jsx
+│       │   │   │       └── StickyDiv.jsx
+│       │   │   ├── index.css
+│       │   │   ├── main.jsx
+│       │   │   └── pages
+│       │   │       └── Home.jsx
+│       │   └── vite.config.js
+│       ├── portfolio
+│       │   ├── README.md
+│       │   ├── eslint.config.js
+│       │   ├── index.html
+│       │   ├── package.json
+│       │   ├── public
+│       │   │   └── vite.svg
+│       │   ├── src
+│       │   │   ├── App.jsx
+│       │   │   ├── Header.jsx
+│       │   │   ├── animations.css
+│       │   │   ├── assets
+│       │   │   │   └── images
+│       │   │   │       └── profile.webp
+│       │   │   ├── components
+│       │   │   │   ├── About.jsx
+│       │   │   │   ├── Contact.jsx
+│       │   │   │   ├── Header.jsx
+│       │   │   │   ├── PersonalPortfolio.jsx
+│       │   │   │   ├── Projects.jsx
+│       │   │   │   ├── Skills.jsx
+│       │   │   │   ├── TaskManager.jsx
+│       │   │   │   └── WeatherApp.jsx
+│       │   │   ├── hooks
+│       │   │   │   └── useIntersectionObserver.jsx
+│       │   │   ├── index.css
+│       │   │   └── main.jsx
+│       │   └── vite.config.js
+│       ├── product_list_with_card
+│       │   ├── README.md
+│       │   ├── eslint.config.js
+│       │   ├── index.html
+│       │   ├── package.json
+│       │   ├── public
+│       │   │   └── vite.svg
+│       │   ├── src
+│       │   │   ├── App.jsx
+│       │   │   ├── assets
+│       │   │   │   ├── fonts
+│       │   │   │   │   ├── OFL.txt
+│       │   │   │   │   ├── README.txt
+│       │   │   │   │   ├── RedHatText-Italic-VariableFont_wght.ttf
+│       │   │   │   │   ├── RedHatText-VariableFont_wght.ttf
+│       │   │   │   │   └── static
+│       │   │   │   │       ├── RedHatText-Bold.ttf
+│       │   │   │   │       ├── RedHatText-Regular.ttf
+│       │   │   │   │       └── RedHatText-SemiBold.ttf
+│       │   │   │   └── images
+│       │   │   │       ├── favicon-32x32.png
+│       │   │   │       ├── icon-add-to-cart.svg
+│       │   │   │       ├── icon-carbon-neutral.svg
+│       │   │   │       ├── icon-decrement-quantity.svg
+│       │   │   │       ├── icon-increment-quantity.svg
+│       │   │   │       ├── icon-order-confirmed.svg
+│       │   │   │       ├── icon-remove-item.svg
+│       │   │   │       ├── illustration-empty-cart.svg
+│       │   │   │       ├── image-baklava-desktop.jpg
+│       │   │   │       ├── image-baklava-mobile.jpg
+│       │   │   │       ├── image-baklava-tablet.jpg
+│       │   │   │       ├── image-baklava-thumbnail.jpg
+│       │   │   │       ├── image-brownie-desktop.jpg
+│       │   │   │       ├── image-brownie-mobile.jpg
+│       │   │   │       ├── image-brownie-tablet.jpg
+│       │   │   │       ├── image-brownie-thumbnail.jpg
+│       │   │   │       ├── image-cake-desktop.jpg
+│       │   │   │       ├── image-cake-mobile.jpg
+│       │   │   │       ├── image-cake-tablet.jpg
+│       │   │   │       ├── image-cake-thumbnail.jpg
+│       │   │   │       ├── image-creme-brulee-desktop.jpg
+│       │   │   │       ├── image-creme-brulee-mobile.jpg
+│       │   │   │       ├── image-creme-brulee-tablet.jpg
+│       │   │   │       ├── image-creme-brulee-thumbnail.jpg
+│       │   │   │       ├── image-macaron-desktop.jpg
+│       │   │   │       ├── image-macaron-mobile.jpg
+│       │   │   │       ├── image-macaron-tablet.jpg
+│       │   │   │       ├── image-macaron-thumbnail.jpg
+│       │   │   │       ├── image-meringue-desktop.jpg
+│       │   │   │       ├── image-meringue-mobile.jpg
+│       │   │   │       ├── image-meringue-tablet.jpg
+│       │   │   │       ├── image-meringue-thumbnail.jpg
+│       │   │   │       ├── image-panna-cotta-desktop.jpg
+│       │   │   │       ├── image-panna-cotta-mobile.jpg
+│       │   │   │       ├── image-panna-cotta-tablet.jpg
+│       │   │   │       ├── image-panna-cotta-thumbnail.jpg
+│       │   │   │       ├── image-tiramisu-desktop.jpg
+│       │   │   │       ├── image-tiramisu-mobile.jpg
+│       │   │   │       ├── image-tiramisu-tablet.jpg
+│       │   │   │       ├── image-tiramisu-thumbnail.jpg
+│       │   │   │       ├── image-waffle-desktop.jpg
+│       │   │   │       ├── image-waffle-mobile.jpg
+│       │   │   │       ├── image-waffle-tablet.jpg
+│       │   │   │       └── image-waffle-thumbnail.jpg
+│       │   │   ├── components
+│       │   │   │   ├── DesktopImagesGallery.jsx
+│       │   │   │   ├── Home.jsx
+│       │   │   │   └── img.json
+│       │   │   ├── index.css
+│       │   │   └── main.jsx
+│       │   └── vite.config.js
+│       ├── props
+│       │   ├── README.md
+│       │   ├── eslint.config.js
+│       │   ├── index.html
+│       │   ├── package.json
+│       │   ├── public
+│       │   │   └── vite.svg
+│       │   ├── src
+│       │   │   ├── App.jsx
+│       │   │   ├── Day15
+│       │   │   │   ├── Greeting.jsx
+│       │   │   │   ├── Home.jsx
+│       │   │   │   ├── UserDetails.jsx
+│       │   │   │   ├── UserInfo.jsx
+│       │   │   │   └── authorization
+│       │   │   │       ├── AdminDashboard.jsx
+│       │   │   │       ├── AuthorizedDashboard.jsx
+│       │   │   │       └── WithAuthorization.jsx
+│       │   │   ├── Day16
+│       │   │   │   ├── Card.jsx
+│       │   │   │   ├── CardChild.jsx
+│       │   │   │   ├── Day16Task.jsx
+│       │   │   │   ├── ListChild.jsx
+│       │   │   │   └── cources.json
+│       │   │   └── main.jsx
+│       │   └── vite.config.js
+│       ├── tasks
+│       │   ├── README.md
+│       │   ├── eslint.config.js
+│       │   ├── index.html
+│       │   ├── package.json
+│       │   ├── public
+│       │   │   └── vite.svg
+│       │   ├── src
+│       │   │   ├── App.jsx
+│       │   │   ├── Day10
+│       │   │   │   ├── About.jsx
+│       │   │   │   ├── Contact.jsx
+│       │   │   │   ├── Day10Task.jsx
+│       │   │   │   ├── Login.jsx
+│       │   │   │   ├── Nav.jsx
+│       │   │   │   └── Register.jsx
+│       │   │   ├── Day11
+│       │   │   │   ├── About.jsx
+│       │   │   │   ├── Contact.jsx
+│       │   │   │   ├── Day11Task.jsx
+│       │   │   │   ├── Login.jsx
+│       │   │   │   └── Register.jsx
+│       │   │   ├── Day13
+│       │   │   │   ├── Day13Task.jsx
+│       │   │   │   └── ShoppingCart.jsx
+│       │   │   ├── Day14
+│       │   │   │   ├── Cources.jsx
+│       │   │   │   ├── Day14Task.jsx
+│       │   │   │   ├── Employee.jsx
+│       │   │   │   └── SoftSkills.jsx
+│       │   │   ├── Day15
+│       │   │   │   ├── Day15Task.jsx
+│       │   │   │   ├── EmployeeDetails.jsx
+│       │   │   │   └── MOCK_DATA.json
+│       │   │   ├── Day9
+│       │   │   │   └── Day9Task.jsx
+│       │   │   └── main.jsx
+│       │   └── vite.config.js
+│       └── zomato
+│           ├── README.md
+│           ├── eslint.config.js
+│           ├── index.html
+│           ├── package.json
+│           ├── public
+│           │   └── vite.svg
+│           ├── src
+│           │   ├── App.jsx
+│           │   ├── assets
+│           │   │   └── images
+│           │   │       ├── appstore.webp
+│           │   │       ├── bg.jpg
+│           │   │       ├── c1-1.webp
+│           │   │       ├── c1-2.webp
+│           │   │       ├── c1-3.jpg
+│           │   │       ├── c1-4.webp
+│           │   │       ├── c2-1.jpg
+│           │   │       ├── c2-2.webp
+│           │   │       ├── c2-3.jpg
+│           │   │       ├── c2-4.jpg
+│           │   │       ├── footerlogo.webp
+│           │   │       ├── logo.webp
+│           │   │       └── playstore.webp
+│           │   ├── components
+│           │   │   ├── Card1.jsx
+│           │   │   ├── Card2.jsx
+│           │   │   ├── CardsContainer.jsx
+│           │   │   ├── Footer.jsx
+│           │   │   ├── FooterBottom.jsx
+│           │   │   ├── FooterMidLeft.jsx
+│           │   │   ├── FooterMidRight.jsx
+│           │   │   ├── FooterTop.jsx
+│           │   │   ├── Header.jsx
+│           │   │   ├── Home.jsx
+│           │   │   ├── Nav.jsx
+│           │   │   └── PopularLocations.jsx
+│           │   ├── index.css
+│           │   └── main.jsx
+│           └── vite.config.js
+├── spring-ioc-containers
+│   ├── 01-spring-ioc-container-1
+│   │   ├── pom.xml
+│   │   └── src
+│   │       ├── main
+│   │       │   ├── java
+│   │       │   │   ├── org
+│   │       │   │   │   └── jsp
+│   │       │   │   │       └── ioc_example_1
+│   │       │   │   │           ├── Whatsapp.java
+│   │       │   │   │           └── WhatsappDriver.java
+│   │       │   │   └── whatsapp.xml
+│   │       │   └── resources
+│   │       └── test
+│   │           ├── java
+│   │           └── resources
+│   ├── 02-spring-ioc-container-2
+│   │   ├── pom.xml
+│   │   └── src
+│   │       ├── main
+│   │       │   ├── java
+│   │       │   │   ├── bike.xml
+│   │       │   │   ├── car.xml
+│   │       │   │   ├── com
+│   │       │   │   │   └── spring_class
+│   │       │   │   │       ├── Bike.java
+│   │       │   │   │       ├── BikeDriver.java
+│   │       │   │   │       ├── Student.java
+│   │       │   │   │       ├── StudentMarks.java
+│   │       │   │   │       ├── constructor_injection
+│   │       │   │   │       │   ├── Car.java
+│   │       │   │   │       │   ├── CarDriver.java
+│   │       │   │   │       │   ├── Employee.java
+│   │       │   │   │       │   ├── EmployeeMain.java
+│   │       │   │   │       │   ├── Engine.java
+│   │       │   │   │       │   ├── Pen.java
+│   │       │   │   │       │   └── PenDriver.java
+│   │       │   │   │       └── setter_injection
+│   │       │   │   │           ├── Mouse.java
+│   │       │   │   │           └── MouseDriver.java
+│   │       │   │   ├── employee.xml
+│   │       │   │   ├── engine.xml
+│   │       │   │   ├── mouse.xml
+│   │       │   │   ├── pen.xml
+│   │       │   │   └── student.xml
+│   │       │   └── resources
+│   │       └── test
+│   │           ├── java
+│   │           └── resources
+│   ├── 03-spring-ioc-container-3
+│   │   ├── pom.xml
+│   │   └── src
+│   │       ├── main
+│   │       │   ├── java
+│   │       │   │   ├── animal_sound.xml
+│   │       │   │   ├── bag.xml
+│   │       │   │   ├── bat.xml
+│   │       │   │   ├── car.xml
+│   │       │   │   ├── laptop.xml
+│   │       │   │   ├── org
+│   │       │   │   │   └── jsp
+│   │       │   │   │       ├── animal
+│   │       │   │   │       │   ├── Animal.java
+│   │       │   │   │       │   ├── AnimalSound.java
+│   │       │   │   │       │   ├── AnimalSoundDriver.java
+│   │       │   │   │       │   ├── Dog.java
+│   │       │   │   │       │   └── Lion.java
+│   │       │   │   │       └── spring_ioc_container2
+│   │       │   │   │           ├── Bat.java
+│   │       │   │   │           ├── BatDriver.java
+│   │       │   │   │           ├── constructor_injection
+│   │       │   │   │           │   ├── Bag.java
+│   │       │   │   │           │   ├── BagDriver.java
+│   │       │   │   │           │   ├── Car.java
+│   │       │   │   │           │   ├── CarDriver.java
+│   │       │   │   │           │   ├── Engine.java
+│   │       │   │   │           │   ├── Laptop.java
+│   │       │   │   │           │   ├── LaptopMouseDriver.java
+│   │       │   │   │           │   ├── Mouse.java
+│   │       │   │   │           │   ├── Pen.java
+│   │       │   │   │           │   ├── Person.java
+│   │       │   │   │           │   ├── PersonDriver.java
+│   │       │   │   │           │   ├── Student.java
+│   │       │   │   │           │   └── StudentPen.java
+│   │       │   │   │           └── setter_injection
+│   │       │   │   │               ├── Bike.java
+│   │       │   │   │               ├── Pen.java
+│   │       │   │   │               ├── PenDriver.java
+│   │       │   │   │               ├── Student.java
+│   │       │   │   │               └── StudentBike.java
+│   │       │   │   ├── pen.xml
+│   │       │   │   ├── person.xml
+│   │       │   │   ├── student.xml
+│   │       │   │   └── student2.xml
+│   │       │   └── resources
+│   │       └── test
+│   │           ├── java
+│   │           └── resources
+│   ├── 04-spring-ioc-container-annotations
+│   │   ├── pom.xml
+│   │   └── src
+│   │       ├── main
+│   │       │   ├── java
+│   │       │   │   ├── myspringconfig.xml
+│   │       │   │   └── org
+│   │       │   │       └── jsp
+│   │       │   │           ├── animal
+│   │       │   │           │   ├── Animal.java
+│   │       │   │           │   ├── AnimalSound.java
+│   │       │   │           │   ├── Cat.java
+│   │       │   │           │   └── Lion.java
+│   │       │   │           └── spring_ioc_container_annotations
+│   │       │   │               ├── Driver.java
+│   │       │   │               ├── Mobile.java
+│   │       │   │               ├── Pen.java
+│   │       │   │               ├── Writer.java
+│   │       │   │               ├── constructor_injection
+│   │       │   │               │   ├── Car.java
+│   │       │   │               │   ├── Engine.java
+│   │       │   │               │   ├── Laptop.java
+│   │       │   │               │   └── Wheel.java
+│   │       │   │               └── setter_injection
+│   │       │   │                   ├── Bag.java
+│   │       │   │                   ├── Movie.java
+│   │       │   │                   └── Student.java
+│   │       │   └── resources
+│   │       └── test
+│   │           ├── java
+│   │           └── resources
+│   └── 05-spring-ioc-container-no-xml
+│       ├── pom.xml
+│       └── src
+│           ├── main
+│           │   ├── java
+│           │   │   └── org
+│           │   │       └── jsp
+│           │   │           └── spring_ioc_container_no_xml
+│           │   │               ├── Driver.java
+│           │   │               ├── Food.java
+│           │   │               ├── MyConfig.java
+│           │   │               ├── constructor_injection
+│           │   │               │   ├── Car.java
+│           │   │               │   ├── Engine.java
+│           │   │               │   └── Wheel.java
+│           │   │               ├── inser_into_database
+│           │   │               │   ├── Bike.java
+│           │   │               │   └── BikeEngine.java
+│           │   │               └── setter_injection
+│           │   │                   ├── Bag.java
+│           │   │                   ├── Laptop.java
+│           │   │                   └── Student.java
+│           │   └── resources
+│           │       └── META-INF
+│           │           └── persistence.xml
+│           └── test
+│               ├── java
+│               └── resources
+├── springboot
+│   ├── 01_mini_project_Reports_App
+│   │   ├── README.md
+│   │   ├── pom.xml
+│   │   └── src
+│   │       ├── main
+│   │       │   ├── java
+│   │       │   │   └── com
+│   │       │   │       └── ansari
+│   │       │   │           ├── Application.java
+│   │       │   │           ├── ServletInitializer.java
+│   │       │   │           ├── controller
+│   │       │   │           │   └── ReportController.java
+│   │       │   │           ├── entity
+│   │       │   │           │   └── CitizenPlan.java
+│   │       │   │           ├── repo
+│   │       │   │           │   └── CitizenPlanRepository.java
+│   │       │   │           ├── request
+│   │       │   │           │   └── SearchRequest.java
+│   │       │   │           ├── runner
+│   │       │   │           │   └── DataLoader.java
+│   │       │   │           ├── service
+│   │       │   │           │   ├── ReportService.java
+│   │       │   │           │   └── ReportServiceImpl.java
+│   │       │   │           └── utils
+│   │       │   │               ├── EmailUtils.java
+│   │       │   │               ├── ExcelGenerator.java
+│   │       │   │               └── PdfGenerator.java
+│   │       │   ├── resources
+│   │       │   │   └── application.properties
+│   │       │   └── webapp
+│   │       │       ├── css
+│   │       │       │   └── style.css
+│   │       │       └── pages
+│   │       │           └── index.jsp
+│   │       └── test
+│   │           └── java
+│   │               └── com
+│   │                   └── ansari
+│   │                       └── ApplicationTests.java
+│   ├── 02_Mini_Project
+│   │   ├── 02-MiniProject.txt
+│   │   ├── README.md
+│   │   ├── pom.xml
+│   │   └── src
+│   │       ├── main
+│   │       │   ├── java
+│   │       │   │   └── in
+│   │       │   │       └── ansari
+│   │       │   │           ├── Application.java
+│   │       │   │           ├── ServletInitializer.java
+│   │       │   │           ├── binding
+│   │       │   │           │   ├── DashboardResponse.java
+│   │       │   │           │   ├── EnquiryForm.java
+│   │       │   │           │   ├── EnquirySearchCriteria.java
+│   │       │   │           │   ├── LoginForm.java
+│   │       │   │           │   ├── SignUpForm.java
+│   │       │   │           │   └── UnlockForm.java
+│   │       │   │           ├── controller
+│   │       │   │           │   ├── EnquiryController.java
+│   │       │   │           │   ├── IndexController.java
+│   │       │   │           │   └── UserController.java
+│   │       │   │           ├── entity
+│   │       │   │           │   ├── CourseEntity.java
+│   │       │   │           │   ├── EnquiryStatusEntity.java
+│   │       │   │           │   ├── StudentEnquiryEntity.java
+│   │       │   │           │   └── UserDetailsEntity.java
+│   │       │   │           ├── repository
+│   │       │   │           │   ├── CourseRepository.java
+│   │       │   │           │   ├── EnquiryStatusRepository.java
+│   │       │   │           │   ├── StudentEnquiryRepository.java
+│   │       │   │           │   └── UserDetailsRepository.java
+│   │       │   │           ├── runner
+│   │       │   │           │   └── DataLoader.java
+│   │       │   │           ├── service
+│   │       │   │           │   ├── EnquiryService.java
+│   │       │   │           │   ├── EnquiryServiceImplementation.java
+│   │       │   │           │   ├── UserService.java
+│   │       │   │           │   └── UserServiceImplementation.java
+│   │       │   │           └── util
+│   │       │   │               ├── EmailUtils.java
+│   │       │   │               └── PasswordUtils.java
+│   │       │   └── resources
+│   │       │       ├── application.properties
+│   │       │       ├── static
+│   │       │       │   ├── android-chrome-192x192.png
+│   │       │       │   ├── android-chrome-512x512.png
+│   │       │       │   ├── apple-touch-icon.png
+│   │       │       │   ├── css
+│   │       │       │   │   └── bootstrap-5.0.2-dist
+│   │       │       │   │       ├── css
+│   │       │       │   │       │   ├── bootstrap-grid.css
+│   │       │       │   │       │   ├── bootstrap-grid.css.map
+│   │       │       │   │       │   ├── bootstrap-grid.min.css
+│   │       │       │   │       │   ├── bootstrap-grid.min.css.map
+│   │       │       │   │       │   ├── bootstrap-grid.rtl.css
+│   │       │       │   │       │   ├── bootstrap-grid.rtl.css.map
+│   │       │       │   │       │   ├── bootstrap-grid.rtl.min.css
+│   │       │       │   │       │   ├── bootstrap-grid.rtl.min.css.map
+│   │       │       │   │       │   ├── bootstrap-reboot.css
+│   │       │       │   │       │   ├── bootstrap-reboot.css.map
+│   │       │       │   │       │   ├── bootstrap-reboot.min.css
+│   │       │       │   │       │   ├── bootstrap-reboot.min.css.map
+│   │       │       │   │       │   ├── bootstrap-reboot.rtl.css
+│   │       │       │   │       │   ├── bootstrap-reboot.rtl.css.map
+│   │       │       │   │       │   ├── bootstrap-reboot.rtl.min.css
+│   │       │       │   │       │   ├── bootstrap-reboot.rtl.min.css.map
+│   │       │       │   │       │   ├── bootstrap-utilities.css
+│   │       │       │   │       │   ├── bootstrap-utilities.css.map
+│   │       │       │   │       │   ├── bootstrap-utilities.min.css
+│   │       │       │   │       │   ├── bootstrap-utilities.min.css.map
+│   │       │       │   │       │   ├── bootstrap-utilities.rtl.css
+│   │       │       │   │       │   ├── bootstrap-utilities.rtl.css.map
+│   │       │       │   │       │   ├── bootstrap-utilities.rtl.min.css
+│   │       │       │   │       │   ├── bootstrap-utilities.rtl.min.css.map
+│   │       │       │   │       │   ├── bootstrap.css
+│   │       │       │   │       │   ├── bootstrap.css.map
+│   │       │       │   │       │   ├── bootstrap.min.css
+│   │       │       │   │       │   ├── bootstrap.min.css.map
+│   │       │       │   │       │   ├── bootstrap.rtl.css
+│   │       │       │   │       │   ├── bootstrap.rtl.css.map
+│   │       │       │   │       │   ├── bootstrap.rtl.min.css
+│   │       │       │   │       │   └── bootstrap.rtl.min.css.map
+│   │       │       │   │       └── js
+│   │       │       │   │           ├── bootstrap.bundle.js
+│   │       │       │   │           ├── bootstrap.bundle.js.map
+│   │       │       │   │           ├── bootstrap.bundle.min.js
+│   │       │       │   │           ├── bootstrap.bundle.min.js.map
+│   │       │       │   │           ├── bootstrap.esm.js
+│   │       │       │   │           ├── bootstrap.esm.js.map
+│   │       │       │   │           ├── bootstrap.esm.min.js
+│   │       │       │   │           ├── bootstrap.esm.min.js.map
+│   │       │       │   │           ├── bootstrap.js
+│   │       │       │   │           ├── bootstrap.js.map
+│   │       │       │   │           ├── bootstrap.min.js
+│   │       │       │   │           └── bootstrap.min.js.map
+│   │       │       │   ├── favicon-16x16.png
+│   │       │       │   ├── favicon-32x32.png
+│   │       │       │   ├── favicon.ico
+│   │       │       │   ├── images
+│   │       │       │   │   ├── banner_1.jpg
+│   │       │       │   │   ├── banner_2.jpg
+│   │       │       │   │   ├── banner_3.jpg
+│   │       │       │   │   ├── course_1.jpg
+│   │       │       │   │   ├── course_2.jpg
+│   │       │       │   │   ├── course_3.jpg
+│   │       │       │   │   ├── lady.jpg
+│   │       │       │   │   └── logo.jpg
+│   │       │       │   ├── img
+│   │       │       │   │   └── mdb-favicon.ico
+│   │       │       │   ├── js
+│   │       │       │   │   ├── mdb.min.js
+│   │       │       │   │   └── mdb.min.js.map
+│   │       │       │   └── site.webmanifest
+│   │       │       └── templates
+│   │       │           ├── add-enquiry.html
+│   │       │           ├── dashboard.html
+│   │       │           ├── filtered-enquiries-page.html
+│   │       │           ├── forgot-password.html
+│   │       │           ├── index.html
+│   │       │           ├── login.html
+│   │       │           ├── signup.html
+│   │       │           ├── unlock.html
+│   │       │           └── view-enquiries.html
+│   │       └── test
+│   │           └── java
+│   │               └── in
+│   │                   └── ansari
+│   │                       └── ApplicationTests.java
+│   ├── 03-MiniProject-Blog_Web_App
+│   │   ├── README.md
+│   │   ├── SRS_Blog_Web_Application.md
+│   │   ├── pom.xml
+│   │   └── src
+│   │       ├── main
+│   │       │   ├── java
+│   │       │   │   └── in
+│   │       │   │       └── ansari
+│   │       │   │           ├── BlogAppApplication.java
+│   │       │   │           ├── ServletInitializer.java
+│   │       │   │           ├── config
+│   │       │   │           │   └── WebConfig.java
+│   │       │   │           ├── controller
+│   │       │   │           │   ├── AuthController.java
+│   │       │   │           │   ├── BlogController.java
+│   │       │   │           │   ├── CommentController.java
+│   │       │   │           │   ├── CommentRestController.java
+│   │       │   │           │   └── SearchController.java
+│   │       │   │           ├── dto
+│   │       │   │           │   ├── BlogRequest.java
+│   │       │   │           │   ├── BlogResponse.java
+│   │       │   │           │   ├── CommentRequest.java
+│   │       │   │           │   ├── CommentResponse.java
+│   │       │   │           │   ├── LoginRequest.java
+│   │       │   │           │   └── RegisterRequest.java
+│   │       │   │           ├── entity
+│   │       │   │           │   ├── Blog.java
+│   │       │   │           │   ├── Comment.java
+│   │       │   │           │   └── User.java
+│   │       │   │           ├── exception
+│   │       │   │           │   ├── ResourceNotFoundException.java
+│   │       │   │           │   └── UnauthorizedException.java
+│   │       │   │           ├── repository
+│   │       │   │           │   ├── BlogRepository.java
+│   │       │   │           │   ├── CommentRepository.java
+│   │       │   │           │   └── UserRepository.java
+│   │       │   │           └── service
+│   │       │   │               ├── AuthService.java
+│   │       │   │               ├── BlogService.java
+│   │       │   │               ├── CommentService.java
+│   │       │   │               └── impl
+│   │       │   │                   ├── AuthServiceImpl.java
+│   │       │   │                   ├── BlogServiceImpl.java
+│   │       │   │                   └── CommentServiceImpl.java
+│   │       │   └── resources
+│   │       │       ├── application.properties
+│   │       │       ├── schema.sql
+│   │       │       ├── static
+│   │       │       │   ├── css
+│   │       │       │   │   └── styles.css
+│   │       │       │   └── js
+│   │       │       │       ├── ajax-search.js
+│   │       │       │       └── ajax-validation.js
+│   │       │       └── templates
+│   │       │           ├── add-blog.html
+│   │       │           ├── edit-blog.html
+│   │       │           ├── fragments
+│   │       │           │   ├── footer.html
+│   │       │           │   └── header.html
+│   │       │           ├── index.html
+│   │       │           ├── login.html
+│   │       │           ├── my-blogs.html
+│   │       │           ├── my-comments.html
+│   │       │           ├── register.html
+│   │       │           └── view-blog.html
+│   │       └── test
+│   │           └── java
+│   │               └── in
+│   │                   └── ansari
+│   │                       └── BlogAppApplicationTests.java
+│   ├── 04-auth-service
+│   │   ├── mvnw
+│   │   ├── mvnw.cmd
+│   │   ├── pom.xml
+│   │   └── src
+│   │       ├── main
+│   │       │   ├── java
+│   │       │   │   └── in
+│   │       │   │       └── ansari
+│   │       │   │           └── auth
+│   │       │   │               ├── AuthServiceApplication.java
+│   │       │   │               ├── ServletInitializer.java
+│   │       │   │               ├── bootstrap
+│   │       │   │               │   └── DataInitializer.java
+│   │       │   │               ├── config
+│   │       │   │               │   ├── OpenApiConfig.java
+│   │       │   │               │   └── SwaggerConfig.java
+│   │       │   │               ├── controller
+│   │       │   │               │   ├── AuthController.java
+│   │       │   │               │   └── HealthController.java
+│   │       │   │               ├── dto
+│   │       │   │               │   ├── LoginRequest.java
+│   │       │   │               │   ├── LoginResponse.java
+│   │       │   │               │   ├── LogoutRequest.java
+│   │       │   │               │   ├── LogoutResponse.java
+│   │       │   │               │   ├── RefreshTokenRequest.java
+│   │       │   │               │   └── RefreshTokenResponse.java
+│   │       │   │               ├── entity
+│   │       │   │               │   ├── RefreshToken.java
+│   │       │   │               │   └── User.java
+│   │       │   │               ├── enums
+│   │       │   │               │   └── Role.java
+│   │       │   │               ├── repository
+│   │       │   │               │   ├── RefreshTokenRepository.java
+│   │       │   │               │   └── UserRepository.java
+│   │       │   │               ├── security
+│   │       │   │               │   ├── SecurityConfig.java
+│   │       │   │               │   ├── filter
+│   │       │   │               │   │   └── JwtAuthenticationFilter.java
+│   │       │   │               │   └── jwt
+│   │       │   │               │       └── JwtUtil.java
+│   │       │   │               └── service
+│   │       │   │                   ├── AuthService.java
+│   │       │   │                   └── AuthServiceImpl.java
+│   │       │   ├── resources
+│   │       │   │   ├── application.properties
+│   │       │   │   ├── application.yml
+│   │       │   │   ├── static
+│   │       │   │   └── templates
+│   │       │   └── webapp
+│   │       └── test
+│   │           └── java
+│   │               └── in
+│   │                   └── ansari
+│   │                       └── auth
+│   │                           └── AuthServiceApplicationTests.java
+│   └── 05-pdf-merge-app
+│       ├── mvnw
+│       ├── mvnw.cmd
+│       ├── pom.xml
+│       └── src
+│           ├── main
+│           │   ├── java
+│           │   │   └── com
+│           │   │       └── example
+│           │   │           ├── PdfMergeAppApplication.java
+│           │   │           ├── ServletInitializer.java
+│           │   │           └── pdfmerge
+│           │   │               ├── controller
+│           │   │               │   └── PdfMergeController.java
+│           │   │               └── service
+│           │   │                   └── PdfMergeService.java
+│           │   ├── resources
+│           │   │   ├── application.properties
+│           │   │   ├── static
+│           │   │   └── templates
+│           │   │       └── index.html
+│           │   └── webapp
+│           └── test
+│               └── java
+│                   └── com
+│                       └── example
+│                           └── PdfMergeAppApplicationTests.java
+└── web-tech
+    ├── Assignment
+    │   ├── FindCoder.io
+    │   │   ├── index.html
+    │   │   └── style.css
+    │   ├── Simantic
+    │   │   ├── simantic.html
+    │   │   └── style.css
+    │   ├── foodindia
+    │   │   ├── assets
+    │   │   │   └── images
+    │   │   │       ├── astore.png
+    │   │   │       ├── body-bg.jpg
+    │   │   │       ├── c1.png
+    │   │   │       ├── c2.png
+    │   │   │       ├── c3.png
+    │   │   │       ├── logo.png
+    │   │   │       ├── mobile.png
+    │   │   │       ├── pstore.png
+    │   │   │       ├── q1.png
+    │   │   │       ├── q2.png
+    │   │   │       ├── q3.png
+    │   │   │       ├── q4.png
+    │   │   │       ├── q5.png
+    │   │   │       └── q6.png
+    │   │   ├── foodindia.css
+    │   │   └── index.html
+    │   ├── image
+    │   │   ├── 1000_F_485926773_TTZRUzlyR0bv4gyCzL8cQXnMvZPRVsOI.jpg
+    │   │   ├── 1000_F_485926773_TTZRUzlyR0bv4gyCzL8cQXnMvZPRVsOI.png
+    │   │   ├── 1637047359_173597.jpeg
+    │   │   ├── photo_2024-12-07_16-51-30.jpg
+    │   │   ├── photo_2024-12-07_16-52-05.jpg
+    │   │   └── protective-female-brown-bear-ursus-260nw-1725069664.jpg
+    │   ├── skew.css
+    │   └── skew.html
+    ├── BOOTSTRAP
+    │   ├── DAY1
+    │   │   ├── index.html
+    │   │   └── style.css
+    │   └── DAY2
+    │       ├── bootstrap-5.0.2-dist
+    │       │   ├── css
+    │       │   │   ├── bootstrap-grid.css
+    │       │   │   ├── bootstrap-grid.css.map
+    │       │   │   ├── bootstrap-grid.min.css
+    │       │   │   ├── bootstrap-grid.min.css.map
+    │       │   │   ├── bootstrap-grid.rtl.css
+    │       │   │   ├── bootstrap-grid.rtl.css.map
+    │       │   │   ├── bootstrap-grid.rtl.min.css
+    │       │   │   ├── bootstrap-grid.rtl.min.css.map
+    │       │   │   ├── bootstrap-reboot.css
+    │       │   │   ├── bootstrap-reboot.css.map
+    │       │   │   ├── bootstrap-reboot.min.css
+    │       │   │   ├── bootstrap-reboot.min.css.map
+    │       │   │   ├── bootstrap-reboot.rtl.css
+    │       │   │   ├── bootstrap-reboot.rtl.css.map
+    │       │   │   ├── bootstrap-reboot.rtl.min.css
+    │       │   │   ├── bootstrap-reboot.rtl.min.css.map
+    │       │   │   ├── bootstrap-utilities.css
+    │       │   │   ├── bootstrap-utilities.css.map
+    │       │   │   ├── bootstrap-utilities.min.css
+    │       │   │   ├── bootstrap-utilities.min.css.map
+    │       │   │   ├── bootstrap-utilities.rtl.css
+    │       │   │   ├── bootstrap-utilities.rtl.css.map
+    │       │   │   ├── bootstrap-utilities.rtl.min.css
+    │       │   │   ├── bootstrap-utilities.rtl.min.css.map
+    │       │   │   ├── bootstrap.css
+    │       │   │   ├── bootstrap.css.map
+    │       │   │   ├── bootstrap.min.css
+    │       │   │   ├── bootstrap.min.css.map
+    │       │   │   ├── bootstrap.rtl.css
+    │       │   │   ├── bootstrap.rtl.css.map
+    │       │   │   ├── bootstrap.rtl.min.css
+    │       │   │   └── bootstrap.rtl.min.css.map
+    │       │   └── js
+    │       │       ├── bootstrap.bundle.js
+    │       │       ├── bootstrap.bundle.js.map
+    │       │       ├── bootstrap.bundle.min.js
+    │       │       ├── bootstrap.bundle.min.js.map
+    │       │       ├── bootstrap.esm.js
+    │       │       ├── bootstrap.esm.js.map
+    │       │       ├── bootstrap.esm.min.js
+    │       │       ├── bootstrap.esm.min.js.map
+    │       │       ├── bootstrap.js
+    │       │       ├── bootstrap.js.map
+    │       │       ├── bootstrap.min.js
+    │       │       └── bootstrap.min.js.map
+    │       ├── index.html
+    │       └── style.css
+    ├── CLONING
+    │   ├── Elency
+    │   │   ├── assets
+    │   │   │   ├── 28.PNG
+    │   │   │   ├── about-img.png
+    │   │   │   ├── basic.PNG
+    │   │   │   ├── blog-img-1.png
+    │   │   │   ├── blog-img-2.png
+    │   │   │   ├── blog-img-3.png
+    │   │   │   ├── chose-us-phone.png
+    │   │   │   ├── client-logo-1.png
+    │   │   │   ├── client-logo-2.png
+    │   │   │   ├── client-logo-3.png
+    │   │   │   ├── client-logo-4.png
+    │   │   │   ├── client-logo-5.png
+    │   │   │   ├── cta-bg.png
+    │   │   │   ├── enterprise.PNG
+    │   │   │   ├── feature-tab-img-1.png
+    │   │   │   ├── feature-tab-img-2.png
+    │   │   │   ├── feature-tab-img-3.png
+    │   │   │   ├── feature-tab-img-4.png
+    │   │   │   ├── feature-tab-img-5.png
+    │   │   │   ├── feature-tab-img-6.png
+    │   │   │   ├── footer-post-img-1.png
+    │   │   │   ├── footer-post-img-2.png
+    │   │   │   ├── footer-post-img-3.png
+    │   │   │   ├── hero-bg.png
+    │   │   │   ├── latest-project-img-1.png
+    │   │   │   ├── latest-project-img-2.png
+    │   │   │   ├── latest-project-img-3.png
+    │   │   │   ├── latest-project-img-4.png
+    │   │   │   ├── logo.png
+    │   │   │   ├── range.PNG
+    │   │   │   ├── s3img1.PNG
+    │   │   │   ├── s3img2.PNG
+    │   │   │   ├── s3img3.PNG
+    │   │   │   ├── s3img4.PNG
+    │   │   │   ├── s3img5.PNG
+    │   │   │   ├── s3img6.PNG
+    │   │   │   ├── s4img1.PNG
+    │   │   │   ├── s4img2.PNG
+    │   │   │   ├── s4img3.PNG
+    │   │   │   ├── s4img4.PNG
+    │   │   │   ├── s6i1.PNG
+    │   │   │   ├── s6i2.PNG
+    │   │   │   ├── s6i3.PNG
+    │   │   │   ├── s6i4.PNG
+    │   │   │   ├── s6i5.PNG
+    │   │   │   ├── s6i6.PNG
+    │   │   │   ├── standard.PNG
+    │   │   │   ├── team-img-1.png
+    │   │   │   ├── team-img-2.png
+    │   │   │   ├── team-img-3.png
+    │   │   │   ├── team-img-4.png
+    │   │   │   ├── team-img-5.png
+    │   │   │   ├── team-img-6.png
+    │   │   │   ├── testimonial-img-1.png
+    │   │   │   └── testimonial-img-2.png
+    │   │   ├── index.html
+    │   │   └── style.css
+    │   ├── Simantic
+    │   │   ├── simantic.html
+    │   │   └── style.css
+    │   ├── ola
+    │   │   ├── assets
+    │   │   │   ├── images
+    │   │   │   │   ├── Screenshot 2024-12-17 001419.png
+    │   │   │   │   ├── cts-covered.png
+    │   │   │   │   ├── current-location.png
+    │   │   │   │   ├── donating.png
+    │   │   │   │   ├── download.png
+    │   │   │   │   ├── foods-delivery.png
+    │   │   │   │   ├── foods-discount.png
+    │   │   │   │   ├── foods-variety.png
+    │   │   │   │   ├── forward-arrow.png
+    │   │   │   │   ├── hero-banner.webp
+    │   │   │   │   ├── index_banner.png
+    │   │   │   │   ├── indigenous-cell.png
+    │   │   │   │   ├── insurance-shop-img.png
+    │   │   │   │   ├── kms-covered.png
+    │   │   │   │   ├── mother-son.png
+    │   │   │   │   ├── ola-to-invest.png
+    │   │   │   │   ├── ola_cabs_back.png
+    │   │   │   │   ├── pli-agreement.png
+    │   │   │   │   ├── ride-budget.png
+    │   │   │   │   ├── ride-distance.png
+    │   │   │   │   ├── ride-duration.png
+    │   │   │   │   ├── svg
+    │   │   │   │   │   ├── OLA.svg
+    │   │   │   │   │   ├── green-arrow-right.svg
+    │   │   │   │   │   ├── insta.svg
+    │   │   │   │   │   ├── insurance-1.svg
+    │   │   │   │   │   ├── insurance-2.svg
+    │   │   │   │   │   ├── insurance-3.svg
+    │   │   │   │   │   ├── insure-daily.svg
+    │   │   │   │   │   ├── insure-hospicash.svg
+    │   │   │   │   │   ├── insure-trips.svg
+    │   │   │   │   │   ├── ola-driver.svg
+    │   │   │   │   │   ├── olalogo.svg
+    │   │   │   │   │   ├── right-arrow.svg
+    │   │   │   │   │   ├── twitter.svg
+    │   │   │   │   │   └── youtube.svg
+    │   │   │   │   ├── womens.png
+    │   │   │   │   └── year-rides.png
+    │   │   │   └── videos
+    │   │   │       └── for-riders.mp4
+    │   │   ├── index.html
+    │   │   └── ola.css
+    │   ├── rayromanocontracting
+    │   │   ├── assets
+    │   │   │   └── images
+    │   │   │       ├── 1.jpg
+    │   │   │       ├── 1040.jpg
+    │   │   │       ├── 2.jpg
+    │   │   │       ├── 3.jpg
+    │   │   │       ├── 4.jpg
+    │   │   │       ├── 5.jpg
+    │   │   │       ├── 6.jpg
+    │   │   │       ├── 7.jpg
+    │   │   │       ├── Custom+Closet+Ray+Rompano+Contracting+NYC+Brooklyn+Upper+east+Side+NYC+renovation.jpg
+    │   │   │       ├── RR-01.jpg
+    │   │   │       ├── Ray+Romano+Contracting+combination+renovation+luxury+contemporary+Upper+East+Side+NYC+Hamptons+Brooklyn+NJ.jpg
+    │   │   │       ├── Ray+Romano+Hamptons+Sag+Harbor+renovation.jpg
+    │   │   │       └── Ray+Romano+Loft+renovation+nyc+brooklyn+hamptons+luxury+construction.jpg
+    │   │   ├── index.html
+    │   │   └── rayromanocontracting.css
+    │   └── uber
+    │       ├── assets
+    │       │   └── images
+    │       │       ├── 1200x600wa-removebg-preview.png
+    │       │       ├── 1200x600wa.png
+    │       │       ├── Airport-rides.webp
+    │       │       ├── Final-Download-Uber-App.webp
+    │       │       ├── SS_Commuter.webp
+    │       │       ├── U4B_Spot_U4BWebsite.webp
+    │       │       ├── U_CoastalCalifornia_White_Final-(1).webp
+    │       │       ├── appstore.png
+    │       │       ├── connect.png
+    │       │       ├── gplay.png
+    │       │       ├── landing-stops-group-rides.webp
+    │       │       ├── reserve_clock.png
+    │       │       ├── ride.png
+    │       │       └── travel-ilustra.webp
+    │       ├── index.html
+    │       └── uber.css
+    ├── CSS
+    │   ├── DAY1
+    │   │   ├── external.css
+    │   │   ├── externalcss.html
+    │   │   ├── footer.css
+    │   │   ├── index.html
+    │   │   ├── inlinecss.html
+    │   │   ├── internalcss.html
+    │   │   ├── nav.css
+    │   │   ├── priority.css
+    │   │   ├── priority.html
+    │   │   └── sec.css
+    │   ├── DAY10
+    │   │   ├── position.css
+    │   │   └── position.html
+    │   ├── DAY11
+    │   │   ├── flex.css
+    │   │   ├── flex.html
+    │   │   ├── zindex.css
+    │   │   └── zindex.html
+    │   ├── DAY12
+    │   │   ├── flex1.css
+    │   │   ├── flex1.html
+    │   │   ├── grid.css
+    │   │   ├── grid.html
+    │   │   ├── overflow.css
+    │   │   └── overflow.html
+    │   ├── DAY13
+    │   │   ├── animation.css
+    │   │   ├── animation.html
+    │   │   ├── icon.css
+    │   │   └── icon.html
+    │   ├── DAY14
+    │   │   ├── animation.css
+    │   │   ├── animation.html
+    │   │   ├── mediaq.css
+    │   │   └── mediaq.html
+    │   ├── DAY2
+    │   │   ├── simpleselector.css
+    │   │   └── simpleselector.html
+    │   ├── DAY3
+    │   │   ├── combinator.css
+    │   │   └── combinator.html
+    │   ├── DAY4
+    │   │   ├── pseudoClass.css
+    │   │   ├── pseudoClass.html
+    │   │   ├── pseudoElement.css
+    │   │   └── pseudoElement.html
+    │   ├── DAY5
+    │   │   ├── pseudoclass.css
+    │   │   └── pseudoclass.html
+    │   ├── DAY6
+    │   │   ├── font.css
+    │   │   ├── font.html
+    │   │   ├── textproperties.css
+    │   │   └── textproperties.html
+    │   ├── DAY7
+    │   │   ├── background.css
+    │   │   ├── background.html
+    │   │   ├── color.css
+    │   │   ├── color.html
+    │   │   ├── filter.css
+    │   │   └── filter.html
+    │   ├── DAY8
+    │   │   ├── gradiant.css
+    │   │   └── gradiant.html
+    │   └── DAY9
+    │       ├── box_model.css
+    │       └── box_model.html
+    ├── Components
+    │   └── Carousel
+    │       ├── Carousel 3d image slider
+    │       │   ├── assets
+    │       │   │   └── images
+    │       │   │       ├── autumn-forest-2254533_1920.jpg
+    │       │   │       ├── background-3390802_1920.jpg
+    │       │   │       ├── boat-4899802_1920.jpg
+    │       │   │       ├── fall-3193305_1920.jpg
+    │       │   │       ├── fantasy-3664586_1920.jpg
+    │       │   │       ├── forest-4068763_1920.jpg
+    │       │   │       ├── forest-4561344_1920.jpg
+    │       │   │       ├── forest-8684668_1920.jpg
+    │       │   │       ├── lake-5000642_1920.jpg
+    │       │   │       ├── lake-7020123_1920.jpg
+    │       │   │       ├── lake-7754160_1920.jpg
+    │       │   │       ├── landscape-5546444_1920.jpg
+    │       │   │       ├── milky-way-5295160_1920.jpg
+    │       │   │       ├── mountain-7343375_1920.jpg
+    │       │   │       ├── mountains-5485366_1920.jpg
+    │       │   │       ├── mountains-6277391_1920.jpg
+    │       │   │       ├── river-7141299_1920.jpg
+    │       │   │       ├── river-7489170_1920.jpg
+    │       │   │       ├── torrent-6583626_1920.jpg
+    │       │   │       └── water-3161063_1920.jpg
+    │       │   ├── index.html
+    │       │   └── style.css
+    │       ├── Carousel with input
+    │       │   ├── carousel_with_input.html
+    │       │   ├── images
+    │       │   │   ├── background-3390802_1920.jpg
+    │       │   │   ├── fantasy-3664586_1920.jpg
+    │       │   │   ├── forest-4068763_1920.jpg
+    │       │   │   ├── lake-7754160_1920.jpg
+    │       │   │   └── milky-way-5295160_1920.jpg
+    │       │   └── style.css
+    │       ├── Carousel(Slide using anchor tag)
+    │       │   ├── images
+    │       │   │   ├── g3af1cf6d6dc95380e40e0914afc748bd55d542d55f54932e13e5edea9d7f560aa3f85335d550b0823733e7c3af36d045ebca020c016a2f65c0555a3e03563e2c_1280.jpg
+    │       │   │   ├── g3e98d0cca3c153bd8807a7f9d39c7727c1cb517e66498944d740c115cc58a46882fa63d1fe9fdec33a82c7d89ecd074c_1280.jpg
+    │       │   │   ├── g4c4e5c683eb9f39f858490929a891d74902b165678600272ad4485716f65d7bf020a9993a0d5ef7462a759a6562db73ba7d47c6b5721e878467a887cf1fa5821_1280.jpg
+    │       │   │   ├── g4cc5f767333b982cb67012becbf88ada028dfddc1d18351d46c645810123760b7ce7c72347d5ee3fa0ce73b862f1e82aa252bb041fe94ab4b36792d07d5eb6f6_1280.jpg
+    │       │   │   └── g4f565303991e1e2e06c3fa8e2b7190d2232f1fd42fee906686c62d0dffca8d86d8bc803d2ec6dfde4de5485d55614ae9add099ac3770587db67ce9c1ac225590_1280.jpg
+    │       │   ├── index.html
+    │       │   └── styles.css
+    │       └── Carousel(image Slider)
+    │           ├── images
+    │           │   ├── background-3390802_1920.jpg
+    │           │   ├── fantasy-3664586_1920.jpg
+    │           │   ├── forest-4068763_1920.jpg
+    │           │   ├── lake-7754160_1920.jpg
+    │           │   └── milky-way-5295160_1920.jpg
+    │           ├── slider.html
+    │           └── styles.css
+    ├── HTML
+    │   ├── ASSIGNMENT
+    │   │   ├── A1.html
+    │   │   ├── A2.html
+    │   │   ├── A3.html
+    │   │   └── A4.html
+    │   ├── AUDEO
+    │   │   ├── better-day-186374.mp3
+    │   │   ├── dark-mystery-trailer-taking-our-time-131566.mp3
+    │   │   ├── drive-breakbeat-173062.mp3
+    │   │   ├── flow-211881.mp3
+    │   │   ├── lazy-day-stylish-futuristic-chill-239287.mp3
+    │   │   ├── night-detective-226857.mp3
+    │   │   ├── relaxing-145038.mp3
+    │   │   └── the-beat-of-nature-122841.mp3
+    │   ├── DAY1
+    │   │   ├── demo.html
+    │   │   ├── demo1.html
+    │   │   └── image
+    │   │       └── flowers-7739155_640.webp
+    │   ├── DAY10
+    │   │   ├── iframes.html
+    │   │   └── img_to_video.html
+    │   ├── DAY11
+    │   │   ├── anchor_tag.html
+    │   │   ├── html_entities.html
+    │   │   └── tasks.html
+    │   ├── DAY12
+    │   │   └── forms.html
+    │   ├── DAY13
+    │   │   └── forms.html
+    │   ├── DAY14
+    │   │   └── semantictags.html
+    │   ├── DAY2
+    │   │   └── headingtags.html
+    │   ├── DAY3
+    │   │   ├── attributes.html
+    │   │   └── paragraph.html
+    │   ├── DAY4
+    │   │   ├── formatting.html
+    │   │   └── task.html
+    │   ├── DAY5
+    │   │   ├── div_span.html
+    │   │   ├── specialformattingtags.html
+    │   │   └── task.html
+    │   ├── DAY6
+    │   │   ├── list.html
+    │   │   └── specialformattingtags.html
+    │   ├── DAY7
+    │   │   ├── descriptionlist.html
+    │   │   ├── image
+    │   │   │   └── moon-7772242_640.webp
+    │   │   ├── image.html
+    │   │   ├── task.html
+    │   │   ├── task2.html
+    │   │   └── unordered.html
+    │   ├── DAY8
+    │   │   ├── table_4.html
+    │   │   ├── task.html
+    │   │   ├── task1.html
+    │   │   ├── task2.html
+    │   │   ├── task3.html
+    │   │   ├── task4.html
+    │   │   └── task5.html
+    │   ├── DAY9
+    │   │   ├── assets
+    │   │   │   ├── 240320_small.mp4
+    │   │   │   └── showreel-music-promo-advertising-opener-vlog-background-intro-theme-261601.mp3
+    │   │   ├── audio_video.html
+    │   │   └── tablehtml_5.html
+    │   ├── IMAGES
+    │   │   ├── LOGO
+    │   │   │   ├── facebook-2429746_1920.png
+    │   │   │   ├── instagram-6338401_1920.png
+    │   │   │   ├── linked-in-2668700_1920.png
+    │   │   │   └── snapchat-3000964_1920.png
+    │   │   ├── autumn-7554430_1920.jpg
+    │   │   ├── autumn-8467482_1920.jpg
+    │   │   ├── insect-8577624_1920.jpg
+    │   │   ├── mountains-7774999_1920.jpg
+    │   │   ├── mountains-7957191_1920.jpg
+    │   │   ├── mountains-8622035_1920.jpg
+    │   │   ├── sea-8041734_1920.jpg
+    │   │   ├── tokyo-8650941_1920.jpg
+    │   │   ├── waterfall-9128051_1920.jpg
+    │   │   └── watzmann-9024268_1920.jpg
+    │   └── VIDEOS
+    │       ├── 110790-688648716_small.mp4
+    │       ├── 153976-817104245_small.mp4
+    │       ├── 163869-828669760_small.mp4
+    │       ├── 203923-922675870_medium.mp4
+    │       ├── 22619-328940133_small.mp4
+    │       ├── 271161_small.mp4
+    │       └── 345137_small.mp4
+    └── JAVASCRIPT
+        ├── DAY1
+        │   ├── async_defer.html
+        │   ├── async_defer.js
+        │   ├── external.html
+        │   ├── external.js
+        │   └── internal.html
+        ├── DAY10
+        │   ├── arrow.html
+        │   ├── arrow.js
+        │   ├── fuctionalProgramming.js
+        │   └── functionalProgramming.html
+        ├── DAY11
+        │   ├── iife.html
+        │   ├── iife.js
+        │   ├── task.html
+        │   ├── task.js
+        │   ├── window .js
+        │   └── windowmethods.html
+        ├── DAY12
+        │   ├── domMethods.html
+        │   ├── domMethods.js
+        │   ├── indirectMethods.html
+        │   └── indirectMethods.js
+        ├── DAY13
+        │   ├── dom_modification.html
+        │   ├── dom_modification.js
+        │   ├── dom_properties.html
+        │   └── dom_properties.js
+        ├── DAY14
+        │   ├── event.html
+        │   └── event.js
+        ├── DAY15
+        │   ├── event_propagation.html
+        │   ├── event_propagation.js
+        │   ├── eventpropexample.html
+        │   ├── eventpropexample.js
+        │   ├── question_answer.html
+        │   └── question_answer.js
+        ├── DAY16
+        │   ├── eventpro.html
+        │   ├── eventpro.js
+        │   ├── task.html
+        │   └── task.js
+        ├── DAY17
+        │   ├── crud.html
+        │   ├── crud.js
+        │   ├── event_deligation.html
+        │   └── eventdeligation.js
+        ├── DAY18
+        │   ├── offcanvas.html
+        │   ├── offcanvas.js
+        │   ├── task.html
+        │   ├── task.js
+        │   ├── toggle.html
+        │   └── toggle.js
+        ├── DAY19
+        │   ├── async.html
+        │   └── async.js
+        ├── DAY2
+        │   ├── datatypes.html
+        │   └── datatypes.js
+        ├── DAY20
+        │   ├── promise.html
+        │   ├── promise.js
+        │   ├── task.html
+        │   └── task.js
+        ├── DAY21
+        │   ├── array.html
+        │   └── array.js
+        ├── DAY22
+        │   ├── string.html
+        │   └── string.js
+        ├── DAY23
+        │   ├── destructuring.html
+        │   ├── destructuring.js
+        │   ├── object.html
+        │   └── object.js
+        ├── DAY24
+        │   ├── api.html
+        │   ├── api.js
+        │   ├── country.json
+        │   ├── index.html
+        │   ├── module.js
+        │   ├── module1.js
+        │   ├── storage.html
+        │   └── storage.js
+        ├── DAY3
+        │   ├── operator.js
+        │   └── operators.html
+        ├── DAY4
+        │   ├── looping.html
+        │   └── looping.js
+        ├── DAY5
+        │   ├── conditional_stmt.js
+        │   └── conditional_stmts.html
+        ├── DAY6
+        │   ├── scope.html
+        │   ├── scope.js
+        │   ├── switch.html
+        │   ├── variables.html
+        │   └── variables.js
+        ├── DAY7
+        │   ├── typecasting.html
+        │   └── typecasting.js
+        ├── DAY8
+        │   ├── functionDeclaration.html
+        │   └── functionDeclaration.js
+        ├── DAY9
+        │   ├── funcExpression.html
+        │   ├── funcExpression.js
+        │   ├── func_prototype.html
+        │   └── func_prototype.js
+        └── Extras
+            ├── HTML5TagReferences.html
+            ├── SupportedTags.html
+            ├── TableProperties.html
+            ├── TagsWithAttributes.html
+            ├── html_tag_attribute_value.json
+            ├── html_tag_attribute_value_filled.json
+            ├── html_tag_attribute_value_filled_v2.json
+            ├── html_tags_list.txt
+            └── htmltags.html

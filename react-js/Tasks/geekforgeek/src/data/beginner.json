@@ -1,0 +1,33 @@
+{
+    "heading": "Beginner Courses starting at INR 1,199",
+    "cardDetails": [
+        {
+            "imageUrl": "https://media.geeksforgeeks.org/img-practice/prod/courses/270/Web/Content/CourseJavaProgrammin_1716371938.webp",
+            "noOfGeeks": "294k+",
+            "courseName": "Java Programming Online Course [Complete Beginner to Advanced]",
+            "rating": 4.6,
+            "level": "Beginner to Advance"
+        },
+        {
+            "imageUrl": "https://media.geeksforgeeks.org/img-practice/prod/courses/221/Web/Content/cpp_1723009538.webp",
+            "noOfGeeks": "234k+",
+            "courseName": "C++ Programming Course Online - Complete Beginner to Advanced",
+            "rating": 4.7,
+            "level": "Beginner to Advance"
+        },
+        {
+            "imageUrl": "https://media.geeksforgeeks.org/img-practice/prod/courses/256/Web/Content/py_1723007763.webp",
+            "noOfGeeks": "277k+",
+            "courseName": "Python Full Course Online - Complete Beginner to Advanced",
+            "rating": 4.6,
+            "level": "Beginner and Intermediate"
+        },
+        {
+            "imageUrl": "https://media.geeksforgeeks.org/img-practice/prod/courses/570/Web/Content/solution_1722947839.webp",
+            "noOfGeeks": "27k+",
+            "courseName": "AWS Certified Cloud Practitioner Exam [Certification Course]",
+            "rating": 4.6,
+            "level": "Beginner to Advance"
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+[
+    {
+        "heading" : "Company",
+        "links" : ["About Us", "Legal", "Privacy Policy", "Careers", "In Media", "Contact Us", "GfG Corporate Solution", "Placement Training Program"]
+    },
+    {
+        "heading" : "Explore",
+        "links" : ["Job-A-Thon Hiring Challenge", "GfG Weekly Contest", "Offline Classroom Program", "DSA in JAVA/C++", "Master System Design", "Master CP", "GeeksforGeeks Videos"]
+    },
+    {
+        "heading" : "Languages",
+        "links" : ["Python", "Java", "C++", "PHP", "GoLang", "SQL", "R Language", "Android Tutorial"]
+    },
+    {
+        "heading" : "DSA",
+        "links" : ["Data Structures", "Algorithms", "DSA for Beginners", "Basic DSA Problems", "DSA Roadmap", "DSA Interview Questions", "Competitive Programming"]
+    },
+    {
+        "heading" : "Data Science & ML",
+        "links" : ["Data Science With Python", "Data Science For Beginner", "Machine Learning", "ML Maths", "Data Visualisation", "Pandas", "NumPy", "NLP", "Deep Learning"]
+    },
+    {
+        "heading" : "Web Technologies",
+        "links" : ["HTML", "CSS", "JavaScript", "TypeScript", "ReactJS", "NextJS", "NodeJs", "Bootstrap","Tailwind CSS"]
+    },
+    {
+        "heading" : "Python Tutorial",
+        "links" : ["Python Programming Examples", "Django Tutorial", "Python Projects", "Python Tkinter", "Web Scraping", "OpenCV Tutorial", "Python Interview Question"]
+    },
+    {
+        "heading": "Computer Science",
+        "links": ["GATE CS Notes", "Operating Systems", "Computer Network", "Database Management System", "Software Engineering", "Digital Logic Design", "Engineering Maths"]
+    },
+    {
+        "heading": "DevOps",
+        "links": ["Git", "AWS", "Docker", "Kubernetes", "Azure", "GCP", "DevOps Roadmap"]
+    },
+    {
+        "heading": "System Design",
+        "links": ["High Level Design", "Low Level Design", "UML Diagrams", "Interview Guide", "Design Patterns", "OOAD", "System Design Bootcamp", "Interview Questions"]
+    },
+    {
+        "heading": "School Subjects",
+        "links": ["Mathematics", "Physics", "Chemistry", "Biology", "Social Science", "English Grammar"]
+    },
+    {
+        "heading": "Databases",
+        "links": ["SQL", "MYSQL", "PostgreSQL", "PL/SQL", "MongoDB"]
+    },
+    {
+        "heading": "Preparation Corner",
+        "links": ["Company-Wise Recruitment Process", "Aptitude Preparation", "Puzzles", "Company-Wise Preparation"]
+    },
+    {
+        "heading": "More Tutorials",
+        "links": ["Software Development", "Software Testing", "Product Management", "Project Management", "Linux", "Excel", "All Cheat Sheets"]
+    },
+    {
+        "heading": "Machine Learning/Data Science",
+        "links": ["Complete Machine Learning & Data Science Program - [LIVE]", "Data Analytics Training using Excel, SQL, Python & PowerBI - [LIVE]", "Data Science Training Program - [LIVE]", "Data Science Course with IBM Certification"]
+    },
+    {
+        "heading": "Programming Languages",
+        "links": ["C Programming with Data Structures", "C++ Programming Course", "Java Programming Course", "Python Full Course"]
+    },
+    {
+        "heading": "Clouds/Devops",
+        "links": ["DevOps Engineering", "AWS Solutions Architect Certification", "Salesforce Certified Administrator Course"]
+    },
+    {
+        "heading": "GATE 2026",
+        "links": ["GATE CS Rank Booster", "GATE DA Rank Booster", "GATE CS & IT Course - 2026", "GATE DA Course 2026", "GATE Rank Predictor"]
+    }
+]

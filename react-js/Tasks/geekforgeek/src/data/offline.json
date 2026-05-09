@@ -1,0 +1,38 @@
+{
+    "heading": "Offline Courses at INR 13,999",
+    "cardDetails": [
+        {
+            "imageUrl": "https://media.geeksforgeeks.org/img-practice/prod/courses/540/Mobile/Other/Course_CDA_6_11zon_1720848399.webp",
+            "noOfGeeks": "52k+",
+            "courseName": "Complete Data Analytics Program",
+            "rating": 4.6,
+            "level": "Beginner to Advance",
+            "com": "https://media.geeksforgeeks.org/img-practice/prod/courses/1/Web/Content/Group_1732882242.png",
+            "seats": 2
+        },
+        {
+            "imageUrl": "https://media.geeksforgeeks.org/img-practice/prod/courses/542/Mobile/Other/Course_Backend_1720848540.webp",
+            "noOfGeeks": "32k+",
+            "courseName": "Complete Backend Development Program- Mastering OOPS, Spring Boot, and Microservices",
+            "rating": 4.5,
+            "level": "Intermediate and Advance",
+            "seats":2
+        },
+        {
+            "imageUrl": "https://media.geeksforgeeks.org/img-practice/prod/courses/499/Mobile/Other/dsa_1720848769.webp",
+            "noOfGeeks": "89k+",
+            "courseName": "DSA for Interview Preparation",
+            "rating": 4.6,
+            "level": "Beginner to Advance",
+            "seats": 3
+        },
+        {
+            "imageUrl": "https://media.geeksforgeeks.org/img-practice/prod/courses/500/Mobile/Other/MERN_1720848943.webp",
+            "noOfGeeks": "95k+",
+            "courseName": "MERN Full Stack Web Development",
+            "rating": 4.6,
+            "level": "Beginner to Advance",
+            "seats": 2
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+div h1 {
+    background-color: red;
+}
+
+div>h1 {
+    background-color: green;
+}
+
+div>h1+h1 {
+    background-color: indigo;
+}
+
+div>h1~h1 {
+    background-color: aqua;
+}
+
+div h1~h1 {
+    background-color: blue;
+}
+
+div h1+h1 {
+    background-color: darkmagenta;
+}
+
+ol>li+li+li+li+li+li {
+    background-color: blueviolet;
+}
+
+ol>li+li+li+li+li {
+    background-color: chocolate;
+}
+
+ol>li+li+li+li {
+    background-color: cyan;
+}
+
+ol>li+li+li {
+    background-color: palevioletred;
+}
+
+ol>li+li {
+    background-color: darkorange;
+}
+
+ol>li {
+    background-color: crimson;
+}
+
+/* ol>li+li{
+    background-color: blue;
+ }
+ ol>li+li+li{
+    background-color: white;
+ } */

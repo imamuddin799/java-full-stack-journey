@@ -1,0 +1,34 @@
+{
+    "heading": "Special Courses at INR 3,999",
+    "cardDetails": [
+        {
+            "imageUrl": "https://media.geeksforgeeks.org/img-practice/prod/courses/405/Mobile/Other/Course_ML_&_DS_1720846555.webp",
+            "noOfGeeks": "429k+",
+            "courseName": "Complete Machine Learning & Data Science Program",
+            "rating": 4.7,
+            "level": "Beginner to Advance",
+            "com": "https://media.geeksforgeeks.org/img-practice/prod/courses/1/Web/Content/Group_1732882242.png"
+        },
+        {
+            "imageUrl": "https://media.geeksforgeeks.org/img-practice/prod/courses/503/Web/Content/System-Design_1705407692.webp",
+            "noOfGeeks": "154k+",
+            "courseName": "Mastering System Design: From Low-Level to High-Level Solutions",
+            "rating": 4.6,
+            "level": "Beginner to Advance",
+            "seats": 3
+        },
+        {
+            "imageUrl": "https://media.geeksforgeeks.org/wp-content/uploads/20250419122208303506/Course_Software_testing_1720847295.webp",
+            "noOfGeeks": "605",
+            "courseName": "Complete Software Testing Program",
+            "level": "Beginner to Advance"
+        },
+        {
+            "imageUrl": "https://media.geeksforgeeks.org/img-practice/prod/courses/244/Web/Content/CIP_1720782273.webp",
+            "noOfGeeks": "966k+",
+            "courseName": "Complete Interview Preparation",
+            "rating": 4.8,
+            "level": "Beginner to Advance"
+        }
+    ]
+}

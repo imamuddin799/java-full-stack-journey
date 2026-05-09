@@ -1,0 +1,180 @@
+[
+    {
+        "a": {
+            "attributes": {
+                "attributionsourceid": ["string"],
+                "attributionsrc": ["string"],
+                "charset": ["string"],
+                "coords": ["string"],
+                "download": ["", "filename"],
+                "href": ["URL"],
+                "hreflang": ["en", "fr", "es", "de", "zh", "ar", "ru", "ja"],
+                "hreftranslate": ["yes", "no"],
+                "implicit_noopener": ["true", "false"],
+                "name": ["string"],
+                "ping": ["URL", "URL list"],
+                "referrerpolicy": ["no-referrer", "no-referrer-when-downgrade", "origin", "origin-when-cross-origin", "same-origin", "strict-origin", "strict-origin-when-cross-origin", "unsafe-url"],
+                "rel": ["alternate", "author", "bookmark", "external", "help", "license", "nofollow", "noopener", "noreferrer", "prev", "search", "tag"],
+                "rev": ["string"],
+                "shape": ["rect", "circle", "poly", "default"],
+                "target": ["_self", "_blank", "_parent", "_top"],
+                "text_fragments": ["string"],
+                "type": ["text/html", "application/pdf", "image/jpeg", "video/mp4"]
+            }
+        }
+    },
+    {
+        "abbr": {
+            "attributes": {
+                "noattr": ["0"]
+            }
+        }
+    },
+    {
+        "acronym": {
+            "attributes": {
+                "noattr": ["0"]
+            }
+        }
+    },
+    {
+        "area": {
+            "attributes": {
+                "alt": ["string"],
+                "attributionsrc": ["string"],
+                "coords": ["string"],
+                "download": ["", "filename"],
+                "href": ["URL"],
+                "implicit_noopener": ["true", "false"],
+                "nohref": ["true", "false"],
+                "ping": ["URL", "URL list"],
+                "referrerpolicy": ["no-referrer", "no-referrer-when-downgrade", "origin", "origin-when-cross-origin", "same-origin", "strict-origin", "strict-origin-when-cross-origin", "unsafe-url"],
+                "rel": ["alternate", "author", "bookmark", "external", "help", "license", "nofollow", "noopener", "noreferrer", "prev", "search", "tag"],
+                "shape": ["rect", "circle", "poly", "default"],
+                "target": ["_self", "_blank", "_parent", "_top"]
+            }
+        }
+    },
+    {
+        "address": {
+            "attributes": {
+                "noattr": ["0"]
+            }
+        }
+    },
+    {
+        "article": {
+            "attributes": {
+                "noattr": ["0"]
+            }
+        }
+    },
+    {
+        "aside": {
+            "attributes": {
+                "noattr": ["0"]
+            }
+        }
+    },
+    {
+        "audio": {
+            "attributes": {
+                "autoplay": ["true", "false"],
+                "controls": ["true", "false"],
+                "controlslist": ["nodownload", "nofullscreen", "noremoteplayback"],
+                "crossorigin": ["anonymous", "use-credentials", ""],
+                "disableremoteplayback": ["true", "false"],
+                "loop": ["true", "false"],
+                "muted": ["true", "false"],
+                "preload": ["none", "metadata", "auto"],
+                "src": ["URL"]
+            }
+        }
+    },
+    {
+        "b": {
+            "attributes": {
+                "noattr": ["0"]
+            }
+        }
+    },
+    {
+        "base": {
+            "attributes": {
+                "href": ["URL"],
+                "target": ["_self", "_blank", "_parent", "_top"]
+            }
+        }
+    },
+    {
+        "bdi": {
+            "attributes": {
+                "noattr": ["0"]
+            }
+        }
+    },
+    {
+        "bdo": {
+            "attributes": {
+                "noattr": ["0"]
+            }
+        }
+    },
+    {
+        "big": {
+            "attributes": {
+                "noattr": ["0"]
+            }
+        }
+    },
+    {
+        "blockquote": {
+            "attributes": {
+                "cite": ["URL"]
+            }
+        }
+    },
+    {
+        "body": {
+            "attributes": {
+                "alink": ["color"],
+                "background": ["URL"],
+                "bgcolor": ["color"],
+                "bottommargin": ["number"],
+                "leftmargin": ["number"],
+                "link": ["color"],
+                "rightmargin": ["number"],
+                "text": ["color"],
+                "topmargin": ["number"],
+                "vlink": ["color"]
+            }
+        }
+    },
+    {
+        "br": {
+            "attributes": {
+                "clear": ["left", "right", "all", "none"]
+            }
+        }
+    },
+    {
+        "button": {
+            "attributes": {
+                "command": ["string"],
+                "commandfor": ["string"],
+                "disabled": ["true", "false"],
+                "form": ["string"],
+                "formaction": ["URL"],
+                "formenctype": ["application/x-www-form-urlencoded", "multipart/form-data", "text/plain"],
+                "formmethod": ["get", "post", "dialog"],
+                "formnovalidate": ["true", "false"],
+                "formtarget": ["_self", "_blank", "_parent", "_top"],
+                "name": ["string"],
+                "popovertarget": ["string"],
+                "popovertargetaction": ["string"],
+                "type": ["submit", "reset", "button", "menu"],
+                "value": ["string"]
+            }
+        }
+    }
+]

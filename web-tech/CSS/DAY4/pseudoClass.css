@@ -1,0 +1,36 @@
+a:link{
+    color: brown;
+}
+a:active{
+    color: black;
+}
+a:visited{
+    color: skyblue;
+}
+#d1:focus{
+    color: yellow;
+    background-color: red;
+    height: 200px;
+    width: 200px;
+}
+#d2:checked{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    color: red;
+    accent-color: red;
+}
+#d3:checked{
+    accent-color: yellow;
+    height: 50px;
+    width: 50px;
+}
+div{
+    border: 2px solid;
+    height: 200px;
+    width: 200px;
+}
+div:hover{
+    background-color: red;
+    cursor: pointer;
+}

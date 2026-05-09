@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        sup {
+            color: red;
+        }
+
+        b {
+            color: red;
+        }
+    </style>
+    <form action="#">
+        <table border="2px solid" width="100%">
+            <thead>
+                <tr>
+                    <th colspan="4">
+                        1.Key Employment Details
+                    </th>
+                    <!-- <th></th> -->
+                    <!-- <th></th> -->
+                    <!-- <th></th> -->
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <label for="sname">1.1<sup>*</sup>Surname:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="" id="sname" required>
+                    </td>
+                    <td>
+                        <label for="name">1.2<sup>*</sup>Name:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="" id="name" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="gender">1.3<sup>*</sup>Gender:</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="gender" id="male" required>
+                        <label for="male">male</label>
+
+                        <input type="radio" name="gender" id="female" required>
+                        <label for="female">female</label>
+                    </td>
+                    <td>
+                        <label for="f/hname">1.4 Father/Husband Name:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="" id="f/hname">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="dob">1.5<sup>*</sup>Date Of Birth:</label>
+                    </td>
+                    <td>
+                        <input type="date" name="" id="dob" required>
+                        <b>(dd-mm-yy)</b>
+                    </td>
+                    <td>
+                        <label for="post">1.6<sup>*</sup>Designation/Post:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="" id="post" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="mstat">1.7<sup>*</sup>Marital Status:</label>
+                    </td>
+                    <td>
+                        <select name="" id="mstat" required>
+                            <option value="">-select-</option>
+                            <option value="">Married</option>
+                            <option value="">Single</option>
+                        </select>
+                    </td>
+                    <td>
+                        <label for="office">1.8<sup>*</sup>Office in Which Employee is working:</label>
+                    </td>
+                    <td>
+                        <select name="" id="office" required>
+                            <option value="">-select-</option>
+                            <option value="">ABC</option>
+                            <option value="">XYZ</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="aadhar">1.9 Aadhaar Number:</label>
+                    </td>
+                    <td><input type="text" name="" id="aadhar"></td>
+                    <td>
+                        <label for="epf">1.10 EPF Number:</label>
+                    </td>
+                    <td>
+                        <input type="number" name="" id="epf">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="rpm">1.11<sup>*</sup>Remuneration Per Month:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="" id="rpm" required>
+                    </td>
+                    <td>
+                        <label for="cpap">1.12<sup>*</sup>Commission Payable to the Agency for the Post:</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="parameter" id="amount" required>
+                        <label for="amount">Amount</label>
+
+                        <input type="radio" name="parameter" id="percent" required>
+                        <label for="percent">Percentage</label>
+                        <br>
+                        <input type="number" name="" id="" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="hoa">1.13<sup>*</sup>Head of Account:</label>
+                    </td>
+                    <td>
+                        <select name="" id="hoa" required>
+                            <option value="">-select-</option>
+                            <option value="">ABC</option>
+                            <option value="">XYZ</option>
+                        </select>
+                    </td>
+                    <td>
+                        <label for="pno">1.14 Personal Mobile No:</label>
+                    </td>
+                    <td>
+                        <input type="tel" name="" id="pno">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="pemail">1.15 Personal E-mail:</label>
+                    </td>
+                    <td>
+                        <input type="email" name="" id="pemail">
+                    </td>
+                    <td>
+                        <label for="community">1.16<sup>*</sup>Community:</label>
+                    </td>
+                    <td>
+                        <select name="" id="community" required>
+                            <option value="">-select-</option>
+                            <option value="">ABC</option>
+                            <option value="">XYZ</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th colspan="4">2.Agency Details</th>
+                    <!-- <th></th> -->
+                    <!-- <th></th> -->
+                    <!-- <th></th> -->
+                </tr>
+                <tr>
+                    <td>
+                        <label for="csd">2.1<sup>*</sup>Contract Start Date:</label>
+                    </td>
+                    <td>
+                        <input type="date" name="" id="csd" required><b>(dd-mm-yy)</b>
+                    </td>
+                    <td>
+                        <label for="ced">2.2<sup>*</sup>Contract End Date:</label>
+                    </td>
+                    <td>
+                        <input type="date" name="" id="ced" required><b>(dd-mm-yy)</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="crn">2.3 Contract Ref Number:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="" id="crn">
+                    </td>
+                    <td>
+                        <label for="son">2.4 Sanction Order Number:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="" id="son">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="aname">2.5 Agency Name:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="" id="aname">
+                    </td>
+                    <td>
+                        <label for="pan">2.6 PAN:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="" id="pan">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="reg">2.7 Registration Number Register with Labour Department: </label>
+                    </td>
+                    <td>
+                        <input type="text" name="" id="reg">
+                    </td>
+                    <td>
+                        <label for="stn">2.8 Service Tax Number: </label>
+                    </td>
+                    <td>
+                        <input type="text" name="" id="stn">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="lm">2.9 LandMark:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="" id="lm">
+                    </td>
+                    <td>
+                        <label for="road">2.10 Street/Road/Lane:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="" id="road">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="area">2.11 Area/Locality/Sector:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="" id="area">
+                    </td>
+                    <td>
+                        <label for="dist">2.12<sup>*</sup>District:</label>
+                    </td>
+                    <td>
+                        <select name="" id="dist" required>
+                            <option value="">-select-</option>
+                            <option value="">ABC</option>
+                            <option value="">XYZ</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="mandal">2.13<sup>*</sup>Mandal:</label>
+                    </td>
+                    <td>
+                        <select name="" id="mandal" required>
+                            <option value="">-select-</option>
+                            <option value="">ABC</option>
+                            <option value="">XYZ</option>
+                        </select>
+                    </td>
+                    <td>
+                        <label for="vill">2.14<sup>*</sup>Village/Town/City:</label>
+                    </td>
+                    <td>
+                        <select name="" id="vill" required>
+                            <option value="">-select-</option>
+                            <option value="">ABC</option>
+                            <option value="">XYZ</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="pin">2.15 PIN Code:</label>
+                    </td>
+                    <td><input type="number" name="" id="pin"></td>
+                    <td>
+                        <label for="tel">2.16 Telephone:</label>
+                    </td>
+                    <td>
+                        <input type="tel" name="" id="tel">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="mob">2.17<sup>*</sup>Mobile:</label>
+                    </td>
+                    <td>
+                        <input type="tel" name="" id="mob" required>
+                    </td>
+                    <td>
+                        <label for="email">2.18<sup>*</sup>E-mail:</label>
+                    </td>
+                    <td>
+                        <input type="email" name="" id="email" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="bank">2.19 Bank Name:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="" id="bank" list="l1" placeholder="Select Bank Name">
+                        <datalist id="l1">
+                            <option value="SBI">SBI</option>
+                        </datalist>
+                    </td>
+                    <td>
+                        <label for="dbb">2.20 District of the Bank Branch:</label>
+                    </td>
+                    <td>
+                        <select name="" id="dbb">
+                            <option value="">-select-</option>
+                            <option value="">ABC</option>
+                            <option value="">XYZ</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="bbn">2.21 Bank Branch Name:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="" id="bbn" list="l2" placeholder="Select Bank Branch Name">
+                        <datalist id="l2">
+                            <option value="Moinabad">Moinabad</option>
+                        </datalist>
+                    </td>
+                    <td>
+                        <label for="ban">2.22 Bank A/C Number:</label>
+                    </td>
+                    <td>
+                        <input type="number" name="" id="ban">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="ifsc">2.23 IFS Code</label>
+                    </td>
+                    <td>
+                        <input type="text" name="" id="ifsc">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4" align="center">
+                        <button>Save Data</button>
+                    </td>
+                    <!-- <td></td> -->
+                    <!-- <td></td> -->
+                    <!-- <td></td> -->
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+
+</html>

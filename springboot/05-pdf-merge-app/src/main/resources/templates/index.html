@@ -1,0 +1,76 @@
+<!-- <!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>PDF Merge Tool</title>
+    <style>
+        body { font-family: Arial; background: #f4f4f4; }
+        .box { background: #fff; padding: 20px; width: 400px; margin: 50px auto; border-radius: 8px; }
+        button { padding: 10px; width: 100%; background: #007bff; color: #fff; border: none; }
+    </style>
+</head>
+<body>
+
+<div class="box">
+    <h2>Merge PDF Files</h2>
+
+    <form method="post" action="/merge" enctype="multipart/form-data">
+        <input type="file" name="files" accept="application/pdf" multiple required>
+        <br><br>
+        <button type="submit">Merge PDFs</button>
+    </form>
+
+    <p style="font-size:12px;color:gray;margin-top:10px">
+        Select 2 or more PDF files
+    </p>
+</div>
+
+</body>
+</html>
+ -->
+ <!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>PDF Merge Tool</title>
+    <style>
+        body { font-family: Arial; background: #f4f4f4; }
+        .box { background: #fff; padding: 20px; width: 500px; margin: 50px auto; border-radius: 8px; }
+        input { margin-bottom: 10px; }
+        button { padding: 10px; width: 100%; background: #007bff; color: #fff; border: none; }
+    </style>
+</head>
+<body>
+
+<div class="box">
+    <h2>Merge PDF Files (Custom Order)</h2>
+
+    <form method="post" action="/merge" enctype="multipart/form-data">
+
+        <div id="fileInputs">
+            <div>
+                <input type="file" name="files" accept="application/pdf" required>
+                <input type="number" name="orders" placeholder="Order" required>
+            </div>
+        </div>
+
+        <br>
+        <button type="button" onclick="addMore()">Add More PDFs</button>
+        <br><br>
+
+        <button type="submit">Merge PDFs</button>
+    </form>
+</div>
+
+<script>
+function addMore() {
+    const div = document.createElement("div");
+    div.innerHTML = `
+        <input type="file" name="files" accept="application/pdf" required>
+        <input type="number" name="orders" placeholder="Order" required>
+    `;
+    document.getElementById("fileInputs").appendChild(div);
+}
+</script>
+
+</body>
+</html>
+ 

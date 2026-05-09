@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://www.springframework.org/schema/context
+            http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+    <bean id="student" class="org.jsp.spring_ioc_container2.constructor_injection.Student">
+    	<constructor-arg name="name" value="Imamuddin"></constructor-arg>
+    	<constructor-arg name="rollno" value="542"></constructor-arg>
+    	<constructor-arg name="address" value="Bihar"></constructor-arg>
+    	<constructor-arg name="marks" value="55"></constructor-arg>
+    	<constructor-arg name="pen" ref="mypen"></constructor-arg>
+    </bean>
+
+    <bean id="mypen" class="org.jsp.spring_ioc_container2.constructor_injection.Pen">
+    	<constructor-arg name="color" value="Silver"></constructor-arg>
+    	<constructor-arg name="cost" value="10.0"></constructor-arg>
+    	<constructor-arg name="type" value="Ballpen"></constructor-arg>
+    </bean>
+
+</beans>

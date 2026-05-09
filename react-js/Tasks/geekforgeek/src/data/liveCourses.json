@@ -1,0 +1,36 @@
+{
+    "heading": "LIVE Courses at INR 8,999",
+    "cardDetails": [
+        {
+            "imageUrl": "https://media.geeksforgeeks.org/img-practice/prod/courses/241/Web/Content/FSRNL_1705410152.webp",
+            "noOfGeeks": "358k+",
+            "courseName": "Full Stack Development with React & Node JS - Live",
+            "rating": 4.7,
+            "level": "Beginner to Advance"
+        },
+        {
+            "imageUrl": "https://media.geeksforgeeks.org/img-practice/prod/courses/227/Mobile/Other/Course_Backend_1720846992.webp",
+            "noOfGeeks": "308k+",
+            "courseName": "JAVA Backend Development - Live",
+            "rating": 4.7,
+            "level": "Intermediate and Advance"
+        },
+        {
+            "imageUrl": "https://media.geeksforgeeks.org/img-practice/prod/courses/554/Mobile/Other/data_science_1720847526.webp",
+            "noOfGeeks": "47k+",
+            "courseName": "Data Science Training Program",
+            "rating": 4.4,
+            "recommend": true,
+            "level": "Beginner to Advance",
+            "com": "https://media.geeksforgeeks.org/img-practice/prod/courses/1/Web/Content/Group_1732882242.png"
+        },
+        {
+            "imageUrl": "https://media.geeksforgeeks.org/img-practice/prod/courses/483/Mobile/Other/Course_Devops_1720845934.webp",
+            "noOfGeeks": "108k+",
+            "courseName": "DevOps Engineering - Planning to Production",
+            "rating": 4.6,
+            "level": "Beginner to Advance",
+            "seats": 3
+        }
+    ]
+}

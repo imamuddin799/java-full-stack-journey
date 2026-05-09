@@ -1,0 +1,12 @@
+div{
+    border: 2px solid;
+    height: 100px;
+    width: 100px;
+
+    background-color: red;
+    background-color: rgb(150, 90, 80);
+    background-color: rgba(150, 90, 80, 0.6);
+    background-color: #bd2c2c;
+    background-color: hsl(250, 23%, 43%);
+    background-color: hsla(250, 93%, 42%, 0.3);
+}

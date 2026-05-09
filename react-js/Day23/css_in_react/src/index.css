@@ -1,0 +1,22 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.demo {
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin: 200px auto;
+    background-color: dodgerblue;
+    /* box-shadow: 10px 20px 10px red; */
+    box-shadow: 10px 20px 10px red inset;
+}
+
+h1{
+    background-color: dodgerblue;
+    color: white;
+}

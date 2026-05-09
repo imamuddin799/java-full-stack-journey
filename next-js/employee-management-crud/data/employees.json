@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1751404520528,
+    "name": "Arif",
+    "email": "arif@x.com",
+    "address": "Katihar Bihar",
+    "job": {
+      "title": "Python Developer",
+      "department": "Backend",
+      "salary": 120000
+    }
+  },
+  {
+    "id": 1778320166984,
+    "name": "Imamuddin Ansari",
+    "email": "imamuddin@gmail.com",
+    "address": "Gopalganj",
+    "job": {
+      "title": "Software Developer",
+      "department": "Web development",
+      "salary": 50000
+    }
+  }
+]

@@ -1,0 +1,28 @@
+div{
+    border: 2px solid;
+    height: 200px;
+    width: 200px;
+}
+
+#d1{
+    background-color: aqua;
+    position: absolute;
+    z-index: 5;
+    opacity: 0.8;
+}
+#d2{
+    background-color: blue;
+    position: absolute;
+    left: 5%;
+    top: 6%;
+    z-index: 3;
+    opacity: 0.7;
+}
+#d3{
+    background-color: crimson;
+    position: absolute;
+    left: 10%;
+    top: 12%;
+    z-index: 2;
+    opacity: 0.8;
+}
