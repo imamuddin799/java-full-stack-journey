@@ -9,6 +9,8 @@ target/
 *.nar
 *.tmp
 hs_err_pid*
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
 
 # Maven wrapper (keep mvnw scripts, ignore jar)
 .mvn/timing.properties
@@ -163,7 +165,6 @@ apache-tomcat-*/
 # Zip / archive files
 # =============================
 *.zip
-*.rar
 *.gz
 *.tar
 

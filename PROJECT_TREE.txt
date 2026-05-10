@@ -1,5 +1,6 @@
 java-full-stack-journey
 ├── PROJECT_TREE.txt
+├── LICENSE
 ├── advanced-java
 │   ├── java-app-demo-01
 │   │   ├── lib
@@ -234,6 +235,7 @@ java-full-stack-journey
 │                   │   ├── lib
 │                   │   └── web.xml
 │                   └── demo.html
+├── command-to-create-project-tree.txt
 ├── core-java
 │   └── cjd-a12
 │       └── src
@@ -2221,7 +2223,6 @@ java-full-stack-journey
 │   │       │   │   └── Register.jsx
 │   │       │   ├── index.css
 │   │       │   └── main.jsx
-│   │       ├── src.zip
 │   │       └── vite.config.js
 │   ├── Day34
 │   │   └── create_browser_router_way
@@ -2300,7 +2301,6 @@ java-full-stack-journey
 │   │       │   │   ├── MainContent.jsx
 │   │       │   │   └── SideNavBar.jsx
 │   │       │   └── main.jsx
-│   │       ├── src.zip
 │   │       └── vite.config.js
 │   ├── Day37
 │   │   └── use-reducer
@@ -3549,6 +3549,7 @@ java-full-stack-journey
 │   │                   └── ansari
 │   │                       └── BlogAppApplicationTests.java
 │   ├── 04-auth-service
+│   │   ├── HELP.md
 │   │   ├── mvnw
 │   │   ├── mvnw.cmd
 │   │   ├── pom.xml
@@ -3605,6 +3606,7 @@ java-full-stack-journey
 │   │                       └── auth
 │   │                           └── AuthServiceApplicationTests.java
 │   └── 05-pdf-merge-app
+│       ├── HELP.md
 │       ├── mvnw
 │       ├── mvnw.cmd
 │       ├── pom.xml
