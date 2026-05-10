@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="~{fragments/header :: common-head('My Blogs')}"></head>
+<body>
+	<div th:replace="~{fragments/header :: navbar}"></div>
+	<div class="container mt-4">
+		<h3>My Blogs</h3>
+		<table class="table table-striped">
+			<thead>
+				<tr>
+					<th>Title</th>
+					<th>Created At</th>
+					<th>Actions</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr th:each="blog : ${blogs}">
+					<td th:text="${blog.title}"></td>
+					<td
+						th:text="${#temporals.format(blog.createdAt, 'dd-MM-yyyy HH:mm')}"></td>
+					<td><a th:href="@{'/blogs/' + ${blog.id}}"
+						class="btn btn-sm btn-primary">View</a> <a
+						th:href="@{'/blogs/' + ${blog.id} + '/edit'}"
+						class="btn btn-sm btn-warning">Edit</a>
+						<form th:action="@{'/blogs/' + ${blog.id} + '/delete'}"
+							method="post" class="d-inline">
+							<button class="btn btn-sm btn-danger" type="submit"
+								onclick="return confirm('Delete this blog?')">Delete</button>
+						</form></td>
+				</tr>
+			</tbody>
+		</table>
+
+		<!-- Pagination -->
+		<nav th:if="${totalPages > 1}">
+			<ul class="pagination">
+				<li th:classappend="${currentPage == 0} ? 'disabled'"><a
+					th:href="@{/blogs/my-blogs(page=${currentPage-1})}"
+					class="page-link">Previous</a></li>
+				<li th:each="i : ${#numbers.sequence(0, totalPages-1)}"
+					th:classappend="${i == currentPage} ? 'active'"><a
+					th:href="@{/blogs/my-blogs(page=${i})}" th:text="${i+1}"
+					class="page-link"></a></li>
+				<li th:classappend="${currentPage == totalPages-1} ? 'disabled'">
+					<a th:href="@{/blogs/my-blogs(page=${currentPage+1})}"
+					class="page-link">Next</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+	<div th:replace="~{fragments/footer :: footer}"></div>
+</body>
+</html>

@@ -1,0 +1,94 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+
+# ==========================
+# Java & Spring Boot Project
+# ==========================
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# BlueJ and other temporary files
+*.ctxt
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# IDE directories (Eclipse, IntelliJ, VSCode, STS)
+.vscode/
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+.gitattributes
+mvnw
+mvnw.cmd
+
+# Build directories
+/target/
+*/target/
+
+# Maven specific
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+dependency-reduced-pom.xml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Spring Boot runtime files
+logs/
+tmp/
+application.yml
+.env
+
+# Sensitive keys (optional)
+*.key
+*.pem
+
+# NodeJS-related (if using React frontend inside same repo)
+node_modules/
+dist/
+build/
+
+# JetBrains / IntelliJ caches
+/out/

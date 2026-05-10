@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="~{fragments/header :: common-head('Edit Blog')}"></head>
+<body>
+	<div th:replace="~{fragments/header :: navbar}"></div>
+	<div class="container mt-4">
+		<div class="row">
+			<div class="col-lg-10">
+				<h3>Edit Blog</h3>
+				<div th:if="${error}" class="alert alert-danger" th:text="${error}"></div>
+				<form th:action="@{'/blogs/' + ${blogId} + '/edit'}"
+					th:object="${blog}" method="post" id="editBlogForm" novalidate>
+					<span th:text="${blogId}" id="blogId" class="d-none"></span>
+					<div class="mb-3">
+						<label class="form-label">Title</label> <input type="text"
+							th:field="*{title}" class="form-control" id="title" required
+							maxlength="200">
+						<div class="form-text text-danger d-none" id="titleError">Title
+							already exists</div>
+						<div th:if="${#fields.hasErrors('title')}" th:errors="*{title}"
+							class="text-danger"></div>
+					</div>
+					<div class="mb-3">
+						<label class="form-label">Short Description</label> <input
+							type="text" th:field="*{shortDescription}" class="form-control"
+							id="shortDescription" required maxlength="300">
+						<div th:if="${#fields.hasErrors('shortDescription')}"
+							th:errors="*{shortDescription}" class="text-danger"></div>
+					</div>
+					<div class="mb-3">
+						<label class="form-label">Content</label>
+						<textarea th:field="*{content}" class="form-control" id="editor"
+							rows="10"></textarea>
+						<div th:if="${#fields.hasErrors('content')}"
+							th:errors="*{content}" class="text-danger"></div>
+					</div>
+					<button class="btn btn-primary" type="submit">Update</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div th:replace="~{fragments/footer :: footer}"></div>
+
+	<script
+		src="https://cdn.ckeditor.com/ckeditor5/41.3.1/classic/ckeditor.js"></script>
+	<script>
+		  let editorInstance;
+		  ClassicEditor.create(document.querySelector('#editor')).then(editor => {
+		    editorInstance = editor;
+		  });
+	</script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body {
+	padding-bottom: 60px;
+}
+
+.navbar-brand {
+	font-weight: 600;
+}
+
+.card-title {
+	font-weight: 600;
+}
+
+.lead {
+	font-size: 1.1rem;
+}
+
+#blogList .card {
+	transition: box-shadow .2s ease;
+}
+
+#blogList .card:hover {
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.form-text.text-danger {
+	font-size: 0.9rem;
+}

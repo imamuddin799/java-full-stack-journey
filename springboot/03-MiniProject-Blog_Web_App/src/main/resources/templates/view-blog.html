@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="~{fragments/header :: common-head(${blog.title})}"></head>
+<body>
+	<div th:replace="~{fragments/header :: navbar}"></div>
+	<div class="container mt-4">
+		<div class="row">
+			<div class="col-lg-9">
+				<h2 th:text="${blog.title}">Title</h2>
+				<p class="text-muted"
+					th:text="'By ' + ${blog.userName} + ' • ' + ${#temporals.format(blog.createdAt, 'dd MMM yyyy HH:mm')}"></p>
+				<p class="lead" th:text="${blog.shortDescription}"></p>
+				<hr>
+				<div th:utext="${blog.content}"></div>
+				<div class="mt-3"
+					th:if="${session.USER_ID != null && session.USER_ID == blog.userId}">
+					<a th:href="@{'/blogs/' + ${blog.id} + '/edit'}"
+						class="btn btn-sm btn-outline-primary">Edit</a>
+					<form th:action="@{'/blogs/' + ${blog.id} + '/delete'}"
+						method="post" class="d-inline">
+						<button class="btn btn-sm btn-outline-danger" type="submit"
+							onclick="return confirm('Delete this blog?')">Delete</button>
+					</form>
+				</div>
+				<hr>
+				<h5>Comments</h5>
+				<div id="comments"></div>
+				<div class="mt-3">
+					<h6>Add a comment</h6>
+					<form id="commentForm">
+						<input type="hidden" class="form-control" id="blogId"
+							th:field="${blog.id}" required>
+						<div class="mb-2">
+							<label class="form-label">Name</label> <input type="text"
+								class="form-control" id="cName" required maxlength="120">
+						</div>
+						<div class="mb-2">
+							<label class="form-label">Email</label> <input type="email"
+								class="form-control" id="cEmail" required maxlength="180">
+						</div>
+						<div class="mb-2">
+							<label class="form-label">Comment</label>
+							<textarea class="form-control" id="cText" rows="3" required
+								maxlength="2000"></textarea>
+						</div>
+						<button class="btn btn-secondary" type="submit">Post
+							Comment</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div th:replace="~{fragments/footer :: footer}"></div>
+
+	<script th:inline="javascript">
+	
+		  const blogId = $('#blogId').val().trim();
+		  const blogOwnerId = /*[[${blog.userId}]]*/ '';
+		  const loggedInUserId = /*[[${session.USER_ID}]]*/ '';
+
+		  function loadComments() {
+		    $.get(`/comments/${blogId}`, function (data) {
+		      const container = $('#comments');
+		      container.empty();
+		      data.forEach(c => {
+		        const canDelete = (loggedInUserId && loggedInUserId == blogOwnerId);
+
+		        const card = $(`
+		          <div class="card mb-2">
+		            <div class="card-body">
+		              <h6 class="card-title">${c.name} 
+		                <small class="text-muted">${new Date(c.createdAt).toLocaleDateString('en-GB', { day : '2-digit', month : 'short', year: 'numeric' })}</small>
+		              </h6>
+		              <p class="card-text">${c.commentText}</p>
+		              <div>
+		                ${canDelete ? 
+		                  `<button class="btn btn-sm btn-outline-danger" onclick="deleteComment(${c.id})">Delete</button>` 
+		                  : ''}
+		              </div>
+		            </div>
+		          </div>`);
+		        container.append(card);
+		      });
+		    });
+		  }
+
+		  function deleteComment(commentId) {
+		    $.ajax({
+		      url: `/comments/${blogId}/${commentId}`,
+		      type: 'DELETE',
+		      success: loadComments,
+		      error: function (xhr) { alert(xhr.responseText || 'Unable to delete'); }
+		    });
+		  }
+		  
+		  $('#cName, #cEmail, #cText').on('input', function () {
+			  $(this).next('.error').remove();
+			});
+
+		
+		  $('#commentForm').on('submit', function (e) {
+		    e.preventDefault();
+		    const name = $('#cName').val().trim();
+		    const email = $('#cEmail').val().trim();
+		    const commentText = $('#cText').val().trim();
+		    if (!name || !email || !commentText) return;
+		    $.ajax({
+		      url: `/comments/${blogId}`,
+		      type: 'POST',
+		      contentType: 'application/json',
+		      data: JSON.stringify({ name, email, commentText }),
+		      success: function () {
+		        $('#cText').val('');
+		        loadComments();
+		      },
+		      error: function (xhr) {
+		    	    if (xhr.responseJSON) {
+		    	      const errors = xhr.responseJSON;
+		    	      if (errors.name) {
+		    	        $('#cName').next('.error').remove();
+		    	        $('#cName').after(`<div class="error text-danger">${errors.name}</div>`);
+		    	      }
+		    	      if (errors.email) {
+		    	        $('#cEmail').next('.error').remove();
+		    	        $('#cEmail').after(`<div class="error text-danger">${errors.email}</div>`);
+		    	      }
+		    	      if (errors.commentText) {
+		    	        $('#cText').next('.error').remove();
+		    	        $('#cText').after(`<div class="error text-danger">${errors.commentText}</div>`);
+		    	      }
+		    	    } else {
+		    	      alert(xhr.responseText || 'Unable to add comment');
+		    	    }
+		    	  }
+		    });
+		  });
+		
+		  $(document).ready(loadComments);
+	</script>
+</body>
+</html>

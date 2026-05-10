@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="www.thymeleaf.org">
+
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<meta http-equiv="x-ua-compatible" content="ie=edge" />
+<title>Generic Enquiry Management System (GEMS) - Dashboard</title>
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<!-- Google Fonts Roboto -->
+<link rel="stylesheet"
+	href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
+<link rel="stylesheet" href="css/bootstrap-5.0.2-dist/css/bootstrap.min.css" />
+
+</head>
+
+<body>
+
+	<nav class="navbar navbar-expand-lg bg-body-tertiary">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#"> <img alt="Generic Enquiry Management System (GEMS)"
+				src="images/logo.jpg" width=100%>
+			</a>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item"><a class="nav-link active"
+						aria-current="page" href="dashboard">Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="enquiry">Add
+							Enquiry</a></li>
+					<li class="nav-item"><a class="nav-link" href="enquiries">View
+							Enquiries</a></li>
+				</ul>
+				<a href="logout" class="btn btn-danger">Logout</a>
+			</div>
+		</div>
+	</nav>
+	<!-- Start your project here-->
+
+
+	<section class="h-100 gradient-form" style="background-color: #eee;">
+		<div class="container py-5 h-100">
+			<div
+				class="row d-flex justify-content-center align-items-center h-100">
+				<div class="col-xl-10">
+					<div class="card rounded-3 text-black">
+						<div class="row g-0">
+							<div class="col-lg-6">
+								<div class="card-body p-md-5 mx-md-4">
+
+									<div class="text-center">
+										<h1 class="mt-1 mb-5 pb-1">Your Performance</h1>
+									</div>
+
+									<h2>Total Enquiries : <span th:text="${dashboardData.totalEnquiriesCount}" /> </h2>
+									<h2 class="text-success">Enrolled : <span th:text="${dashboardData.enrolledCount}" /> </h2>
+									<h2 class="text-danger">Lost : <span th:text="${dashboardData.lostCount}" /> </h2>
+
+								</div>
+							</div>
+							<div class="col-lg-6 d-flex align-items-center gradient-custom-2">
+								<img alt="" src="images/lady.jpg" width="50%"  height="90%">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End your project here-->
+	<script src="css/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="~{fragments/header :: common-head('Home')}"></head>
+<body>
+	<div th:replace="~{fragments/header :: navbar}"></div>
+	<div class="container mt-4">
+		<div class="row mb-3">
+			<div class="col-md-8">
+				<input class="form-control" id="searchInput"
+					placeholder="Search blogs by title, description, or content">
+			</div>
+			<div class="col-md-4">
+				<button class="btn btn-outline-primary" id="searchBtn">Search</button>
+			</div>
+		</div>
+
+		<div id="blogList" class="row">
+			<div class="col-12" th:if="${#lists.isEmpty(blogs)}">
+				<div class="alert alert-info">No blogs yet.</div>
+			</div>
+			<div class="col-md-9 mb-3" th:each="b : ${blogs}">
+				<div class="card h-100">
+					<div class="card-body">
+						<h5 class="card-title" th:text="${b.title}">Title</h5>
+						<p class="card-text" th:text="${b.shortDescription}">Short
+							description</p>
+						<a th:href="@{'/blogs/' + ${b.id}}" class="btn btn-sm btn-primary">Read
+							More</a>
+					</div>
+					<div class="card-footer text-muted">
+						<span th:text="${#temporals.format(b.createdAt, 'dd MMM yyyy')}"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div th:replace="~{fragments/footer :: footer}"></div>
+</body>
+</html>

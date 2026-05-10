@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="~{fragments/header :: common-head('My Comments')}"></head>
+<body>
+	<div th:replace="~{fragments/header :: navbar}"></div>
+	<div class="container mt-4">
+		<h3>Comments on My Blogs</h3>
+		<table class="table table-striped">
+			<thead>
+				<tr>
+					<th>Blog Title</th>
+					<th>Comment</th>
+					<th>By</th>
+					<th>Created At</th>
+					<th>Actions</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr th:each="comment : ${comments}">
+					<td th:text="${comment.blog.title}"></td>
+					<td
+						th:text="${#strings.length(comment.commentText) > 30  ? #strings.substring(comment.commentText, 0, 30) + '...' : comment.commentText}"></td>
+
+					<td th:text="${comment.name}"></td>
+					<td
+						th:text="${#temporals.format(comment.createdAt, 'dd-MM-yyyy HH:mm')}"></td>
+					<td>
+						<!-- View button -->
+						<button type="button" class="btn btn-sm btn-info"
+							data-bs-toggle="modal" data-bs-target="#viewCommentModal"
+							th:attr="data-comment-id=${comment.id},
+                     data-blog-title=${comment.blog.title},
+                     data-comment-text=${comment.commentText},
+                     data-comment-name=${comment.name},
+                     data-comment-date=${#temporals.format(comment.createdAt, 'dd-MM-yyyy HH:mm')},
+                     data-comment-email=${comment.email}">
+							View</button> <!-- Delete button (blog owner flow) -->
+						<button type="button"
+							class="btn btn-sm btn-danger delete-owner-btn"
+							th:attr="data-comment-id=${comment.id}">Delete</button>
+
+					</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<!-- Comment Detail Modal -->
+		<div class="modal fade" id="viewCommentModal" tabindex="-1"
+			aria-labelledby="viewCommentModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="viewCommentModalLabel">Comment
+							Details</h5>
+						<button type="button" class="btn-close" data-bs-dismiss="modal"
+							aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+						<h5 id="modalBlogTitle"></h5>
+						<p>
+							<strong>By:</strong> <span id="modalCommentName"></span>
+						</p>
+						<p>
+							<strong>Email:</strong> <span id="modalCommentEmail"></span>
+						</p>
+						<p>
+							<strong>Posted At:</strong> <span id="modalCommentDate"></span>
+						</p>
+						<p>
+							<strong>Comment:</strong>
+						</p>
+						<p id="modalCommentText"></p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary"
+							data-bs-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- Pagination -->
+		<nav th:if="${totalPages > 1}">
+			<ul class="pagination">
+				<li th:classappend="${currentPage == 0} ? 'disabled'"><a
+					th:href="@{/comments/my-comments(page=${currentPage-1})}"
+					class="page-link">Previous</a></li>
+				<li th:each="i : ${#numbers.sequence(0, totalPages-1)}"
+					th:classappend="${i == currentPage} ? 'active'"><a
+					th:href="@{/comments/my-comments(page=${i})}" th:text="${i+1}"
+					class="page-link"></a></li>
+				<li th:classappend="${currentPage == totalPages-1} ? 'disabled'">
+					<a th:href="@{/comments/my-comments(page=${currentPage+1})}"
+					class="page-link">Next</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+	<div th:replace="~{fragments/footer :: footer}"></div>
+
+	<script>
+		document.addEventListener('DOMContentLoaded', function () {
+		  // Modal population
+		  var viewModal = document.getElementById('viewCommentModal');
+		  viewModal.addEventListener('show.bs.modal', function(event) {
+		    var button = event.relatedTarget;
+		
+		    // Extract data attributes
+		    var blogTitle = button.getAttribute('data-blog-title');
+		    var commentText = button.getAttribute('data-comment-text');
+		    var commentName = button.getAttribute('data-comment-name');
+		    var commentDate = button.getAttribute('data-comment-date');
+		    var commentEmail = button.getAttribute('data-comment-email');
+		
+		    // Populate modal fields
+		    document.getElementById('modalBlogTitle').textContent = blogTitle;
+		    document.getElementById('modalCommentText').textContent = commentText;
+		    document.getElementById('modalCommentName').textContent = commentName;
+		    document.getElementById('modalCommentDate').textContent = commentDate;
+		    document.getElementById('modalCommentEmail').textContent = commentEmail;
+		  });
+		
+		  // Blog owner delete only
+		  document.querySelectorAll('.delete-owner-btn').forEach(function (btn) {
+		    btn.addEventListener('click', function () {
+		      var commentId = btn.getAttribute('data-comment-id');
+		
+		      fetch(`/comments/owner/${commentId}`, { method: 'DELETE' })
+		        .then(response => {
+		          if (response.ok) btn.closest('tr').remove();
+		          else alert("Failed to delete comment (owner)");
+		        });
+		    });
+		  });
+		});
+	</script>
+</body>
+</html>
